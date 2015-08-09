@@ -44,6 +44,21 @@
 		15BD07E31B72DCF200E16CB1 /* AgesRangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BD07E21B72DCF200E16CB1 /* AgesRangeViewController.m */; };
 		15BD07E61B72DD1900E16CB1 /* AboutYouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BD07E51B72DD1900E16CB1 /* AboutYouViewController.m */; };
 		15BD07E91B72DD3900E16CB1 /* UploadPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BD07E81B72DD3900E16CB1 /* UploadPhotosViewController.m */; };
+		15E3A2FF1B74544C00D8B613 /* IntroTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E3A2FE1B74544C00D8B613 /* IntroTableViewCell.m */; };
+		15E3A33D1B767F7B00D8B613 /* New Moon Filled-100 + Deaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A33C1B767F7B00D8B613 /* New Moon Filled-100 + Deaf.png */; };
+		15E3A33F1B76800E00D8B613 /* New Moon Filled-100 + Deaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A33E1B76800E00D8B613 /* New Moon Filled-100 + Deaf.png */; };
+		15E3A3421B76823300D8B613 /* New Moon Filled-100+CODA.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3401B76823300D8B613 /* New Moon Filled-100+CODA.png */; };
+		15E3A3431B76823300D8B613 /* New Moon Filled-100+HofH.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3411B76823300D8B613 /* New Moon Filled-100+HofH.png */; };
+		15E3A3451B7682DF00D8B613 /* HofHcircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3441B7682DF00D8B613 /* HofHcircle.png */; };
+		15E3A3471B76838D00D8B613 /* hearingCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3461B76838D00D8B613 /* hearingCircle.png */; };
+		15E3A34A1B76AB2000D8B613 /* LevelofSignLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E3A3491B76AB2000D8B613 /* LevelofSignLanguageViewController.m */; };
+		15E3A34F1B76B01C00D8B613 /* beginningCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A34B1B76B01C00D8B613 /* beginningCircle.png */; };
+		15E3A3501B76B01C00D8B613 /* advancedCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A34C1B76B01C00D8B613 /* advancedCircle.png */; };
+		15E3A3511B76B01C00D8B613 /* nativeCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A34D1B76B01C00D8B613 /* nativeCircle.png */; };
+		15E3A3521B76B01C00D8B613 /* averageCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A34E1B76B01C00D8B613 /* averageCircle.png */; };
+		15E3A3561B76B30B00D8B613 /* maleCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3531B76B30B00D8B613 /* maleCircle.png */; };
+		15E3A3571B76B30B00D8B613 /* femaleCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3541B76B30B00D8B613 /* femaleCircle.png */; };
+		15E3A3581B76B30B00D8B613 /* anyCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3551B76B30B00D8B613 /* anyCircle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +121,23 @@
 		15BD07E51B72DD1900E16CB1 /* AboutYouViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutYouViewController.m; sourceTree = "<group>"; };
 		15BD07E71B72DD3900E16CB1 /* UploadPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadPhotosViewController.h; sourceTree = "<group>"; };
 		15BD07E81B72DD3900E16CB1 /* UploadPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadPhotosViewController.m; sourceTree = "<group>"; };
+		15E3A2FD1B74544C00D8B613 /* IntroTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroTableViewCell.h; path = ../IntroTableViewCell.h; sourceTree = "<group>"; };
+		15E3A2FE1B74544C00D8B613 /* IntroTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroTableViewCell.m; path = ../IntroTableViewCell.m; sourceTree = "<group>"; };
+		15E3A33C1B767F7B00D8B613 /* New Moon Filled-100 + Deaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Moon Filled-100 + Deaf.png"; path = "../../../../Desktop/New Moon Filled-100 + Deaf.png"; sourceTree = "<group>"; };
+		15E3A33E1B76800E00D8B613 /* New Moon Filled-100 + Deaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Moon Filled-100 + Deaf.png"; path = "../../../../Desktop/New Moon Filled-100 + Deaf.png"; sourceTree = "<group>"; };
+		15E3A3401B76823300D8B613 /* New Moon Filled-100+CODA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Moon Filled-100+CODA.png"; path = "../../../../Desktop/New Moon Filled-100+CODA.png"; sourceTree = "<group>"; };
+		15E3A3411B76823300D8B613 /* New Moon Filled-100+HofH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Moon Filled-100+HofH.png"; path = "../../../../Desktop/New Moon Filled-100+HofH.png"; sourceTree = "<group>"; };
+		15E3A3441B7682DF00D8B613 /* HofHcircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HofHcircle.png; path = ../../../../Desktop/HofHcircle.png; sourceTree = "<group>"; };
+		15E3A3461B76838D00D8B613 /* hearingCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearingCircle.png; path = ../../../../Desktop/hearingCircle.png; sourceTree = "<group>"; };
+		15E3A3481B76AB2000D8B613 /* LevelofSignLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelofSignLanguageViewController.h; sourceTree = "<group>"; };
+		15E3A3491B76AB2000D8B613 /* LevelofSignLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelofSignLanguageViewController.m; sourceTree = "<group>"; };
+		15E3A34B1B76B01C00D8B613 /* beginningCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beginningCircle.png; path = ../../../../Desktop/beginningCircle.png; sourceTree = "<group>"; };
+		15E3A34C1B76B01C00D8B613 /* advancedCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = advancedCircle.png; path = ../../../../Desktop/advancedCircle.png; sourceTree = "<group>"; };
+		15E3A34D1B76B01C00D8B613 /* nativeCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nativeCircle.png; path = ../../../../Desktop/nativeCircle.png; sourceTree = "<group>"; };
+		15E3A34E1B76B01C00D8B613 /* averageCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = averageCircle.png; path = ../../../../Desktop/averageCircle.png; sourceTree = "<group>"; };
+		15E3A3531B76B30B00D8B613 /* maleCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = maleCircle.png; path = ../../../../Desktop/maleCircle.png; sourceTree = "<group>"; };
+		15E3A3541B76B30B00D8B613 /* femaleCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = femaleCircle.png; path = ../../../../Desktop/femaleCircle.png; sourceTree = "<group>"; };
+		15E3A3551B76B30B00D8B613 /* anyCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = anyCircle.png; path = ../../../../Desktop/anyCircle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,8 +184,12 @@
 				151976AE1B727DB600E03E48 /* ViewController.h */,
 				151976AF1B727DB600E03E48 /* ViewController.m */,
 				151976B11B727DB600E03E48 /* Main.storyboard */,
+				15E3A3481B76AB2000D8B613 /* LevelofSignLanguageViewController.h */,
+				15E3A3491B76AB2000D8B613 /* LevelofSignLanguageViewController.m */,
 				15BD07D81B72DC1700E16CB1 /* IntroViewController.h */,
 				15BD07D91B72DC1700E16CB1 /* IntroViewController.m */,
+				15E3A2FD1B74544C00D8B613 /* IntroTableViewCell.h */,
+				15E3A2FE1B74544C00D8B613 /* IntroTableViewCell.m */,
 				15BD07DB1B72DC8000E16CB1 /* LevelsofDeafnessViewController.h */,
 				15BD07DC1B72DC8000E16CB1 /* LevelsofDeafnessViewController.m */,
 				15BD07DE1B72DC9700E16CB1 /* TypesViewController.h */,
@@ -165,6 +201,19 @@
 				15BD07E71B72DD3900E16CB1 /* UploadPhotosViewController.h */,
 				15BD07E81B72DD3900E16CB1 /* UploadPhotosViewController.m */,
 				151976B41B727DB600E03E48 /* Images.xcassets */,
+				15E3A3531B76B30B00D8B613 /* maleCircle.png */,
+				15E3A3541B76B30B00D8B613 /* femaleCircle.png */,
+				15E3A3551B76B30B00D8B613 /* anyCircle.png */,
+				15E3A34B1B76B01C00D8B613 /* beginningCircle.png */,
+				15E3A34C1B76B01C00D8B613 /* advancedCircle.png */,
+				15E3A34D1B76B01C00D8B613 /* nativeCircle.png */,
+				15E3A34E1B76B01C00D8B613 /* averageCircle.png */,
+				15E3A3401B76823300D8B613 /* New Moon Filled-100+CODA.png */,
+				15E3A3461B76838D00D8B613 /* hearingCircle.png */,
+				15E3A3441B7682DF00D8B613 /* HofHcircle.png */,
+				15E3A3411B76823300D8B613 /* New Moon Filled-100+HofH.png */,
+				15E3A33E1B76800E00D8B613 /* New Moon Filled-100 + Deaf.png */,
+				15E3A33C1B767F7B00D8B613 /* New Moon Filled-100 + Deaf.png */,
 				1528D13E1B732A8700336DDA /* logo.png */,
 				1528D13C1B732A1300336DDA /* aslfish logo.png */,
 				1528D13A1B73246B00336DDA /* iPhone 6.png */,
@@ -309,30 +358,43 @@
 			files = (
 				151976CE1B727E2B00E03E48 /* Logo.png in Resources */,
 				15BD07D51B72D47600E16CB1 /* Video Call-32.png in Resources */,
+				15E3A3571B76B30B00D8B613 /* femaleCircle.png in Resources */,
 				1528D13F1B732A8700336DDA /* logo.png in Resources */,
+				15E3A3521B76B01C00D8B613 /* averageCircle.png in Resources */,
 				151976B31B727DB600E03E48 /* Main.storyboard in Resources */,
 				151976E81B727E4800E03E48 /* Home-50-2.png in Resources */,
 				151976E61B727E4800E03E48 /* Gender Neutral User-32 copy.png in Resources */,
 				151976B81B727DB600E03E48 /* LaunchScreen.xib in Resources */,
+				15E3A33F1B76800E00D8B613 /* New Moon Filled-100 + Deaf.png in Resources */,
+				15E3A3511B76B01C00D8B613 /* nativeCircle.png in Resources */,
 				1528D13D1B732A1300336DDA /* aslfish logo.png in Resources */,
 				151976E31B727E4800E03E48 /* Compact Camera-32.png in Resources */,
+				15E3A33D1B767F7B00D8B613 /* New Moon Filled-100 + Deaf.png in Resources */,
 				151976EC1B727E4800E03E48 /* Full Moon-64.png in Resources */,
+				15E3A3501B76B01C00D8B613 /* advancedCircle.png in Resources */,
 				151976F01B727E4800E03E48 /* Unchecked Checkbox-50.png in Resources */,
 				151976ED1B727E4800E03E48 /* Dislike Filled-50.png in Resources */,
 				151976E21B727E4800E03E48 /* Full Moon-100-2.png in Resources */,
 				151976E91B727E4800E03E48 /* Speech Bubble-50 copy.png in Resources */,
 				151976EE1B727E4800E03E48 /* Like Filled-50.png in Resources */,
 				151976EA1B727E4800E03E48 /* Dislike-50 copy.png in Resources */,
+				15E3A3471B76838D00D8B613 /* hearingCircle.png in Resources */,
+				15E3A34F1B76B01C00D8B613 /* beginningCircle.png in Resources */,
 				151976E71B727E4800E03E48 /* Home-32 copy.png in Resources */,
 				151976E51B727E4800E03E48 /* Speech Bubble-32 copy.png in Resources */,
+				15E3A3581B76B30B00D8B613 /* anyCircle.png in Resources */,
 				151976B51B727DB600E03E48 /* Images.xcassets in Resources */,
 				151976EB1B727E4800E03E48 /* Like-50 copy.png in Resources */,
 				151976F11B727E4800E03E48 /* Unchecked Checkbox-64.png in Resources */,
 				15BD07D71B72D69000E16CB1 /* Camera-50.png in Resources */,
+				15E3A3451B7682DF00D8B613 /* HofHcircle.png in Resources */,
+				15E3A3421B76823300D8B613 /* New Moon Filled-100+CODA.png in Resources */,
 				151976E41B727E4800E03E48 /* Settings-32-2.png in Resources */,
+				15E3A3561B76B30B00D8B613 /* maleCircle.png in Resources */,
 				1528D13B1B73246B00336DDA /* iPhone 6.png in Resources */,
 				151976F21B727E4800E03E48 /* Checked Checkbox 2-64.png in Resources */,
 				151976E11B727E4800E03E48 /* New Moon Filled-100.png in Resources */,
+				15E3A3431B76823300D8B613 /* New Moon Filled-100+HofH.png in Resources */,
 				151976EF1B727E4800E03E48 /* Checked Checkbox-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,10 +417,12 @@
 				151976B01B727DB600E03E48 /* ViewController.m in Sources */,
 				15BD07E31B72DCF200E16CB1 /* AgesRangeViewController.m in Sources */,
 				15BD07E61B72DD1900E16CB1 /* AboutYouViewController.m in Sources */,
+				15E3A34A1B76AB2000D8B613 /* LevelofSignLanguageViewController.m in Sources */,
 				151976AD1B727DB600E03E48 /* AppDelegate.m in Sources */,
 				15BD07E01B72DC9700E16CB1 /* TypesViewController.m in Sources */,
 				15BD07DD1B72DC8000E16CB1 /* LevelsofDeafnessViewController.m in Sources */,
 				151976AA1B727DB600E03E48 /* main.m in Sources */,
+				15E3A2FF1B74544C00D8B613 /* IntroTableViewCell.m in Sources */,
 				15BD07DA1B72DC1700E16CB1 /* IntroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

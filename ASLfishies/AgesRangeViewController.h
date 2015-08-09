@@ -10,4 +10,7 @@
 
 @interface AgesRangeViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *Age1;
+@property (weak, nonatomic) IBOutlet UILabel *Age2;
+
 @end

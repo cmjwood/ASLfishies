@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AboutYouViewController : UIViewController
+@interface AboutYouViewController : UIViewController  <UITextFieldDelegate> {
+    
+}
+@property (weak, nonatomic) IBOutlet UITextField *aboutyouBox;
+@property (weak, nonatomic) IBOutlet UILabel *maxCharacters;
+- (IBAction)backgroundTap:(id)sender;
 
 @end

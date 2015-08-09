@@ -14,8 +14,11 @@
 
 @implementation UploadPhotosViewController
 
+@synthesize checkbox;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    checked = NO;
     // Do any additional setup after loading the view.
 }
 
@@ -23,6 +26,38 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)checkboxButton:(id)sender {
+    if (!checked) {
+        [checkbox setImage: [UIImage imageNamed: @"Unchecked Checkbox-50.png"] forState: UIControlStateNormal];
+        checked = YES;
+    }
+    
+    else if (checked) {
+        [checkbox setImage: [UIImage imageNamed: @"Checked Checkbox-50.png"] forState: UIControlStateNormal];
+        checked = NO;
+    }
+}
+- (IBAction)pic1Box:(id)sender {
+}
+- (IBAction)pic1Button:(id)sender {
+}
+
+- (IBAction)pic2Button:(id)sender {
+}
+
+- (IBAction)pic3Button:(id)sender {
+}
+
+- (IBAction)pic4Button:(id)sender {
+}
+
+- (IBAction)pic5Button:(id)sender {
+}
+
+- (IBAction)pic6Button:(id)sender {
+}
+
 
 /*
 #pragma mark - Navigation
