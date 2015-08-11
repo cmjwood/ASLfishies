@@ -19,51 +19,29 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.aboutyouBox.delegate = self;
-    
-    [self.aboutyouBox becomeFirstResponder];
+    [aboutyouBox becomeFirstResponder];
     
     // Do any additional setup after loading the view.
 }
 
--(BOOL)textFieldShouldReturn:(UITextField *)textField {
-    NSString *substring = [NSString stringWithString:self.aboutyouBox.text];
-    
-    if(substring.length > 0) {
-        self.maxCharacters.hidden = NO;
-        self.maxCharacters.text = [NSString stringWithFormat:@"%lu characters",(unsigned long)substring.length];
-    }
-    return YES;
-}
-
--(BOOL)textViewShouldEndEditing:(UITextView *)textView {
-    NSString *substring = textView.text; //[NSString stringWithString:self.aboutyouBox.text];
-    
-    if(substring.length > 0) {
-        self.maxCharacters.hidden = NO;
-        self.maxCharacters.text = [NSString stringWithFormat:@"%lu characters",(unsigned long)substring.length];
-    }
-    return YES;
-}
-
 -(void) textViewDidChange:(UITextView *)textView {
-    NSString *substring = [NSString stringWithString:self.aboutyouBox.text];
+    NSString *substring = [NSString stringWithString:aboutyouBox.text];
     
     if(substring.length > 0) {
-        self.maxCharacters.hidden = NO;
-        self.maxCharacters.text = [NSString stringWithFormat:@"%lu characters",(unsigned long)substring.length];
+        maxCharacters.hidden = NO;
+        maxCharacters.text = [NSString stringWithFormat:@"%lu", (unsigned long)substring.length];
     }
     if (substring.length == 0) {
-        self.maxCharacters.hidden = YES;
+        maxCharacters.hidden = YES;
     }
-    if (substring.length == 15) {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message: @"Your message can't be longer than 512 characters" delegate:self cancelButtonTitle: @"OK" otherButtonTitles: nil];
+    if (substring.length == 150) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message: @"Your message can't be longer than 150 characters" delegate:self cancelButtonTitle: @"OK" otherButtonTitles: nil];
         [alert show];
-        self.maxCharacters.textColor = [UIColor redColor];
+        maxCharacters.textColor = [UIColor redColor];
     }
     
-    if (substring.length < 15) {
-        self.maxCharacters.textColor = [UIColor blackColor];
+    if (substring.length < 150) {
+        maxCharacters.textColor = [UIColor blackColor];
     }
     }
 
@@ -74,7 +52,7 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+        // Dispose of any resources that can be recreated.
 }
 
 /*

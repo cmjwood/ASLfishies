@@ -36,4 +36,11 @@
 }
 */
 
+- (IBAction)slidervaluechanged:(UISlider *)sender {
+    age1.text = [NSString stringWithFormat:@"%f", sender.value];
+}
+
+- (IBAction)slidervaluechanged2:(UISlider *)sender {
+    age2.text = [NSString stringWithFormat:@"%f", sender.value];
+}
 @end

@@ -8,18 +8,20 @@
 
 #import "UploadPhotosViewController.h"
 
-@interface UploadPhotosViewController ()
+@interface UploadPhotosViewController () <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+
 
 @end
 
 @implementation UploadPhotosViewController
 
 @synthesize checkbox;
+@synthesize imagePicker;
 
-- (void)viewDidLoad {
+
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    checked = NO;
-    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
@@ -38,26 +40,6 @@
         checked = NO;
     }
 }
-- (IBAction)pic1Box:(id)sender {
-}
-- (IBAction)pic1Button:(id)sender {
-}
-
-- (IBAction)pic2Button:(id)sender {
-}
-
-- (IBAction)pic3Button:(id)sender {
-}
-
-- (IBAction)pic4Button:(id)sender {
-}
-
-- (IBAction)pic5Button:(id)sender {
-}
-
-- (IBAction)pic6Button:(id)sender {
-}
-
 
 /*
 #pragma mark - Navigation
@@ -69,4 +51,26 @@
 }
 */
 
+- (IBAction)buttonPic:(id)sender {
+    if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera])
+    {
+        self.imagePicker = [[UIImagePickerController alloc] init];
+        self.imagePicker.sourceType = UIImagePickerControllerSourceTypeCamera;
+    }
+    else{
+        self.imagePicker = [[UIImagePickerController alloc] init];
+        self.imagePicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+        [self.imagePicker setAllowsEditing : YES];
+        self.imagePicker.delegate = self;
+      [self presentViewController:imagePicker animated:YES completion:nil];
+    }
+    
+}
+
+-(void) imagePickerController: (UIImagePickerController *)picker didFinishPickingMediaWithInfor:(NSDictionary *)info
+{
+    UIImage *img = [info objectForKey:UIImagePickerControllerOriginalImage];
+[self presentViewController:picker animated:YES completion:nil];
+    self.imagView.image = img;
+}
 @end

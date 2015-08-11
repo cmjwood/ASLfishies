@@ -9,8 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface AgesRangeViewController : UIViewController
+{
+IBOutlet UILabel *age1;
 
-@property (weak, nonatomic) IBOutlet UILabel *Age1;
-@property (weak, nonatomic) IBOutlet UILabel *Age2;
+IBOutlet UILabel *age2;
+}
+- (IBAction)slidervaluechanged:(UISlider *)sender;
+- (IBAction)slidervaluechanged2:(UISlider *)sender;
 
 @end

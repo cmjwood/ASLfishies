@@ -8,29 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UploadPhotosViewController : UIViewController
-
+@interface UploadPhotosViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 {
     BOOL checked;
 }
-@property (weak, nonatomic) IBOutlet UIButton *pic1Box;
-@property (weak, nonatomic) IBOutlet UIButton *pic2Box;
-@property (weak, nonatomic) IBOutlet UIButton *pic3Box;
-@property (weak, nonatomic) IBOutlet UIButton *pic4Box;
-@property (weak, nonatomic) IBOutlet UIButton *pic5Box;
-@property (weak, nonatomic) IBOutlet UIButton *pic6Box;
 
-
-
-- (IBAction)pic1Button:(id)sender;
-- (IBAction)pic2Button:(id)sender;
-- (IBAction)pic3Button:(id)sender;
-- (IBAction)pic4Button:(id)sender;
-- (IBAction)pic5Button:(id)sender;
-- (IBAction)pic6Button:(id)sender;
-
+- (IBAction)buttonPic:(id)sender;
 
 @property (weak, nonatomic) IBOutlet UIButton *checkbox;
 - (IBAction)checkboxButton:(id)sender;
+@property (nonatomic, strong) UIImagePickerController *imagePicker;
+@property (weak, nonatomic) IBOutlet UIImageView *imagView;
 
 @end
