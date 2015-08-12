@@ -58,6 +58,14 @@
 		15E3A3571B76B30B00D8B613 /* femaleCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3541B76B30B00D8B613 /* femaleCircle.png */; };
 		15E3A3581B76B30B00D8B613 /* anyCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3551B76B30B00D8B613 /* anyCircle.png */; };
 		15E3A3691B79D60200D8B613 /* New Moon Filled-100 + Deaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3681B79D60200D8B613 /* New Moon Filled-100 + Deaf.png */; };
+		15E3A36C1B7A7B9A00D8B613 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E3A36B1B7A7B9A00D8B613 /* UserViewController.m */; };
+		15E3A36F1B7B0B4D00D8B613 /* Not Hearing-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A36D1B7B0B4D00D8B613 /* Not Hearing-50.png */; };
+		15E3A3701B7B0B4D00D8B613 /* Hearing-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A36E1B7B0B4D00D8B613 /* Hearing-50.png */; };
+		15E3A3721B7B0C2300D8B613 /* Sign Language Interpretation-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3711B7B0C2300D8B613 /* Sign Language Interpretation-50.png */; };
+		15E3A3751B7B1C5F00D8B613 /* User Male-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3731B7B1C5F00D8B613 /* User Male-50.png */; };
+		15E3A3761B7B1C5F00D8B613 /* User Female-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3741B7B1C5F00D8B613 /* User Female-50.png */; };
+		15E3A3791B7B217200D8B613 /* Thumbs Down-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3771B7B217200D8B613 /* Thumbs Down-50.png */; };
+		15E3A37A1B7B217200D8B613 /* Thumb Up-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3781B7B217200D8B613 /* Thumb Up-50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +144,15 @@
 		15E3A3541B76B30B00D8B613 /* femaleCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = femaleCircle.png; path = ../../../../Desktop/femaleCircle.png; sourceTree = "<group>"; };
 		15E3A3551B76B30B00D8B613 /* anyCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = anyCircle.png; path = ../../../../Desktop/anyCircle.png; sourceTree = "<group>"; };
 		15E3A3681B79D60200D8B613 /* New Moon Filled-100 + Deaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Moon Filled-100 + Deaf.png"; path = "../../../../.Trash/New Moon Filled-100 + Deaf.png"; sourceTree = "<group>"; };
+		15E3A36A1B7A7B9A00D8B613 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		15E3A36B1B7A7B9A00D8B613 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		15E3A36D1B7B0B4D00D8B613 /* Not Hearing-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Not Hearing-50.png"; path = "../../../../Desktop/Not Hearing-50.png"; sourceTree = "<group>"; };
+		15E3A36E1B7B0B4D00D8B613 /* Hearing-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hearing-50.png"; path = "../../../../Desktop/Hearing-50.png"; sourceTree = "<group>"; };
+		15E3A3711B7B0C2300D8B613 /* Sign Language Interpretation-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sign Language Interpretation-50.png"; path = "../../../../Desktop/Sign Language Interpretation-50.png"; sourceTree = "<group>"; };
+		15E3A3731B7B1C5F00D8B613 /* User Male-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "User Male-50.png"; path = "../../../../Desktop/User Male-50.png"; sourceTree = "<group>"; };
+		15E3A3741B7B1C5F00D8B613 /* User Female-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "User Female-50.png"; path = "../../../../Desktop/User Female-50.png"; sourceTree = "<group>"; };
+		15E3A3771B7B217200D8B613 /* Thumbs Down-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Thumbs Down-50.png"; path = "../../../../Desktop/Thumbs Down-50.png"; sourceTree = "<group>"; };
+		15E3A3781B7B217200D8B613 /* Thumb Up-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Thumb Up-50.png"; path = "../../../../Desktop/Thumb Up-50.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +199,8 @@
 				151976AE1B727DB600E03E48 /* ViewController.h */,
 				151976AF1B727DB600E03E48 /* ViewController.m */,
 				151976B11B727DB600E03E48 /* Main.storyboard */,
+				15E3A36A1B7A7B9A00D8B613 /* UserViewController.h */,
+				15E3A36B1B7A7B9A00D8B613 /* UserViewController.m */,
 				15E3A3481B76AB2000D8B613 /* LevelofSignLanguageViewController.h */,
 				15E3A3491B76AB2000D8B613 /* LevelofSignLanguageViewController.m */,
 				15BD07D81B72DC1700E16CB1 /* IntroViewController.h */,
@@ -199,6 +218,13 @@
 				15BD07E71B72DD3900E16CB1 /* UploadPhotosViewController.h */,
 				15BD07E81B72DD3900E16CB1 /* UploadPhotosViewController.m */,
 				151976B41B727DB600E03E48 /* Images.xcassets */,
+				15E3A3771B7B217200D8B613 /* Thumbs Down-50.png */,
+				15E3A3781B7B217200D8B613 /* Thumb Up-50.png */,
+				15E3A3731B7B1C5F00D8B613 /* User Male-50.png */,
+				15E3A3741B7B1C5F00D8B613 /* User Female-50.png */,
+				15E3A3711B7B0C2300D8B613 /* Sign Language Interpretation-50.png */,
+				15E3A36D1B7B0B4D00D8B613 /* Not Hearing-50.png */,
+				15E3A36E1B7B0B4D00D8B613 /* Hearing-50.png */,
 				15E3A3681B79D60200D8B613 /* New Moon Filled-100 + Deaf.png */,
 				15E3A3531B76B30B00D8B613 /* maleCircle.png */,
 				15E3A3541B76B30B00D8B613 /* femaleCircle.png */,
@@ -353,11 +379,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E3A3761B7B1C5F00D8B613 /* User Female-50.png in Resources */,
 				151976CE1B727E2B00E03E48 /* Logo.png in Resources */,
 				15BD07D51B72D47600E16CB1 /* Video Call-32.png in Resources */,
 				15E3A3571B76B30B00D8B613 /* femaleCircle.png in Resources */,
+				15E3A3751B7B1C5F00D8B613 /* User Male-50.png in Resources */,
 				1528D13F1B732A8700336DDA /* logo.png in Resources */,
 				15E3A3521B76B01C00D8B613 /* averageCircle.png in Resources */,
+				15E3A3721B7B0C2300D8B613 /* Sign Language Interpretation-50.png in Resources */,
 				151976B31B727DB600E03E48 /* Main.storyboard in Resources */,
 				151976E81B727E4800E03E48 /* Home-50-2.png in Resources */,
 				151976E61B727E4800E03E48 /* Gender Neutral User-32 copy.png in Resources */,
@@ -365,14 +394,18 @@
 				15E3A3511B76B01C00D8B613 /* nativeCircle.png in Resources */,
 				1528D13D1B732A1300336DDA /* aslfish logo.png in Resources */,
 				151976E31B727E4800E03E48 /* Compact Camera-32.png in Resources */,
+				15E3A3791B7B217200D8B613 /* Thumbs Down-50.png in Resources */,
 				15E3A3691B79D60200D8B613 /* New Moon Filled-100 + Deaf.png in Resources */,
 				151976EC1B727E4800E03E48 /* Full Moon-64.png in Resources */,
+				15E3A36F1B7B0B4D00D8B613 /* Not Hearing-50.png in Resources */,
+				15E3A37A1B7B217200D8B613 /* Thumb Up-50.png in Resources */,
 				15E3A3501B76B01C00D8B613 /* advancedCircle.png in Resources */,
 				151976F01B727E4800E03E48 /* Unchecked Checkbox-50.png in Resources */,
 				151976ED1B727E4800E03E48 /* Dislike Filled-50.png in Resources */,
 				151976E21B727E4800E03E48 /* Full Moon-100-2.png in Resources */,
 				151976E91B727E4800E03E48 /* Speech Bubble-50 copy.png in Resources */,
 				151976EE1B727E4800E03E48 /* Like Filled-50.png in Resources */,
+				15E3A3701B7B0B4D00D8B613 /* Hearing-50.png in Resources */,
 				151976EA1B727E4800E03E48 /* Dislike-50 copy.png in Resources */,
 				15E3A3471B76838D00D8B613 /* hearingCircle.png in Resources */,
 				15E3A34F1B76B01C00D8B613 /* beginningCircle.png in Resources */,
@@ -418,6 +451,7 @@
 				15BD07E01B72DC9700E16CB1 /* TypesViewController.m in Sources */,
 				15BD07DD1B72DC8000E16CB1 /* LevelsofDeafnessViewController.m in Sources */,
 				151976AA1B727DB600E03E48 /* main.m in Sources */,
+				15E3A36C1B7A7B9A00D8B613 /* UserViewController.m in Sources */,
 				15E3A2FF1B74544C00D8B613 /* IntroTableViewCell.m in Sources */,
 				15BD07DA1B72DC1700E16CB1 /* IntroViewController.m in Sources */,
 			);

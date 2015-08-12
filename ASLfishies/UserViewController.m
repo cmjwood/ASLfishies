@@ -1,18 +1,18 @@
 //
-//  AgesRangeViewController.m
+//  UserViewController.m
 //  ASLfishies
 //
-//  Created by Casey Wood on 8/5/15.
+//  Created by Casey Wood on 8/11/15.
 //  Copyright (c) 2015 Chris Wood. All rights reserved.
 //
 
-#import "AgesRangeViewController.h"
+#import "UserViewController.h"
 
-@interface AgesRangeViewController ()
+@interface UserViewController ()
 
 @end
 
-@implementation AgesRangeViewController
+@implementation UserViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,8 +24,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-
 /*
 #pragma mark - Navigation
 
@@ -36,11 +34,4 @@
 }
 */
 
-- (IBAction)slidervaluechanged:(UISlider *)sender {
-    age1.text = [NSString stringWithFormat:@"%d", (int)sender.value];
-}
-
-- (IBAction)slidervaluechanged2:(UISlider *)sender {
-    age2.text = [NSString stringWithFormat:@"%d", (int)sender.value];
-}
 @end
