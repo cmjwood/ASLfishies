@@ -7,8 +7,7 @@
 //
 
 #import "IntroViewController.h"
-#import "IntroTableViewCell.h"
-#import "Intro.h"
+
 
 typedef NS_ENUM(NSInteger, TableViewSection) {
     TableViewSectionIntro = 0,
@@ -16,7 +15,7 @@ typedef NS_ENUM(NSInteger, TableViewSection) {
 
 @interface IntroViewController ()
 
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
+//@property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong) NSArray *intro;
 
 @end
@@ -26,7 +25,7 @@ typedef NS_ENUM(NSInteger, TableViewSection) {
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.tableView.dataSource = self;
+//    self.tableView.dataSource = self;
     self.tableView.delegate = self;
     [self.tableView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"iPhone 6.png"]]];
     // Do any additional setup after loading the view.
@@ -52,28 +51,15 @@ typedef NS_ENUM(NSInteger, TableViewSection) {
 //}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 5;
+    return 3;
 
 }
 
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    IntroTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
-    [cell setBackgroundColor:[UIColor grayColor]];
-    if (indexPath.row == 0) {
-        cell.introPlaceholder.placeholder = @"Full Name";
-    } else if (indexPath.row == 1) {
-        cell.introPlaceholder.placeholder = @"Email address";
-    } else if (indexPath.row ==2) {
-    cell.introPlaceholder.placeholder = @"City, State";
-    } else if (indexPath.row ==3) {
-        cell.introPlaceholder.placeholder = @"Country";
-    } else if (indexPath.row ==4) {
-        cell.introPlaceholder.placeholder = @"Age";
+
+
+- (IBAction)changePhoto:(id)sender {
+}
+    - (IBAction)changeButtonTapped:(id)sender {
     }
-    return cell;
-}
-
-
-
 @end

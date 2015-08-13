@@ -1,18 +1,19 @@
 //
-//  AgesRangeViewController.m
+//  ContinueViewController.m
 //  ASLfishies
 //
-//  Created by Casey Wood on 8/5/15.
+//  Created by Casey Wood on 8/12/15.
 //  Copyright (c) 2015 Chris Wood. All rights reserved.
 //
 
-#import "AgesRangeViewController.h"
+#import "ContinueViewController.h"
 
-@interface AgesRangeViewController ()
+@interface ContinueViewController ()
 
 @end
 
-@implementation AgesRangeViewController
+@implementation ContinueViewController
+@synthesize checkbox;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,7 +25,17 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+- (IBAction)checkboxButton:(id)sender {
+    if (!checked) {
+        [checkbox setImage: [UIImage imageNamed: @"Unchecked Checkbox-50.png"] forState: UIControlStateNormal];
+        checked = YES;
+    }
+    
+    else if (checked) {
+        [checkbox setImage: [UIImage imageNamed: @"Checked Checkbox-50.png"] forState: UIControlStateNormal];
+        checked = NO;
+    }
+}
 
 /*
 #pragma mark - Navigation
@@ -36,11 +47,4 @@
 }
 */
 
-- (IBAction)slidervaluechanged:(UISlider *)sender {
-    age1.text = [NSString stringWithFormat:@"%d", (int)sender.value];
-}
-
-- (IBAction)slidervaluechanged2:(UISlider *)sender {
-    age2.text = [NSString stringWithFormat:@"%d", (int)sender.value];
-}
 @end
