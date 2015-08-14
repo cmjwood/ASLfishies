@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IntroViewController : UITableViewController <UITextFieldDelegate, UITextViewDelegate>
+@interface IntroViewController : UITableViewController <UITextFieldDelegate, UITextViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
 
 @property (nonatomic, strong)NSString *cancelButton;

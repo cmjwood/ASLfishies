@@ -13,7 +13,7 @@ typedef NS_ENUM(NSInteger, TableViewSection) {
     TableViewSectionIntro = 0,
 };
 
-@interface IntroViewController () <UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@interface IntroViewController () <UITextFieldDelegate>
 
 
 
@@ -26,7 +26,6 @@ typedef NS_ENUM(NSInteger, TableViewSection) {
 @implementation IntroViewController
 
 
-
 @synthesize aboutYouBox, maxCharacters, changePhotoButton;
 
 
@@ -36,13 +35,6 @@ typedef NS_ENUM(NSInteger, TableViewSection) {
     self.temp = @"";
     self.tableView.delegate = self;
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 
 -(void)textViewDidChangeSelection:(UITextView *)textView {
@@ -63,6 +55,11 @@ if (self.temp.length <= 139) {
 }
 }
 
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 3;
 
@@ -71,7 +68,7 @@ if (self.temp.length <= 139) {
             - (IBAction)backgroundTap:(id)sender {
                 
                 [aboutYouBox resignFirstResponder];
-                
+            
             }
 - (IBAction)changeButtonTapped:(id)sender {
     UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
@@ -106,12 +103,6 @@ if (self.temp.length <= 139) {
             
             [self presentViewController:alert animated:YES completion:nil];
         }
-        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
-            [self dismissViewControllerAnimated:YES completion:^{
-            }];
-
-
-        }];
     }];
     [photoActionSheet addAction:takePictureAction];
     
