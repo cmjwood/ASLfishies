@@ -8,16 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IntroViewController : UITableViewController <UITextFieldDelegate>
+@interface IntroViewController : UITableViewController <UITextFieldDelegate, UITextViewDelegate>
 
-@property (weak, nonatomic) IBOutlet UIImageView *profilePicture;
+
+@property (nonatomic, strong)NSString *cancelButton;
 @property (weak, nonatomic) IBOutlet UIButton *changePhotoButton;
-- (IBAction)changePhotoTapped:(id)sender;
 @property (weak, nonatomic) IBOutlet UILabel *fullInformation;
 @property (weak, nonatomic) IBOutlet UITextView *aboutYouBox;
 @property (weak, nonatomic) IBOutlet UILabel *maxCharacters;
 
 - (IBAction)backgroundTap:(id)sender;
+- (IBAction)changeButtonTapped:(id)sender;
+
 
 // You have to subclass each cell and put the outlets in the subclass of that cell that the property belongs to.
 

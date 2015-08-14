@@ -8,12 +8,16 @@
 
 #import "ContinueViewController.h"
 
+typedef NS_ENUM(NSInteger, TableViewSection) {
+    TableViewSectionContinue = 0,
+};
+
 @interface ContinueViewController ()
 
 @end
 
-@implementation ContinueViewController
-@synthesize checkbox;
+@implementation ContinueViewController 
+@synthesize checkbox, levelOfDeafSlider, loslSlider, lookingForSlider;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -37,6 +41,10 @@
     }
 }
 
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 0;
+}
+
 /*
 #pragma mark - Navigation
 
@@ -47,4 +55,12 @@
 }
 */
 
+
+
+- (IBAction)lodSlider:(id)sender {
+}
+- (IBAction)levelOfSignLangSlider:(id)sender {
+}
+- (IBAction)lookingForSlider:(id)sender {
+}
 @end
