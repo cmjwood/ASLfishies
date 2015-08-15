@@ -8,11 +8,6 @@
 
 #import "IntroViewController.h"
 
-
-typedef NS_ENUM(NSInteger, TableViewSection) {
-    TableViewSectionIntro = 0,
-};
-
 @interface IntroViewController () <UITextFieldDelegate>
 
 
@@ -31,9 +26,9 @@ typedef NS_ENUM(NSInteger, TableViewSection) {
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [aboutYouBox becomeFirstResponder];
+//    [aboutYouBox becomeFirstResponder];
     self.temp = @"";
-    self.tableView.delegate = self;
+//    self.tableView.delegate = self;
 }
 
 
@@ -60,10 +55,10 @@ if (self.temp.length <= 139) {
     // Dispose of any resources that can be recreated.
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 3;
-
-}
+//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+//    return 3;
+//
+//}
 
             - (IBAction)backgroundTap:(id)sender {
                 

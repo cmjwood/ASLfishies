@@ -8,11 +8,7 @@
 
 #import "ContinueViewController.h"
 
-typedef NS_ENUM(NSInteger, TableViewSection) {
-    TableViewSectionContinue = 0,
-};
-
-@interface ContinueViewController ()
+@interface ContinueViewController () <UITextFieldDelegate>
 
 @end
 
@@ -41,9 +37,9 @@ typedef NS_ENUM(NSInteger, TableViewSection) {
     }
 }
 
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
-}
+//-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+//    return 0;
+//}
 
 /*
 #pragma mark - Navigation

@@ -17,6 +17,23 @@
 @synthesize thumbDown;
 @synthesize thumbUp;
 @synthesize sendMessage;
+@synthesize imageView;
+
+- (IBAction)thumbDownSwipe:(id)sender {
+    NSLog(@"Swiped Left");
+}
+
+- (IBAction)thumbUpSwipe:(id)sender {
+    NSLog(@"Swiped Right");
+}
+
+- (IBAction)rightSwipe:(id)sender {
+    NSLog(@"Swiped Right");
+}
+
+- (IBAction)leftSwipe:(id)sender {
+    NSLog(@"Swiped Left");
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -92,4 +109,6 @@ else if (tapped) {
         
     }
 }
+
+
 @end

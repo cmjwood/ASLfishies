@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ContinueViewController : UITableViewController
+@interface ContinueViewController : UIViewController
 {
     BOOL checked;
 }
