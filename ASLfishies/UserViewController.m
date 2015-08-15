@@ -14,8 +14,13 @@
 
 @implementation UserViewController
 
+@synthesize thumbDown;
+@synthesize thumbUp;
+@synthesize sendMessage;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+      tapped = NO;
     // Do any additional setup after loading the view.
 }
 
@@ -35,4 +40,56 @@
 */
 
 
+- (IBAction)thumbDownTapped:(id)sender {
+    if (!tapped) {
+        
+        [thumbDown setImage: [UIImage imageNamed: @"Poor Quality-50.png"] forState: UIControlStateNormal];
+        
+        tapped = YES;
+        
+    }
+else if (tapped) {
+        
+        [thumbDown setImage: [UIImage imageNamed: @"Poor Quality Filled-50.png"] forState: UIControlStateNormal];
+        
+        tapped = NO;
+        
+    }
+    
+}
+
+- (IBAction)sendMessageTapped:(id)sender {
+    if (!tapped) {
+        
+        [sendMessage setImage: [UIImage imageNamed: @"Speech Bubble-50 copy.png"] forState: UIControlStateNormal];
+        
+        tapped = YES;
+        
+    }
+    else if (tapped) {
+        
+        [sendMessage setImage: [UIImage imageNamed: @"Speech Bubble Filled-50.png"] forState: UIControlStateNormal];
+        
+        tapped = NO;
+        
+    }
+    
+}
+
+- (IBAction)thumbUpTapped:(id)sender {
+    if (!tapped) {
+        
+        [thumbUp setImage: [UIImage imageNamed: @"Good Quality-50.png"] forState: UIControlStateNormal];
+        
+        tapped = YES;
+        
+    }
+    else if (tapped) {
+        
+        [thumbUp setImage: [UIImage imageNamed: @"Good Quality Filled-50.png"] forState: UIControlStateNormal];
+        
+        tapped = NO;
+        
+    }
+}
 @end

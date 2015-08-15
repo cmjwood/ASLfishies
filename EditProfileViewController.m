@@ -1,19 +1,20 @@
 //
-//  IntroViewController.m
-//  ASLfishies
+//  EditProfileViewController.m
+//  ASLfish
 //
-//  Created by Casey Wood on 8/5/15.
+//  Created by Casey Wood on 8/15/15.
 //  Copyright (c) 2015 Chris Wood. All rights reserved.
 //
 
-#import "IntroViewController.h"
-
+#import "EditProfileViewController.h"
 
 typedef NS_ENUM(NSInteger, TableViewSection) {
     TableViewSectionIntro = 0,
 };
 
-@interface IntroViewController () <UITextFieldDelegate>
+@interface EditProfileViewController ()
+
+<UITextFieldDelegate>
 
 
 
@@ -23,7 +24,7 @@ typedef NS_ENUM(NSInteger, TableViewSection) {
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @end
 
-@implementation IntroViewController
+@implementation EditProfileViewController
 
 
 @synthesize aboutYouBox, maxCharacters, changePhotoButton;
@@ -38,21 +39,21 @@ typedef NS_ENUM(NSInteger, TableViewSection) {
 
 
 -(void)textViewDidChangeSelection:(UITextView *)textView {
-
-if (self.temp.length <= 139) {
-    maxCharacters.text = [NSString stringWithFormat:@"%lu", (unsigned long)aboutYouBox.text.length];
-    self.temp = aboutYouBox.text;
-}else if (self.temp.length == 140 && aboutYouBox.text.length < 140){
-    self.temp = aboutYouBox.text;
-    maxCharacters.text = [NSString stringWithFormat:@"%lu", (unsigned long)self.aboutYouBox.text.length];
-    maxCharacters.textColor = [UIColor blackColor];
-}else {
-    // Disallow adding at text count limit
-    aboutYouBox.text = self.temp; // you have to use stringWithFormat everytime you re-assign the text value
-    aboutYouBox.text = [self.aboutYouBox.text substringToIndex:140];
-     self.temp = aboutYouBox.text;
-    self.maxCharacters.textColor = [UIColor redColor];
-}
+    
+    if (self.temp.length <= 139) {
+        maxCharacters.text = [NSString stringWithFormat:@"%lu", (unsigned long)aboutYouBox.text.length];
+        self.temp = aboutYouBox.text;
+    }else if (self.temp.length == 140 && aboutYouBox.text.length < 140){
+        self.temp = aboutYouBox.text;
+        maxCharacters.text = [NSString stringWithFormat:@"%lu", (unsigned long)self.aboutYouBox.text.length];
+        maxCharacters.textColor = [UIColor blackColor];
+    }else {
+        // Disallow adding at text count limit
+        aboutYouBox.text = self.temp; // you have to use stringWithFormat everytime you re-assign the text value
+        aboutYouBox.text = [self.aboutYouBox.text substringToIndex:140];
+        self.temp = aboutYouBox.text;
+        self.maxCharacters.textColor = [UIColor redColor];
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -62,14 +63,14 @@ if (self.temp.length <= 139) {
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 3;
-
+    
 }
 
-            - (IBAction)backgroundTap:(id)sender {
-                
-                [aboutYouBox resignFirstResponder];
-            
-            }
+- (IBAction)backgroundTap:(id)sender {
+    
+    [aboutYouBox resignFirstResponder];
+    
+}
 - (IBAction)changeButtonTapped:(id)sender {
     UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
     imagePicker.delegate = self;
@@ -104,12 +105,7 @@ if (self.temp.length <= 139) {
             [self presentViewController:alert animated:YES completion:nil];
         }
     }];
-    
-    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
-
-    }];
     [photoActionSheet addAction:takePictureAction];
-    [photoActionSheet addAction:cancelAction];
     
     [self presentViewController:photoActionSheet animated:YES completion:nil];
 }

@@ -8,6 +8,15 @@
 
 #import "ViewController.h"
 
-@interface UserViewController : ViewController
+@interface UserViewController : UITableViewController
+{
+    BOOL tapped;
+}
+@property (weak, nonatomic) IBOutlet UIButton *thumbDown;
+@property (weak, nonatomic) IBOutlet UIButton *sendMessage;
+@property (weak, nonatomic) IBOutlet UIButton *thumbUp;
+- (IBAction)thumbDownTapped:(id)sender;
+- (IBAction)sendMessageTapped:(id)sender;
+- (IBAction)thumbUpTapped:(id)sender;
 
 @end
