@@ -8,10 +8,9 @@
 
 #import "ViewController.h"
 
-@interface EditProfileViewController : UITableViewController <UITextFieldDelegate, UITextViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@interface EditProfileViewController : UIViewController <UITextFieldDelegate, UITextViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
 
-@property (nonatomic, strong)NSString *cancelButton;
 @property (weak, nonatomic) IBOutlet UIButton *changePhotoButton;
 @property (weak, nonatomic) IBOutlet UILabel *fullInformation;
 @property (weak, nonatomic) IBOutlet UITextView *aboutYouBox;

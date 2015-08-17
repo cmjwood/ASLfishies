@@ -8,13 +8,8 @@
 
 #import "EditProfileViewController.h"
 
-typedef NS_ENUM(NSInteger, TableViewSection) {
-    TableViewSectionIntro = 0,
-};
 
-@interface EditProfileViewController ()
-
-<UITextFieldDelegate>
+@interface EditProfileViewController () <UITextFieldDelegate>
 
 
 
@@ -32,9 +27,7 @@ typedef NS_ENUM(NSInteger, TableViewSection) {
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [aboutYouBox becomeFirstResponder];
     self.temp = @"";
-    self.tableView.delegate = self;
 }
 
 
@@ -59,11 +52,6 @@ typedef NS_ENUM(NSInteger, TableViewSection) {
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 3;
-    
 }
 
 - (IBAction)backgroundTap:(id)sender {
@@ -105,7 +93,12 @@ typedef NS_ENUM(NSInteger, TableViewSection) {
             [self presentViewController:alert animated:YES completion:nil];
         }
     }];
+    
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+        
+    }];
     [photoActionSheet addAction:takePictureAction];
+    [photoActionSheet addAction:cancelAction];
     
     [self presentViewController:photoActionSheet animated:YES completion:nil];
 }

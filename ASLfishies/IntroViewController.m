@@ -26,9 +26,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    [aboutYouBox becomeFirstResponder];
     self.temp = @"";
-//    self.tableView.delegate = self;
 }
 
 
@@ -54,11 +52,6 @@ if (self.temp.length <= 139) {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-//    return 3;
-//
-//}
 
             - (IBAction)backgroundTap:(id)sender {
                 

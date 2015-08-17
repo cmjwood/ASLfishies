@@ -8,11 +8,8 @@
 
 #import "SettingsViewController.h"
 
-typedef NS_ENUM(NSInteger, TableViewSection) {
-    TableViewSectionContinue = 0,
-};
 
-@interface SettingsViewController ()
+@interface SettingsViewController () <UITextFieldDelegate>
 
 @end
 
@@ -29,9 +26,6 @@ typedef NS_ENUM(NSInteger, TableViewSection) {
     // Dispose of any resources that can be recreated.
 }
 
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
-}
 
 /*
  #pragma mark - Navigation

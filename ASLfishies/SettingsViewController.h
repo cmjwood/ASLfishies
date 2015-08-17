@@ -8,8 +8,10 @@
 
 #import "ViewController.h"
 
-@interface SettingsViewController : UITableViewController
-
+@interface SettingsViewController : UIViewController
+{
+    BOOL checked;
+}
 @property (weak, nonatomic) IBOutlet UIImageView *hearingImage;
 @property (weak, nonatomic) IBOutlet UISlider *levelOfDeafSlider;
 - (IBAction)lodSlider:(id)sender;
