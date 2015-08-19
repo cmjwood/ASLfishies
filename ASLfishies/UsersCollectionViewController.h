@@ -1,14 +1,14 @@
 //
-//  UserViewController.h
+//  UsersCollectionViewController.h
 //  ASLfish
 //
 //  Created by Casey Wood on 8/18/15.
 //  Copyright (c) 2015 Chris Wood. All rights reserved.
 //
 
-#import "ViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface UserViewController : ViewController
+@interface UsersCollectionViewController : UICollectionViewController
 
 {
     BOOL tapped;
@@ -17,9 +17,10 @@
 @property (weak, nonatomic) IBOutlet UIButton *thumbDown;
 @property (weak, nonatomic) IBOutlet UIButton *sendMessage;
 @property (weak, nonatomic) IBOutlet UIButton *thumbUp;
-- (IBAction)thumbDownTapped:(id)sender;
-- (IBAction)thumbUpTapped:(id)sender;
-
+- (IBAction)thumbDownTapped:(UISwipeGestureRecognizer *)sender;
+- (IBAction)thumbUpTapped:(UISwipeGestureRecognizer *)sender;
+- (IBAction)rightSwipe:(UISwipeGestureRecognizer *)sender;
+- (IBAction)leftSwipe:(UISwipeGestureRecognizer *)sender;
 - (IBAction)sendMessageTapped:(id)sender;
 
 @end

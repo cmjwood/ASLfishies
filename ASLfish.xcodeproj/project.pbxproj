@@ -50,6 +50,8 @@
 		15E361541B7F95440094A2C5 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E361531B7F95440094A2C5 /* MessagesViewController.m */; };
 		15E361571B7F95560094A2C5 /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E361561B7F95560094A2C5 /* EditProfileViewController.m */; };
 		15E3615A1B7F98320094A2C5 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E361591B7F98320094A2C5 /* SettingsViewController.m */; };
+		15E3618F1B8419A50094A2C5 /* UsersCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E3618E1B8419A50094A2C5 /* UsersCollectionViewController.m */; };
+		15E361921B8426BF0094A2C5 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E361911B8426BF0094A2C5 /* UserViewController.m */; };
 		15E3A3421B76823300D8B613 /* New Moon Filled-100+CODA.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3401B76823300D8B613 /* New Moon Filled-100+CODA.png */; };
 		15E3A3431B76823300D8B613 /* New Moon Filled-100+HofH.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3411B76823300D8B613 /* New Moon Filled-100+HofH.png */; };
 		15E3A3451B7682DF00D8B613 /* HofHcircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3441B7682DF00D8B613 /* HofHcircle.png */; };
@@ -62,7 +64,6 @@
 		15E3A3571B76B30B00D8B613 /* femaleCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3541B76B30B00D8B613 /* femaleCircle.png */; };
 		15E3A3581B76B30B00D8B613 /* anyCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3551B76B30B00D8B613 /* anyCircle.png */; };
 		15E3A3691B79D60200D8B613 /* New Moon Filled-100 + Deaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3681B79D60200D8B613 /* New Moon Filled-100 + Deaf.png */; };
-		15E3A36C1B7A7B9A00D8B613 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E3A36B1B7A7B9A00D8B613 /* UserViewController.m */; };
 		15E3A36F1B7B0B4D00D8B613 /* Not Hearing-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A36D1B7B0B4D00D8B613 /* Not Hearing-50.png */; };
 		15E3A3701B7B0B4D00D8B613 /* Hearing-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A36E1B7B0B4D00D8B613 /* Hearing-50.png */; };
 		15E3A3721B7B0C2300D8B613 /* Sign Language Interpretation-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3711B7B0C2300D8B613 /* Sign Language Interpretation-50.png */; };
@@ -137,6 +138,10 @@
 		15E361561B7F95560094A2C5 /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditProfileViewController.m; path = ../EditProfileViewController.m; sourceTree = "<group>"; };
 		15E361581B7F98320094A2C5 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		15E361591B7F98320094A2C5 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		15E3618D1B8419A50094A2C5 /* UsersCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersCollectionViewController.h; sourceTree = "<group>"; };
+		15E3618E1B8419A50094A2C5 /* UsersCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersCollectionViewController.m; sourceTree = "<group>"; };
+		15E361901B8426BF0094A2C5 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		15E361911B8426BF0094A2C5 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
 		15E3A3401B76823300D8B613 /* New Moon Filled-100+CODA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Moon Filled-100+CODA.png"; path = "../../../../Desktop/New Moon Filled-100+CODA.png"; sourceTree = "<group>"; };
 		15E3A3411B76823300D8B613 /* New Moon Filled-100+HofH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Moon Filled-100+HofH.png"; path = "../../../../Desktop/New Moon Filled-100+HofH.png"; sourceTree = "<group>"; };
 		15E3A3441B7682DF00D8B613 /* HofHcircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HofHcircle.png; path = ../../../../Desktop/HofHcircle.png; sourceTree = "<group>"; };
@@ -149,8 +154,6 @@
 		15E3A3541B76B30B00D8B613 /* femaleCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = femaleCircle.png; path = ../../../../Desktop/femaleCircle.png; sourceTree = "<group>"; };
 		15E3A3551B76B30B00D8B613 /* anyCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = anyCircle.png; path = ../../../../Desktop/anyCircle.png; sourceTree = "<group>"; };
 		15E3A3681B79D60200D8B613 /* New Moon Filled-100 + Deaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Moon Filled-100 + Deaf.png"; path = "../../../../.Trash/New Moon Filled-100 + Deaf.png"; sourceTree = "<group>"; };
-		15E3A36A1B7A7B9A00D8B613 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
-		15E3A36B1B7A7B9A00D8B613 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
 		15E3A36D1B7B0B4D00D8B613 /* Not Hearing-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Not Hearing-50.png"; path = "../../../../Desktop/Not Hearing-50.png"; sourceTree = "<group>"; };
 		15E3A36E1B7B0B4D00D8B613 /* Hearing-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hearing-50.png"; path = "../../../../Desktop/Hearing-50.png"; sourceTree = "<group>"; };
 		15E3A3711B7B0C2300D8B613 /* Sign Language Interpretation-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sign Language Interpretation-50.png"; path = "../../../../Desktop/Sign Language Interpretation-50.png"; sourceTree = "<group>"; };
@@ -208,8 +211,10 @@
 				15BD07D91B72DC1700E16CB1 /* IntroViewController.m */,
 				15E360D81B7BC54A0094A2C5 /* ContinueViewController.h */,
 				15E360D91B7BC54A0094A2C5 /* ContinueViewController.m */,
-				15E3A36A1B7A7B9A00D8B613 /* UserViewController.h */,
-				15E3A36B1B7A7B9A00D8B613 /* UserViewController.m */,
+				15E361901B8426BF0094A2C5 /* UserViewController.h */,
+				15E361911B8426BF0094A2C5 /* UserViewController.m */,
+				15E3618D1B8419A50094A2C5 /* UsersCollectionViewController.h */,
+				15E3618E1B8419A50094A2C5 /* UsersCollectionViewController.m */,
 				15E361521B7F95440094A2C5 /* MessagesViewController.h */,
 				15E361531B7F95440094A2C5 /* MessagesViewController.m */,
 				15E361551B7F95560094A2C5 /* EditProfileViewController.h */,
@@ -456,12 +461,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				151976B01B727DB600E03E48 /* ViewController.m in Sources */,
+				15E361921B8426BF0094A2C5 /* UserViewController.m in Sources */,
 				151976AD1B727DB600E03E48 /* AppDelegate.m in Sources */,
 				15E360DA1B7BC54A0094A2C5 /* ContinueViewController.m in Sources */,
+				15E3618F1B8419A50094A2C5 /* UsersCollectionViewController.m in Sources */,
 				15E3615A1B7F98320094A2C5 /* SettingsViewController.m in Sources */,
 				151976AA1B727DB600E03E48 /* main.m in Sources */,
 				15E361571B7F95560094A2C5 /* EditProfileViewController.m in Sources */,
-				15E3A36C1B7A7B9A00D8B613 /* UserViewController.m in Sources */,
 				15BD07DA1B72DC1700E16CB1 /* IntroViewController.m in Sources */,
 				15E361541B7F95440094A2C5 /* MessagesViewController.m in Sources */,
 			);

@@ -75,6 +75,8 @@ if (self.temp.length <= 139) {
              UIImagePickerControllerSourceTypeCamera] == YES) {
             
             imagePicker.sourceType =  UIImagePickerControllerSourceTypeCamera;
+            imagePicker.mediaTypes = [UIImagePickerController availableMediaTypesForSourceType:UIImagePickerControllerSourceTypeCamera];
+            imagePicker.cameraCaptureMode = UIImagePickerControllerCameraCaptureModeVideo;
             imagePicker.cameraDevice = UIImagePickerControllerCameraDeviceFront;
             imagePicker.allowsEditing = YES;
             
@@ -116,6 +118,8 @@ if (self.temp.length <= 139) {
     // Any other actions you want to take with the image would go here
     
 }
+
+
 
 
 @end

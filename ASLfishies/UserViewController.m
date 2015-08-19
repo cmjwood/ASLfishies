@@ -1,8 +1,8 @@
 //
 //  UserViewController.m
-//  ASLfishies
+//  ASLfish
 //
-//  Created by Casey Wood on 8/11/15.
+//  Created by Casey Wood on 8/18/15.
 //  Copyright (c) 2015 Chris Wood. All rights reserved.
 //
 
@@ -19,25 +19,8 @@
 @synthesize sendMessage;
 @synthesize imageView;
 
-- (IBAction)thumbDownSwipe:(id)sender {
-    NSLog(@"Swiped Left");
-}
-
-- (IBAction)thumbUpSwipe:(id)sender {
-    NSLog(@"Swiped Right");
-}
-
-- (IBAction)rightSwipe:(id)sender {
-    NSLog(@"Swiped Right");
-}
-
-- (IBAction)leftSwipe:(id)sender {
-    NSLog(@"Swiped Left");
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-      tapped = NO;
     // Do any additional setup after loading the view.
 }
 
@@ -45,17 +28,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 
 - (IBAction)thumbDownTapped:(id)sender {
     if (!tapped) {
@@ -65,7 +37,7 @@
         tapped = YES;
         
     }
-else if (tapped) {
+    else if (tapped) {
         
         [thumbDown setImage: [UIImage imageNamed: @"Poor Quality Filled-50.png"] forState: UIControlStateNormal];
         
@@ -74,6 +46,7 @@ else if (tapped) {
     }
     
 }
+
 
 - (IBAction)sendMessageTapped:(id)sender {
     if (!tapped) {
@@ -110,5 +83,16 @@ else if (tapped) {
     }
 }
 
+
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end
