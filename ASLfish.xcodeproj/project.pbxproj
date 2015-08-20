@@ -50,8 +50,13 @@
 		15E361541B7F95440094A2C5 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E361531B7F95440094A2C5 /* MessagesViewController.m */; };
 		15E361571B7F95560094A2C5 /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E361561B7F95560094A2C5 /* EditProfileViewController.m */; };
 		15E3615A1B7F98320094A2C5 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E361591B7F98320094A2C5 /* SettingsViewController.m */; };
-		15E3618F1B8419A50094A2C5 /* UsersCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E3618E1B8419A50094A2C5 /* UsersCollectionViewController.m */; };
 		15E361921B8426BF0094A2C5 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E361911B8426BF0094A2C5 /* UserViewController.m */; };
+		15E361991B855B0F0094A2C5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E361981B855B0F0094A2C5 /* AVFoundation.framework */; };
+		15E3619B1B855B1F0094A2C5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E3619A1B855B1F0094A2C5 /* CoreMedia.framework */; };
+		15E3619D1B855B300094A2C5 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E3619C1B855B300094A2C5 /* AssetsLibrary.framework */; };
+		15E3619F1B855BA10094A2C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E3619E1B855BA10094A2C5 /* Foundation.framework */; };
+		15E361A11B8560620094A2C5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E361A01B8560620094A2C5 /* MessageUI.framework */; };
+		15E361A31B8565A60094A2C5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E361A21B8565A60094A2C5 /* FBSDKCoreKit.framework */; };
 		15E3A3421B76823300D8B613 /* New Moon Filled-100+CODA.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3401B76823300D8B613 /* New Moon Filled-100+CODA.png */; };
 		15E3A3431B76823300D8B613 /* New Moon Filled-100+HofH.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3411B76823300D8B613 /* New Moon Filled-100+HofH.png */; };
 		15E3A3451B7682DF00D8B613 /* HofHcircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3441B7682DF00D8B613 /* HofHcircle.png */; };
@@ -138,10 +143,14 @@
 		15E361561B7F95560094A2C5 /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditProfileViewController.m; path = ../EditProfileViewController.m; sourceTree = "<group>"; };
 		15E361581B7F98320094A2C5 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		15E361591B7F98320094A2C5 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
-		15E3618D1B8419A50094A2C5 /* UsersCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersCollectionViewController.h; sourceTree = "<group>"; };
-		15E3618E1B8419A50094A2C5 /* UsersCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersCollectionViewController.m; sourceTree = "<group>"; };
 		15E361901B8426BF0094A2C5 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
 		15E361911B8426BF0094A2C5 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		15E361981B855B0F0094A2C5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		15E3619A1B855B1F0094A2C5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		15E3619C1B855B300094A2C5 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		15E3619E1B855BA10094A2C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15E361A01B8560620094A2C5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		15E361A21B8565A60094A2C5 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		15E3A3401B76823300D8B613 /* New Moon Filled-100+CODA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Moon Filled-100+CODA.png"; path = "../../../../Desktop/New Moon Filled-100+CODA.png"; sourceTree = "<group>"; };
 		15E3A3411B76823300D8B613 /* New Moon Filled-100+HofH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Moon Filled-100+HofH.png"; path = "../../../../Desktop/New Moon Filled-100+HofH.png"; sourceTree = "<group>"; };
 		15E3A3441B7682DF00D8B613 /* HofHcircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HofHcircle.png; path = ../../../../Desktop/HofHcircle.png; sourceTree = "<group>"; };
@@ -168,6 +177,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E361A11B8560620094A2C5 /* MessageUI.framework in Frameworks */,
+				15E361A31B8565A60094A2C5 /* FBSDKCoreKit.framework in Frameworks */,
+				15E3619F1B855BA10094A2C5 /* Foundation.framework in Frameworks */,
+				15E3619D1B855B300094A2C5 /* AssetsLibrary.framework in Frameworks */,
+				15E3619B1B855B1F0094A2C5 /* CoreMedia.framework in Frameworks */,
+				15E361991B855B0F0094A2C5 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,8 +228,6 @@
 				15E360D91B7BC54A0094A2C5 /* ContinueViewController.m */,
 				15E361901B8426BF0094A2C5 /* UserViewController.h */,
 				15E361911B8426BF0094A2C5 /* UserViewController.m */,
-				15E3618D1B8419A50094A2C5 /* UsersCollectionViewController.h */,
-				15E3618E1B8419A50094A2C5 /* UsersCollectionViewController.m */,
 				15E361521B7F95440094A2C5 /* MessagesViewController.h */,
 				15E361531B7F95440094A2C5 /* MessagesViewController.m */,
 				15E361551B7F95560094A2C5 /* EditProfileViewController.h */,
@@ -273,6 +286,7 @@
 				151976E01B727E4800E03E48 /* Checked Checkbox 2-64.png */,
 				151976CD1B727E2B00E03E48 /* Logo.png */,
 				151976B61B727DB600E03E48 /* LaunchScreen.xib */,
+				15E361971B855A5A0094A2C5 /* Frameworks */,
 				151976A71B727DB600E03E48 /* Supporting Files */,
 			);
 			path = ASLfishies;
@@ -302,6 +316,19 @@
 				151976C21B727DB600E03E48 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15E361971B855A5A0094A2C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15E361A21B8565A60094A2C5 /* FBSDKCoreKit.framework */,
+				15E361A01B8560620094A2C5 /* MessageUI.framework */,
+				15E3619E1B855BA10094A2C5 /* Foundation.framework */,
+				15E3619C1B855B300094A2C5 /* AssetsLibrary.framework */,
+				15E3619A1B855B1F0094A2C5 /* CoreMedia.framework */,
+				15E361981B855B0F0094A2C5 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -464,7 +491,6 @@
 				15E361921B8426BF0094A2C5 /* UserViewController.m in Sources */,
 				151976AD1B727DB600E03E48 /* AppDelegate.m in Sources */,
 				15E360DA1B7BC54A0094A2C5 /* ContinueViewController.m in Sources */,
-				15E3618F1B8419A50094A2C5 /* UsersCollectionViewController.m in Sources */,
 				15E3615A1B7F98320094A2C5 /* SettingsViewController.m in Sources */,
 				151976AA1B727DB600E03E48 /* main.m in Sources */,
 				15E361571B7F95560094A2C5 /* EditProfileViewController.m in Sources */,
@@ -601,6 +627,10 @@
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/caseywood/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = ASLfishies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
@@ -617,6 +647,10 @@
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/caseywood/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = ASLfishies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;

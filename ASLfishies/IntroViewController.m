@@ -7,12 +7,12 @@
 //
 
 #import "IntroViewController.h"
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <AssetsLibrary/AssetsLibrary.h>
 
-@interface IntroViewController () <UITextFieldDelegate>
+@interface IntroViewController () <UINavigationControllerDelegate, UIImagePickerControllerDelegate, UITextFieldDelegate>
 
-
-
-//@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) UIImagePickerController *camera;
 @property (strong) NSArray *intro;
 @property (nonatomic, strong) NSString *temp;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
@@ -74,6 +74,9 @@ if (self.temp.length <= 139) {
         if ([UIImagePickerController isSourceTypeAvailable:
              UIImagePickerControllerSourceTypeCamera] == YES) {
             
+            NSArray *availableMediaTypes = [UIImagePickerController availableMediaTypesForSourceType:UIImagePickerControllerSourceTypeCamera];
+            if ([availableMediaTypes containsObject:(NSString *)kUTTypeMovie]) {
+            }
             imagePicker.sourceType =  UIImagePickerControllerSourceTypeCamera;
             imagePicker.mediaTypes = [UIImagePickerController availableMediaTypesForSourceType:UIImagePickerControllerSourceTypeCamera];
             imagePicker.cameraCaptureMode = UIImagePickerControllerCameraCaptureModeVideo;
