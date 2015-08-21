@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Chris Wood. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+
 #import <UIKit/UIKit.h>
 
 @interface IntroViewController : UIViewController <UITextFieldDelegate, UITextViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>

@@ -1,18 +1,20 @@
 //
 //  Intro.h
-//  ASLfishies
+//  ASLfish
 //
-//  Created by Casey Wood on 8/7/15.
+//  Created by Casey Wood on 8/19/15.
 //  Copyright (c) 2015 Chris Wood. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Foundation/Foundation.h"
+#import <Parse/Parse.h>
 
-@interface Intro : NSObject
+@interface Intro : PFObject <PFSubclassing>
 
-@property (strong) NSString *intros;
-@property (assign) BOOL enabled;
+@property (nonatomic, strong) NSString *fullName;
+@property (nonatomic, strong) NSString *age;
+@property (nonatomic, strong) NSString *cityState;
+@property (nonatomic, strong) NSString *aboutYou;
 
-+(instancetype)fullIntro:(NSString *)intros enabled:(BOOL)enabled;
 
 @end

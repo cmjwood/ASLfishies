@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <Parse/Parse.h>
-#import "IntroViewController.h"
+#import "Intro.h"
 
 
 @implementation AppDelegate
@@ -21,9 +21,16 @@
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    return [[FBSDKApplicationDelegate sharedInstance] application:application
-                                    didFinishLaunchingWithOptions:launchOptions];
-    [Parse setApplicationId:@"9vvwq9dUvy7gnPgSa6cEuvPRh4uQcnFWrN6CrCQq" clientKey:@"Bs6obldPFckUy1ZO51nroeoBDew5h2ahOC8p2yCy"];
+    
+    [Parse enableLocalDatastore];
+    
+    [Parse setApplicationId:@"ZvtmlffIARgOWhZtbTsA651MChfnpoC2hLbETO8i" clientKey:@"P1Gjd9b4dVUG108utWlxxddNioFykgMmrZd6s51o"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+//    return [[FBSDKApplicationDelegate sharedInstance] application:application
+//                                    didFinishLaunchingWithOptions:launchOptions];
+//    [Intro registerSubclass];
+
     return YES;
 }
 
