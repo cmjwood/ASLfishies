@@ -11,6 +11,8 @@
 
 @implementation Intro
 
+@synthesize fullName, age, cityState, aboutYou;
+
 + (NSString *)parseClassName {
     return @"Intro";
 }

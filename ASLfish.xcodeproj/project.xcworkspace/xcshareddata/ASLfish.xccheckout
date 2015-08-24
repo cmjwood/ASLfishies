@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>4727B9FF-B8A1-4C99-B30E-5F536E7CF7E1</string>
 	<key>IDESourceControlProjectName</key>
-	<string>ASLfish</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>524A8B681CEB0702C54BB2179195910A9579075D</key>
 		<string>https://github.com/cmjwood/ASLfishies.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ASLfish.xcodeproj</string>
+	<string>ASLfish.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>524A8B681CEB0702C54BB2179195910A9579075D</key>

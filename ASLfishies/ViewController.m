@@ -7,9 +7,14 @@
 //
 
 #import "ViewController.h"
+#import <ParseUI/ParseUI.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import <Parse/Parse.h>
 
-@interface ViewController ()
+
+@interface ViewController () <PFSignUpViewControllerDelegate, PFLogInViewControllerDelegate>
+@property (weak, nonatomic) IBOutlet FBSDKLoginButton *loginButton;
 
 @end
 
@@ -17,8 +22,42 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    FBSDKLoginButton *loginButton = [[FBSDKLoginButton alloc] init];
+    loginButton.center = self.view.center;
+    
+    UIButton *myLoginButton=[UIButton buttonWithType:UIButtonTypeCustom];
+    myLoginButton.backgroundColor=[UIColor darkGrayColor];
+    myLoginButton.frame=CGRectMake(0,0,180,40);
+    myLoginButton.center = self.view.center;
+    [myLoginButton setTitle: @"My Login Button" forState: UIControlStateNormal];
+    
+    // Handle clicks on the button
+    [myLoginButton
+     addTarget:self
+     action:@selector(loginButtonClicked) forControlEvents:UIControlEventTouchUpInside];
+    loginButton.readPermissions =@[@"public_profile", @"email", @"user_friends"];
+    
+    // Add the button to the view
+    [self.view addSubview:myLoginButton];
 }
+
+// Once the button is clicked, show the login dialog
+-(void)loginButtonClicked
+{
+    FBSDKLoginManager *login = [[FBSDKLoginManager alloc] init];
+    [login
+     logInWithReadPermissions: @[@"public_profile"]
+     handler:^(FBSDKLoginManagerLoginResult *result, NSError *error) {
+         if (error) {
+             NSLog(@"Process error");
+         } else if (result.isCancelled) {
+             NSLog(@"Cancelled");
+         } else {
+             NSLog(@"Logged in");
+         }
+     }];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

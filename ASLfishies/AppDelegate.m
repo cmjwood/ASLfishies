@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import <Parse/Parse.h>
 #import "Intro.h"
 
@@ -21,27 +22,27 @@
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+
+
     [Parse enableLocalDatastore];
     
     [Parse setApplicationId:@"ZvtmlffIARgOWhZtbTsA651MChfnpoC2hLbETO8i" clientKey:@"P1Gjd9b4dVUG108utWlxxddNioFykgMmrZd6s51o"];
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
-//    return [[FBSDKApplicationDelegate sharedInstance] application:application
-//                                    didFinishLaunchingWithOptions:launchOptions];
+    return [[FBSDKApplicationDelegate sharedInstance] application:application
+                                    didFinishLaunchingWithOptions:launchOptions];
 //    [Intro registerSubclass];
 
-    return YES;
 }
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    
     return [[FBSDKApplicationDelegate sharedInstance] application:application
                                                           openURL:url
                                                 sourceApplication:sourceApplication
                                                        annotation:annotation
             ];
 }
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

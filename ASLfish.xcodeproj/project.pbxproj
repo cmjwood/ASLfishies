@@ -7,47 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1514A69C1B8B9B1E0098CAD5 /* Unchecked Checkbox-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 1514A69B1B8B9B1E0098CAD5 /* Unchecked Checkbox-64.png */; };
+		1514A6A11B8BA2E90098CAD5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1514A69F1B8BA2E90098CAD5 /* FBSDKCoreKit.framework */; };
+		1514A6A21B8BA2E90098CAD5 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1514A6A01B8BA2E90098CAD5 /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		1514A6A41B8BA2FD0098CAD5 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1514A6A31B8BA2FD0098CAD5 /* FBSDKShareKit.framework */; };
+		1514A6A61B8BA92C0098CAD5 /* Speech Bubble Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1514A6A51B8BA92C0098CAD5 /* Speech Bubble Filled-50.png */; };
+		1514A6A81B8BA97C0098CAD5 /* Camera-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 1514A6A71B8BA97C0098CAD5 /* Camera-32.png */; };
 		151976AA1B727DB600E03E48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 151976A91B727DB600E03E48 /* main.m */; };
 		151976AD1B727DB600E03E48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 151976AC1B727DB600E03E48 /* AppDelegate.m */; };
 		151976B01B727DB600E03E48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151976AF1B727DB600E03E48 /* ViewController.m */; };
 		151976B51B727DB600E03E48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 151976B41B727DB600E03E48 /* Images.xcassets */; };
 		151976B81B727DB600E03E48 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151976B61B727DB600E03E48 /* LaunchScreen.xib */; };
 		151976C41B727DB600E03E48 /* ASLfishiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 151976C31B727DB600E03E48 /* ASLfishiesTests.m */; };
-		151976CE1B727E2B00E03E48 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 151976CD1B727E2B00E03E48 /* Logo.png */; };
-		151976E11B727E4800E03E48 /* New Moon Filled-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 151976CF1B727E4800E03E48 /* New Moon Filled-100.png */; };
-		151976E21B727E4800E03E48 /* Full Moon-100-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 151976D01B727E4800E03E48 /* Full Moon-100-2.png */; };
-		151976E31B727E4800E03E48 /* Compact Camera-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 151976D11B727E4800E03E48 /* Compact Camera-32.png */; };
 		151976E41B727E4800E03E48 /* Settings-32-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 151976D21B727E4800E03E48 /* Settings-32-2.png */; };
-		151976E51B727E4800E03E48 /* Speech Bubble-32 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 151976D31B727E4800E03E48 /* Speech Bubble-32 copy.png */; };
-		151976E61B727E4800E03E48 /* Gender Neutral User-32 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 151976D41B727E4800E03E48 /* Gender Neutral User-32 copy.png */; };
-		151976E71B727E4800E03E48 /* Home-32 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 151976D51B727E4800E03E48 /* Home-32 copy.png */; };
-		151976E81B727E4800E03E48 /* Home-50-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 151976D61B727E4800E03E48 /* Home-50-2.png */; };
-		151976E91B727E4800E03E48 /* Speech Bubble-50 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 151976D71B727E4800E03E48 /* Speech Bubble-50 copy.png */; };
-		151976EA1B727E4800E03E48 /* Dislike-50 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 151976D81B727E4800E03E48 /* Dislike-50 copy.png */; };
-		151976EB1B727E4800E03E48 /* Like-50 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 151976D91B727E4800E03E48 /* Like-50 copy.png */; };
-		151976EC1B727E4800E03E48 /* Full Moon-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 151976DA1B727E4800E03E48 /* Full Moon-64.png */; };
-		151976ED1B727E4800E03E48 /* Dislike Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 151976DB1B727E4800E03E48 /* Dislike Filled-50.png */; };
-		151976EE1B727E4800E03E48 /* Like Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 151976DC1B727E4800E03E48 /* Like Filled-50.png */; };
-		151976EF1B727E4800E03E48 /* Checked Checkbox-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 151976DD1B727E4800E03E48 /* Checked Checkbox-50.png */; };
 		151976F01B727E4800E03E48 /* Unchecked Checkbox-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 151976DE1B727E4800E03E48 /* Unchecked Checkbox-50.png */; };
-		151976F11B727E4800E03E48 /* Unchecked Checkbox-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 151976DF1B727E4800E03E48 /* Unchecked Checkbox-64.png */; };
-		151976F21B727E4800E03E48 /* Checked Checkbox 2-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 151976E01B727E4800E03E48 /* Checked Checkbox 2-64.png */; };
-		1528D13B1B73246B00336DDA /* iPhone 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1528D13A1B73246B00336DDA /* iPhone 6.png */; };
-		1528D13D1B732A1300336DDA /* aslfish logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1528D13C1B732A1300336DDA /* aslfish logo.png */; };
-		1528D13F1B732A8700336DDA /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1528D13E1B732A8700336DDA /* logo.png */; };
+		15834B7D1B87B135009AB9B6 /* iPhone 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834B7C1B87B135009AB9B6 /* iPhone 6.png */; };
+		15834C361B87B367009AB9B6 /* Good Quality-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C151B87B366009AB9B6 /* Good Quality-50.png */; };
+		15834C391B87B367009AB9B6 /* lightgrayCheckbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C181B87B366009AB9B6 /* lightgrayCheckbox.png */; };
+		15834C3A1B87B367009AB9B6 /* Home-32 copy 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C191B87B366009AB9B6 /* Home-32 copy 2.png */; };
+		15834C3B1B87B367009AB9B6 /* lightgrayUnCheckbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C1A1B87B366009AB9B6 /* lightgrayUnCheckbox.png */; };
+		15834C3C1B87B367009AB9B6 /* User Female-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C1B1B87B366009AB9B6 /* User Female-50.png */; };
+		15834C3F1B87B367009AB9B6 /* Gender Neutral User-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C1E1B87B366009AB9B6 /* Gender Neutral User-50.png */; };
+		15834C461B87B367009AB9B6 /* Home-50-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C251B87B366009AB9B6 /* Home-50-2.png */; };
+		15834C471B87B367009AB9B6 /* Home-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C261B87B366009AB9B6 /* Home-32.png */; };
+		15834C491B87B367009AB9B6 /* Speech Bubble-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C281B87B367009AB9B6 /* Speech Bubble-50.png */; };
+		15834C4E1B87B367009AB9B6 /* Hearing-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C2D1B87B367009AB9B6 /* Hearing-50.png */; };
+		15834C501B87B367009AB9B6 /* Gender Neutral User-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C2F1B87B367009AB9B6 /* Gender Neutral User-32.png */; };
+		15834C511B87B367009AB9B6 /* User Male-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C301B87B367009AB9B6 /* User Male-50.png */; };
+		15834C551B87B367009AB9B6 /* Home-32 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C341B87B367009AB9B6 /* Home-32 copy.png */; };
+		15834C561B87B367009AB9B6 /* Not Hearing-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C351B87B367009AB9B6 /* Not Hearing-50.png */; };
+		15834C5B1B87B372009AB9B6 /* Checked Checkbox-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C571B87B372009AB9B6 /* Checked Checkbox-50.png */; };
+		15834C5C1B87B372009AB9B6 /* Checked Checkbox 2-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C581B87B372009AB9B6 /* Checked Checkbox 2-64.png */; };
+		15834C5E1B87B372009AB9B6 /* deafguy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15834C5A1B87B372009AB9B6 /* deafguy.jpg */; };
+		15834C601B88C638009AB9B6 /* Speech Bubble-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C5F1B88C638009AB9B6 /* Speech Bubble-32.png */; };
+		15834C621B88C73B009AB9B6 /* Poor Quality-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C611B88C73B009AB9B6 /* Poor Quality-50.png */; };
+		15834C661B88D53C009AB9B6 /* Group.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C651B88D53C009AB9B6 /* Group.png */; };
 		15BD07D51B72D47600E16CB1 /* Video Call-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 15BD07D41B72D47600E16CB1 /* Video Call-32.png */; };
-		15BD07D71B72D69000E16CB1 /* Camera-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15BD07D61B72D69000E16CB1 /* Camera-50.png */; };
 		15BD07DA1B72DC1700E16CB1 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BD07D91B72DC1700E16CB1 /* IntroViewController.m */; };
 		15E360DA1B7BC54A0094A2C5 /* ContinueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E360D91B7BC54A0094A2C5 /* ContinueViewController.m */; };
 		15E3611D1B7C27EC0094A2C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E3611B1B7C27EC0094A2C5 /* Main.storyboard */; };
-		15E3611F1B7F0C000094A2C5 /* deafguy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15E3611E1B7F0C000094A2C5 /* deafguy.jpg */; };
-		15E361211B7F107D0094A2C5 /* Camera-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E361201B7F107D0094A2C5 /* Camera-32.png */; };
-		15E361441B7F92200094A2C5 /* Speech Bubble Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E361421B7F92200094A2C5 /* Speech Bubble Filled-50.png */; };
 		15E361451B7F92200094A2C5 /* Good Quality Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E361431B7F92200094A2C5 /* Good Quality Filled-50.png */; };
-		15E361471B7F92620094A2C5 /* Poor Quality-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E361461B7F92620094A2C5 /* Poor Quality-50.png */; };
-		15E3614A1B7F92CE0094A2C5 /* Good Quality-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E361481B7F92CE0094A2C5 /* Good Quality-50.png */; };
-		15E3614B1B7F92CE0094A2C5 /* Poor Quality Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E361491B7F92CE0094A2C5 /* Poor Quality Filled-50.png */; };
-		15E361541B7F95440094A2C5 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E361531B7F95440094A2C5 /* MessagesViewController.m */; };
 		15E361571B7F95560094A2C5 /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E361561B7F95560094A2C5 /* EditProfileViewController.m */; };
 		15E3615A1B7F98320094A2C5 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E361591B7F98320094A2C5 /* SettingsViewController.m */; };
 		15E361921B8426BF0094A2C5 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E361911B8426BF0094A2C5 /* UserViewController.m */; };
@@ -56,7 +55,6 @@
 		15E3619D1B855B300094A2C5 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E3619C1B855B300094A2C5 /* AssetsLibrary.framework */; };
 		15E3619F1B855BA10094A2C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E3619E1B855BA10094A2C5 /* Foundation.framework */; };
 		15E361A11B8560620094A2C5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E361A01B8560620094A2C5 /* MessageUI.framework */; };
-		15E361A31B8565A60094A2C5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E361A21B8565A60094A2C5 /* FBSDKCoreKit.framework */; };
 		15E361A61B8597DC0094A2C5 /* Intro.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E361A51B8597DC0094A2C5 /* Intro.m */; };
 		15E361AE1B85A2CD0094A2C5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E361AC1B85A2CD0094A2C5 /* Bolts.framework */; };
 		15E361AF1B85A2CD0094A2C5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E361AD1B85A2CD0094A2C5 /* Parse.framework */; };
@@ -71,25 +69,8 @@
 		15E361C11B85A3890094A2C5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E361C01B85A3890094A2C5 /* libsqlite3.dylib */; };
 		15E361C31B85A3C30094A2C5 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E361C21B85A3C30094A2C5 /* Accounts.framework */; };
 		15E361C51B85A3CC0094A2C5 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E361C41B85A3CC0094A2C5 /* Social.framework */; };
-		15E3A3421B76823300D8B613 /* New Moon Filled-100+CODA.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3401B76823300D8B613 /* New Moon Filled-100+CODA.png */; };
-		15E3A3431B76823300D8B613 /* New Moon Filled-100+HofH.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3411B76823300D8B613 /* New Moon Filled-100+HofH.png */; };
-		15E3A3451B7682DF00D8B613 /* HofHcircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3441B7682DF00D8B613 /* HofHcircle.png */; };
-		15E3A3471B76838D00D8B613 /* hearingCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3461B76838D00D8B613 /* hearingCircle.png */; };
-		15E3A34F1B76B01C00D8B613 /* beginningCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A34B1B76B01C00D8B613 /* beginningCircle.png */; };
-		15E3A3501B76B01C00D8B613 /* advancedCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A34C1B76B01C00D8B613 /* advancedCircle.png */; };
-		15E3A3511B76B01C00D8B613 /* nativeCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A34D1B76B01C00D8B613 /* nativeCircle.png */; };
-		15E3A3521B76B01C00D8B613 /* averageCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A34E1B76B01C00D8B613 /* averageCircle.png */; };
-		15E3A3561B76B30B00D8B613 /* maleCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3531B76B30B00D8B613 /* maleCircle.png */; };
-		15E3A3571B76B30B00D8B613 /* femaleCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3541B76B30B00D8B613 /* femaleCircle.png */; };
-		15E3A3581B76B30B00D8B613 /* anyCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3551B76B30B00D8B613 /* anyCircle.png */; };
-		15E3A3691B79D60200D8B613 /* New Moon Filled-100 + Deaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3681B79D60200D8B613 /* New Moon Filled-100 + Deaf.png */; };
-		15E3A36F1B7B0B4D00D8B613 /* Not Hearing-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A36D1B7B0B4D00D8B613 /* Not Hearing-50.png */; };
-		15E3A3701B7B0B4D00D8B613 /* Hearing-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A36E1B7B0B4D00D8B613 /* Hearing-50.png */; };
-		15E3A3721B7B0C2300D8B613 /* Sign Language Interpretation-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3711B7B0C2300D8B613 /* Sign Language Interpretation-50.png */; };
-		15E3A3751B7B1C5F00D8B613 /* User Male-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3731B7B1C5F00D8B613 /* User Male-50.png */; };
-		15E3A3761B7B1C5F00D8B613 /* User Female-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3741B7B1C5F00D8B613 /* User Female-50.png */; };
-		15E3A3791B7B217200D8B613 /* Thumbs Down-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3771B7B217200D8B613 /* Thumbs Down-50.png */; };
-		15E3A37A1B7B217200D8B613 /* Thumb Up-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E3A3781B7B217200D8B613 /* Thumb Up-50.png */; };
+		15E361C81B86ADB60094A2C5 /* MessagesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E361C71B86ADB60094A2C5 /* MessagesTableViewController.m */; };
+		15E361CB1B86B5F90094A2C5 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E361CA1B86B5F90094A2C5 /* MessageTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +84,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1514A69B1B8B9B1E0098CAD5 /* Unchecked Checkbox-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Unchecked Checkbox-64.png"; path = "../../../../Desktop/Unchecked Checkbox-64.png"; sourceTree = "<group>"; };
+		1514A69F1B8BA2E90098CAD5 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = SOURCE_ROOT; };
+		1514A6A01B8BA2E90098CAD5 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = SOURCE_ROOT; };
+		1514A6A31B8BA2FD0098CAD5 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = SOURCE_ROOT; };
+		1514A6A51B8BA92C0098CAD5 /* Speech Bubble Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Speech Bubble Filled-50.png"; path = "../../../../Desktop/Speech Bubble Filled-50.png"; sourceTree = "<group>"; };
+		1514A6A71B8BA97C0098CAD5 /* Camera-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Camera-32.png"; path = "../../../../Desktop/Camera-32.png"; sourceTree = "<group>"; };
+		1514A6A91B8BAA2C0098CAD5 /* Speech Bubble Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Speech Bubble Filled-50.png"; path = "../../../Desktop/Speech Bubble Filled-50.png"; sourceTree = "<group>"; };
+		1514A6AA1B8BAA2C0098CAD5 /* Camera-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Camera-32.png"; path = "../../../Desktop/Camera-32.png"; sourceTree = "<group>"; };
 		151976A41B727DB600E03E48 /* ASLfish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASLfish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		151976A81B727DB600E03E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		151976A91B727DB600E03E48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -115,44 +104,36 @@
 		151976BD1B727DB600E03E48 /* ASLfishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASLfishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		151976C21B727DB600E03E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		151976C31B727DB600E03E48 /* ASLfishiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASLfishiesTests.m; sourceTree = "<group>"; };
-		151976CD1B727E2B00E03E48 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo.png; path = ../../../../Desktop/Logo.png; sourceTree = "<group>"; };
-		151976CF1B727E4800E03E48 /* New Moon Filled-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Moon Filled-100.png"; path = "../../ASLfish/ASLfish/New Moon Filled-100.png"; sourceTree = "<group>"; };
-		151976D01B727E4800E03E48 /* Full Moon-100-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Full Moon-100-2.png"; path = "../../ASLfish/ASLfish/Full Moon-100-2.png"; sourceTree = "<group>"; };
-		151976D11B727E4800E03E48 /* Compact Camera-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Compact Camera-32.png"; path = "../../ASLfish/ASLfish/Compact Camera-32.png"; sourceTree = "<group>"; };
 		151976D21B727E4800E03E48 /* Settings-32-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Settings-32-2.png"; path = "../../ASLfish/ASLfish/Settings-32-2.png"; sourceTree = "<group>"; };
-		151976D31B727E4800E03E48 /* Speech Bubble-32 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Speech Bubble-32 copy.png"; path = "../../ASLfish/ASLfish/Speech Bubble-32 copy.png"; sourceTree = "<group>"; };
-		151976D41B727E4800E03E48 /* Gender Neutral User-32 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Gender Neutral User-32 copy.png"; path = "../../ASLfish/ASLfish/Gender Neutral User-32 copy.png"; sourceTree = "<group>"; };
-		151976D51B727E4800E03E48 /* Home-32 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Home-32 copy.png"; path = "../../ASLfish/ASLfish/Home-32 copy.png"; sourceTree = "<group>"; };
-		151976D61B727E4800E03E48 /* Home-50-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Home-50-2.png"; path = "../../ASLfish/ASLfish/Home-50-2.png"; sourceTree = "<group>"; };
-		151976D71B727E4800E03E48 /* Speech Bubble-50 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Speech Bubble-50 copy.png"; path = "../../ASLfish/ASLfish/Speech Bubble-50 copy.png"; sourceTree = "<group>"; };
-		151976D81B727E4800E03E48 /* Dislike-50 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Dislike-50 copy.png"; path = "../../ASLfish/ASLfish/Dislike-50 copy.png"; sourceTree = "<group>"; };
-		151976D91B727E4800E03E48 /* Like-50 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Like-50 copy.png"; path = "../../ASLfish/ASLfish/Like-50 copy.png"; sourceTree = "<group>"; };
-		151976DA1B727E4800E03E48 /* Full Moon-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Full Moon-64.png"; path = "../../ASLfish/ASLfish/Full Moon-64.png"; sourceTree = "<group>"; };
-		151976DB1B727E4800E03E48 /* Dislike Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Dislike Filled-50.png"; path = "../../ASLfish/ASLfish/Dislike Filled-50.png"; sourceTree = "<group>"; };
-		151976DC1B727E4800E03E48 /* Like Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Like Filled-50.png"; path = "../../ASLfish/ASLfish/Like Filled-50.png"; sourceTree = "<group>"; };
-		151976DD1B727E4800E03E48 /* Checked Checkbox-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Checked Checkbox-50.png"; path = "../../ASLfish/ASLfish/Checked Checkbox-50.png"; sourceTree = "<group>"; };
 		151976DE1B727E4800E03E48 /* Unchecked Checkbox-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Unchecked Checkbox-50.png"; path = "../../ASLfish/ASLfish/Unchecked Checkbox-50.png"; sourceTree = "<group>"; };
-		151976DF1B727E4800E03E48 /* Unchecked Checkbox-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Unchecked Checkbox-64.png"; path = "../../ASLfish/ASLfish/Unchecked Checkbox-64.png"; sourceTree = "<group>"; };
-		151976E01B727E4800E03E48 /* Checked Checkbox 2-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Checked Checkbox 2-64.png"; path = "../../ASLfish/ASLfish/Checked Checkbox 2-64.png"; sourceTree = "<group>"; };
-		1528D13A1B73246B00336DDA /* iPhone 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone 6.png"; path = "../../../../Desktop/iPhone 6.png"; sourceTree = "<group>"; };
-		1528D13C1B732A1300336DDA /* aslfish logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "aslfish logo.png"; path = "../../../../Desktop/aslfish logo.png"; sourceTree = "<group>"; };
-		1528D13E1B732A8700336DDA /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../Desktop/logo.png; sourceTree = "<group>"; };
+		15834B7C1B87B135009AB9B6 /* iPhone 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone 6.png"; path = "../../../../Desktop/Sketch StoryBoard/iPhone 6.png"; sourceTree = "<group>"; };
+		15834C151B87B366009AB9B6 /* Good Quality-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Good Quality-50.png"; path = "../../../../Desktop/Good Quality-50.png"; sourceTree = "<group>"; };
+		15834C181B87B366009AB9B6 /* lightgrayCheckbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lightgrayCheckbox.png; path = ../../../../Desktop/lightgrayCheckbox.png; sourceTree = "<group>"; };
+		15834C191B87B366009AB9B6 /* Home-32 copy 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Home-32 copy 2.png"; path = "../../../../Desktop/Home-32 copy 2.png"; sourceTree = "<group>"; };
+		15834C1A1B87B366009AB9B6 /* lightgrayUnCheckbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lightgrayUnCheckbox.png; path = ../../../../Desktop/lightgrayUnCheckbox.png; sourceTree = "<group>"; };
+		15834C1B1B87B366009AB9B6 /* User Female-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "User Female-50.png"; path = "../../../../Desktop/User Female-50.png"; sourceTree = "<group>"; };
+		15834C1E1B87B366009AB9B6 /* Gender Neutral User-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Gender Neutral User-50.png"; path = "../../../../Desktop/Gender Neutral User-50.png"; sourceTree = "<group>"; };
+		15834C251B87B366009AB9B6 /* Home-50-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Home-50-2.png"; path = "../../../../Desktop/Home-50-2.png"; sourceTree = "<group>"; };
+		15834C261B87B366009AB9B6 /* Home-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Home-32.png"; path = "../../../../Desktop/Home-32.png"; sourceTree = "<group>"; };
+		15834C281B87B367009AB9B6 /* Speech Bubble-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Speech Bubble-50.png"; path = "../../../../Desktop/Speech Bubble-50.png"; sourceTree = "<group>"; };
+		15834C2D1B87B367009AB9B6 /* Hearing-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hearing-50.png"; path = "../../../../Desktop/Hearing-50.png"; sourceTree = "<group>"; };
+		15834C2F1B87B367009AB9B6 /* Gender Neutral User-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Gender Neutral User-32.png"; path = "../../../../Desktop/Gender Neutral User-32.png"; sourceTree = "<group>"; };
+		15834C301B87B367009AB9B6 /* User Male-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "User Male-50.png"; path = "../../../../Desktop/User Male-50.png"; sourceTree = "<group>"; };
+		15834C341B87B367009AB9B6 /* Home-32 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Home-32 copy.png"; path = "../../../../Desktop/Home-32 copy.png"; sourceTree = "<group>"; };
+		15834C351B87B367009AB9B6 /* Not Hearing-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Not Hearing-50.png"; path = "../../../../Desktop/Not Hearing-50.png"; sourceTree = "<group>"; };
+		15834C571B87B372009AB9B6 /* Checked Checkbox-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Checked Checkbox-50.png"; path = "../../../../Desktop/Checked Checkbox-50.png"; sourceTree = "<group>"; };
+		15834C581B87B372009AB9B6 /* Checked Checkbox 2-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Checked Checkbox 2-64.png"; path = "../../../../Desktop/Checked Checkbox 2-64.png"; sourceTree = "<group>"; };
+		15834C5A1B87B372009AB9B6 /* deafguy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = deafguy.jpg; path = ../../../../Desktop/deafguy.jpg; sourceTree = "<group>"; };
+		15834C5F1B88C638009AB9B6 /* Speech Bubble-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Speech Bubble-32.png"; path = "../../../../Desktop/Speech Bubble-32.png"; sourceTree = "<group>"; };
+		15834C611B88C73B009AB9B6 /* Poor Quality-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Poor Quality-50.png"; path = "../../../../Desktop/Poor Quality-50.png"; sourceTree = "<group>"; };
+		15834C651B88D53C009AB9B6 /* Group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Group.png; path = ../../../../Desktop/Group.png; sourceTree = "<group>"; };
 		15BD07D41B72D47600E16CB1 /* Video Call-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Video Call-32.png"; path = "../../../../Desktop/Video Call-32.png"; sourceTree = "<group>"; };
-		15BD07D61B72D69000E16CB1 /* Camera-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Camera-50.png"; path = "../../../../Desktop/Camera-50.png"; sourceTree = "<group>"; };
 		15BD07D81B72DC1700E16CB1 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
 		15BD07D91B72DC1700E16CB1 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
 		15E360D81B7BC54A0094A2C5 /* ContinueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContinueViewController.h; sourceTree = "<group>"; };
 		15E360D91B7BC54A0094A2C5 /* ContinueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContinueViewController.m; sourceTree = "<group>"; };
 		15E3611C1B7C27EC0094A2C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		15E3611E1B7F0C000094A2C5 /* deafguy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = deafguy.jpg; path = ../../../../Desktop/deafguy.jpg; sourceTree = "<group>"; };
-		15E361201B7F107D0094A2C5 /* Camera-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Camera-32.png"; path = "../../../../Desktop/Camera-32.png"; sourceTree = "<group>"; };
-		15E361421B7F92200094A2C5 /* Speech Bubble Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Speech Bubble Filled-50.png"; path = "../../../../Desktop/Speech Bubble Filled-50.png"; sourceTree = "<group>"; };
 		15E361431B7F92200094A2C5 /* Good Quality Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Good Quality Filled-50.png"; path = "../../../../Desktop/Good Quality Filled-50.png"; sourceTree = "<group>"; };
-		15E361461B7F92620094A2C5 /* Poor Quality-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Poor Quality-50.png"; path = "../../../../Desktop/Poor Quality-50.png"; sourceTree = "<group>"; };
-		15E361481B7F92CE0094A2C5 /* Good Quality-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Good Quality-50.png"; path = "../../../../Desktop/Good Quality-50.png"; sourceTree = "<group>"; };
-		15E361491B7F92CE0094A2C5 /* Poor Quality Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Poor Quality Filled-50.png"; path = "../../../../Desktop/Poor Quality Filled-50.png"; sourceTree = "<group>"; };
-		15E361521B7F95440094A2C5 /* MessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagesViewController.h; path = ../MessagesViewController.h; sourceTree = "<group>"; };
-		15E361531B7F95440094A2C5 /* MessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagesViewController.m; path = ../MessagesViewController.m; sourceTree = "<group>"; };
 		15E361551B7F95560094A2C5 /* EditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditProfileViewController.h; path = ../EditProfileViewController.h; sourceTree = "<group>"; };
 		15E361561B7F95560094A2C5 /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditProfileViewController.m; path = ../EditProfileViewController.m; sourceTree = "<group>"; };
 		15E361581B7F98320094A2C5 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
@@ -164,7 +145,6 @@
 		15E3619C1B855B300094A2C5 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		15E3619E1B855BA10094A2C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		15E361A01B8560620094A2C5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		15E361A21B8565A60094A2C5 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		15E361A41B8597DB0094A2C5 /* Intro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Intro.h; sourceTree = "<group>"; };
 		15E361A51B8597DC0094A2C5 /* Intro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Intro.m; sourceTree = "<group>"; };
 		15E361AC1B85A2CD0094A2C5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../Downloads/parse-library-1/Bolts.framework"; sourceTree = "<group>"; };
@@ -180,25 +160,10 @@
 		15E361C01B85A3890094A2C5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		15E361C21B85A3C30094A2C5 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		15E361C41B85A3CC0094A2C5 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		15E3A3401B76823300D8B613 /* New Moon Filled-100+CODA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Moon Filled-100+CODA.png"; path = "../../../../Desktop/New Moon Filled-100+CODA.png"; sourceTree = "<group>"; };
-		15E3A3411B76823300D8B613 /* New Moon Filled-100+HofH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Moon Filled-100+HofH.png"; path = "../../../../Desktop/New Moon Filled-100+HofH.png"; sourceTree = "<group>"; };
-		15E3A3441B7682DF00D8B613 /* HofHcircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HofHcircle.png; path = ../../../../Desktop/HofHcircle.png; sourceTree = "<group>"; };
-		15E3A3461B76838D00D8B613 /* hearingCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hearingCircle.png; path = ../../../../Desktop/hearingCircle.png; sourceTree = "<group>"; };
-		15E3A34B1B76B01C00D8B613 /* beginningCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beginningCircle.png; path = ../../../../Desktop/beginningCircle.png; sourceTree = "<group>"; };
-		15E3A34C1B76B01C00D8B613 /* advancedCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = advancedCircle.png; path = ../../../../Desktop/advancedCircle.png; sourceTree = "<group>"; };
-		15E3A34D1B76B01C00D8B613 /* nativeCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nativeCircle.png; path = ../../../../Desktop/nativeCircle.png; sourceTree = "<group>"; };
-		15E3A34E1B76B01C00D8B613 /* averageCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = averageCircle.png; path = ../../../../Desktop/averageCircle.png; sourceTree = "<group>"; };
-		15E3A3531B76B30B00D8B613 /* maleCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = maleCircle.png; path = ../../../../Desktop/maleCircle.png; sourceTree = "<group>"; };
-		15E3A3541B76B30B00D8B613 /* femaleCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = femaleCircle.png; path = ../../../../Desktop/femaleCircle.png; sourceTree = "<group>"; };
-		15E3A3551B76B30B00D8B613 /* anyCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = anyCircle.png; path = ../../../../Desktop/anyCircle.png; sourceTree = "<group>"; };
-		15E3A3681B79D60200D8B613 /* New Moon Filled-100 + Deaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Moon Filled-100 + Deaf.png"; path = "../../../../.Trash/New Moon Filled-100 + Deaf.png"; sourceTree = "<group>"; };
-		15E3A36D1B7B0B4D00D8B613 /* Not Hearing-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Not Hearing-50.png"; path = "../../../../Desktop/Not Hearing-50.png"; sourceTree = "<group>"; };
-		15E3A36E1B7B0B4D00D8B613 /* Hearing-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hearing-50.png"; path = "../../../../Desktop/Hearing-50.png"; sourceTree = "<group>"; };
-		15E3A3711B7B0C2300D8B613 /* Sign Language Interpretation-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sign Language Interpretation-50.png"; path = "../../../../Desktop/Sign Language Interpretation-50.png"; sourceTree = "<group>"; };
-		15E3A3731B7B1C5F00D8B613 /* User Male-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "User Male-50.png"; path = "../../../../Desktop/User Male-50.png"; sourceTree = "<group>"; };
-		15E3A3741B7B1C5F00D8B613 /* User Female-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "User Female-50.png"; path = "../../../../Desktop/User Female-50.png"; sourceTree = "<group>"; };
-		15E3A3771B7B217200D8B613 /* Thumbs Down-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Thumbs Down-50.png"; path = "../../../../Desktop/Thumbs Down-50.png"; sourceTree = "<group>"; };
-		15E3A3781B7B217200D8B613 /* Thumb Up-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Thumb Up-50.png"; path = "../../../../Desktop/Thumb Up-50.png"; sourceTree = "<group>"; };
+		15E361C61B86ADB60094A2C5 /* MessagesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesTableViewController.h; sourceTree = "<group>"; };
+		15E361C71B86ADB60094A2C5 /* MessagesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesTableViewController.m; sourceTree = "<group>"; };
+		15E361C91B86B5F90094A2C5 /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		15E361CA1B86B5F90094A2C5 /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,22 +171,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E361A11B8560620094A2C5 /* MessageUI.framework in Frameworks */,
 				15E361C51B85A3CC0094A2C5 /* Social.framework in Frameworks */,
+				1514A6A21B8BA2E90098CAD5 /* FBSDKLoginKit.framework in Frameworks */,
 				15E361C31B85A3C30094A2C5 /* Accounts.framework in Frameworks */,
 				15E361C11B85A3890094A2C5 /* libsqlite3.dylib in Frameworks */,
 				15E361BF1B85A37A0094A2C5 /* libz.dylib in Frameworks */,
 				15E361BD1B85A36E0094A2C5 /* SystemConfiguration.framework in Frameworks */,
 				15E361BB1B85A3600094A2C5 /* StoreKit.framework in Frameworks */,
 				15E361B91B85A34F0094A2C5 /* Security.framework in Frameworks */,
+				1514A6A11B8BA2E90098CAD5 /* FBSDKCoreKit.framework in Frameworks */,
 				15E361B71B85A30C0094A2C5 /* CoreLocation.framework in Frameworks */,
 				15E361B51B85A2FC0094A2C5 /* CoreGraphics.framework in Frameworks */,
 				15E361B31B85A2F30094A2C5 /* CFNetwork.framework in Frameworks */,
 				15E361B11B85A2E90094A2C5 /* AudioToolbox.framework in Frameworks */,
-				15E361A11B8560620094A2C5 /* MessageUI.framework in Frameworks */,
-				15E361A31B8565A60094A2C5 /* FBSDKCoreKit.framework in Frameworks */,
 				15E3619F1B855BA10094A2C5 /* Foundation.framework in Frameworks */,
 				15E3619D1B855B300094A2C5 /* AssetsLibrary.framework in Frameworks */,
 				15E3619B1B855B1F0094A2C5 /* CoreMedia.framework in Frameworks */,
+				1514A6A41B8BA2FD0098CAD5 /* FBSDKShareKit.framework in Frameworks */,
 				15E361991B855B0F0094A2C5 /* AVFoundation.framework in Frameworks */,
 				15E361AF1B85A2CD0094A2C5 /* Parse.framework in Frameworks */,
 				15E361AE1B85A2CD0094A2C5 /* Bolts.framework in Frameworks */,
@@ -241,6 +208,8 @@
 		1519769B1B727DB600E03E48 = {
 			isa = PBXGroup;
 			children = (
+				1514A6A91B8BAA2C0098CAD5 /* Speech Bubble Filled-50.png */,
+				1514A6AA1B8BAA2C0098CAD5 /* Camera-32.png */,
 				151976A61B727DB600E03E48 /* ASLfishies */,
 				151976C01B727DB600E03E48 /* ASLfishiesTests */,
 				151976A51B727DB600E03E48 /* Products */,
@@ -272,63 +241,16 @@
 				15E360D91B7BC54A0094A2C5 /* ContinueViewController.m */,
 				15E361901B8426BF0094A2C5 /* UserViewController.h */,
 				15E361911B8426BF0094A2C5 /* UserViewController.m */,
-				15E361521B7F95440094A2C5 /* MessagesViewController.h */,
-				15E361531B7F95440094A2C5 /* MessagesViewController.m */,
+				15E361C61B86ADB60094A2C5 /* MessagesTableViewController.h */,
+				15E361C71B86ADB60094A2C5 /* MessagesTableViewController.m */,
+				15E361C91B86B5F90094A2C5 /* MessageTableViewCell.h */,
+				15E361CA1B86B5F90094A2C5 /* MessageTableViewCell.m */,
 				15E361551B7F95560094A2C5 /* EditProfileViewController.h */,
 				15E361561B7F95560094A2C5 /* EditProfileViewController.m */,
 				15E361581B7F98320094A2C5 /* SettingsViewController.h */,
 				15E361591B7F98320094A2C5 /* SettingsViewController.m */,
 				151976B41B727DB600E03E48 /* Images.xcassets */,
-				15E361481B7F92CE0094A2C5 /* Good Quality-50.png */,
-				15E361491B7F92CE0094A2C5 /* Poor Quality Filled-50.png */,
-				15E361461B7F92620094A2C5 /* Poor Quality-50.png */,
-				15E361421B7F92200094A2C5 /* Speech Bubble Filled-50.png */,
-				15E361431B7F92200094A2C5 /* Good Quality Filled-50.png */,
-				15E361201B7F107D0094A2C5 /* Camera-32.png */,
-				15E3611E1B7F0C000094A2C5 /* deafguy.jpg */,
-				15E3A3771B7B217200D8B613 /* Thumbs Down-50.png */,
-				15E3A3781B7B217200D8B613 /* Thumb Up-50.png */,
-				15E3A3731B7B1C5F00D8B613 /* User Male-50.png */,
-				15E3A3741B7B1C5F00D8B613 /* User Female-50.png */,
-				15E3A3711B7B0C2300D8B613 /* Sign Language Interpretation-50.png */,
-				15E3A36D1B7B0B4D00D8B613 /* Not Hearing-50.png */,
-				15E3A36E1B7B0B4D00D8B613 /* Hearing-50.png */,
-				15E3A3681B79D60200D8B613 /* New Moon Filled-100 + Deaf.png */,
-				15E3A3531B76B30B00D8B613 /* maleCircle.png */,
-				15E3A3541B76B30B00D8B613 /* femaleCircle.png */,
-				15E3A3551B76B30B00D8B613 /* anyCircle.png */,
-				15E3A34B1B76B01C00D8B613 /* beginningCircle.png */,
-				15E3A34C1B76B01C00D8B613 /* advancedCircle.png */,
-				15E3A34D1B76B01C00D8B613 /* nativeCircle.png */,
-				15E3A34E1B76B01C00D8B613 /* averageCircle.png */,
-				15E3A3401B76823300D8B613 /* New Moon Filled-100+CODA.png */,
-				15E3A3461B76838D00D8B613 /* hearingCircle.png */,
-				15E3A3441B7682DF00D8B613 /* HofHcircle.png */,
-				15E3A3411B76823300D8B613 /* New Moon Filled-100+HofH.png */,
-				1528D13E1B732A8700336DDA /* logo.png */,
-				1528D13C1B732A1300336DDA /* aslfish logo.png */,
-				1528D13A1B73246B00336DDA /* iPhone 6.png */,
-				15BD07D61B72D69000E16CB1 /* Camera-50.png */,
-				15BD07D41B72D47600E16CB1 /* Video Call-32.png */,
-				151976CF1B727E4800E03E48 /* New Moon Filled-100.png */,
-				151976D01B727E4800E03E48 /* Full Moon-100-2.png */,
-				151976D11B727E4800E03E48 /* Compact Camera-32.png */,
-				151976D21B727E4800E03E48 /* Settings-32-2.png */,
-				151976D31B727E4800E03E48 /* Speech Bubble-32 copy.png */,
-				151976D41B727E4800E03E48 /* Gender Neutral User-32 copy.png */,
-				151976D51B727E4800E03E48 /* Home-32 copy.png */,
-				151976D61B727E4800E03E48 /* Home-50-2.png */,
-				151976D71B727E4800E03E48 /* Speech Bubble-50 copy.png */,
-				151976D81B727E4800E03E48 /* Dislike-50 copy.png */,
-				151976D91B727E4800E03E48 /* Like-50 copy.png */,
-				151976DA1B727E4800E03E48 /* Full Moon-64.png */,
-				151976DB1B727E4800E03E48 /* Dislike Filled-50.png */,
-				151976DC1B727E4800E03E48 /* Like Filled-50.png */,
-				151976DD1B727E4800E03E48 /* Checked Checkbox-50.png */,
-				151976DE1B727E4800E03E48 /* Unchecked Checkbox-50.png */,
-				151976DF1B727E4800E03E48 /* Unchecked Checkbox-64.png */,
-				151976E01B727E4800E03E48 /* Checked Checkbox 2-64.png */,
-				151976CD1B727E2B00E03E48 /* Logo.png */,
+				15CEBADC1B88FEF30074F2CD /* Images */,
 				151976B61B727DB600E03E48 /* LaunchScreen.xib */,
 				15E361A71B859E100094A2C5 /* Parse */,
 				15E361971B855A5A0094A2C5 /* Frameworks */,
@@ -363,10 +285,47 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		15CEBADC1B88FEF30074F2CD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1514A6A71B8BA97C0098CAD5 /* Camera-32.png */,
+				15834C651B88D53C009AB9B6 /* Group.png */,
+				15834B7C1B87B135009AB9B6 /* iPhone 6.png */,
+				15834C351B87B367009AB9B6 /* Not Hearing-50.png */,
+				15834C5A1B87B372009AB9B6 /* deafguy.jpg */,
+				15E361431B7F92200094A2C5 /* Good Quality Filled-50.png */,
+				15834C151B87B366009AB9B6 /* Good Quality-50.png */,
+				15834C2D1B87B367009AB9B6 /* Hearing-50.png */,
+				15834C1B1B87B366009AB9B6 /* User Female-50.png */,
+				15834C301B87B367009AB9B6 /* User Male-50.png */,
+				15834C611B88C73B009AB9B6 /* Poor Quality-50.png */,
+				15BD07D41B72D47600E16CB1 /* Video Call-32.png */,
+				151976D21B727E4800E03E48 /* Settings-32-2.png */,
+				15834C1E1B87B366009AB9B6 /* Gender Neutral User-50.png */,
+				15834C2F1B87B367009AB9B6 /* Gender Neutral User-32.png */,
+				15834C191B87B366009AB9B6 /* Home-32 copy 2.png */,
+				15834C251B87B366009AB9B6 /* Home-50-2.png */,
+				15834C261B87B366009AB9B6 /* Home-32.png */,
+				15834C341B87B367009AB9B6 /* Home-32 copy.png */,
+				15834C181B87B366009AB9B6 /* lightgrayCheckbox.png */,
+				15834C1A1B87B366009AB9B6 /* lightgrayUnCheckbox.png */,
+				151976DE1B727E4800E03E48 /* Unchecked Checkbox-50.png */,
+				15834C571B87B372009AB9B6 /* Checked Checkbox-50.png */,
+				15834C581B87B372009AB9B6 /* Checked Checkbox 2-64.png */,
+				1514A69B1B8B9B1E0098CAD5 /* Unchecked Checkbox-64.png */,
+				15834C5F1B88C638009AB9B6 /* Speech Bubble-32.png */,
+				15834C281B87B367009AB9B6 /* Speech Bubble-50.png */,
+				1514A6A51B8BA92C0098CAD5 /* Speech Bubble Filled-50.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		15E361971B855A5A0094A2C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				15E361A21B8565A60094A2C5 /* FBSDKCoreKit.framework */,
+				1514A6A31B8BA2FD0098CAD5 /* FBSDKShareKit.framework */,
+				1514A69F1B8BA2E90098CAD5 /* FBSDKCoreKit.framework */,
+				1514A6A01B8BA2E90098CAD5 /* FBSDKLoginKit.framework */,
 				15E361A01B8560620094A2C5 /* MessageUI.framework */,
 				15E3619E1B855BA10094A2C5 /* Foundation.framework */,
 				15E3619C1B855B300094A2C5 /* AssetsLibrary.framework */,
@@ -440,7 +399,7 @@
 		1519769C1B727DB600E03E48 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Chris Wood";
 				TargetAttributes = {
 					151976A31B727DB600E03E48 = {
@@ -482,59 +441,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15E3A3761B7B1C5F00D8B613 /* User Female-50.png in Resources */,
-				15E3611F1B7F0C000094A2C5 /* deafguy.jpg in Resources */,
-				151976CE1B727E2B00E03E48 /* Logo.png in Resources */,
+				1514A6A61B8BA92C0098CAD5 /* Speech Bubble Filled-50.png in Resources */,
+				1514A6A81B8BA97C0098CAD5 /* Camera-32.png in Resources */,
+				15834C3F1B87B367009AB9B6 /* Gender Neutral User-50.png in Resources */,
+				15834C621B88C73B009AB9B6 /* Poor Quality-50.png in Resources */,
 				15BD07D51B72D47600E16CB1 /* Video Call-32.png in Resources */,
-				15E3A3571B76B30B00D8B613 /* femaleCircle.png in Resources */,
-				15E3A3751B7B1C5F00D8B613 /* User Male-50.png in Resources */,
-				1528D13F1B732A8700336DDA /* logo.png in Resources */,
-				15E3A3521B76B01C00D8B613 /* averageCircle.png in Resources */,
-				15E3A3721B7B0C2300D8B613 /* Sign Language Interpretation-50.png in Resources */,
-				151976E81B727E4800E03E48 /* Home-50-2.png in Resources */,
-				151976E61B727E4800E03E48 /* Gender Neutral User-32 copy.png in Resources */,
+				15834C391B87B367009AB9B6 /* lightgrayCheckbox.png in Resources */,
+				15834C5E1B87B372009AB9B6 /* deafguy.jpg in Resources */,
 				15E361451B7F92200094A2C5 /* Good Quality Filled-50.png in Resources */,
-				15E361471B7F92620094A2C5 /* Poor Quality-50.png in Resources */,
+				15834C471B87B367009AB9B6 /* Home-32.png in Resources */,
 				151976B81B727DB600E03E48 /* LaunchScreen.xib in Resources */,
-				15E3614A1B7F92CE0094A2C5 /* Good Quality-50.png in Resources */,
-				15E3A3511B76B01C00D8B613 /* nativeCircle.png in Resources */,
-				15E3614B1B7F92CE0094A2C5 /* Poor Quality Filled-50.png in Resources */,
-				1528D13D1B732A1300336DDA /* aslfish logo.png in Resources */,
-				151976E31B727E4800E03E48 /* Compact Camera-32.png in Resources */,
+				15834C4E1B87B367009AB9B6 /* Hearing-50.png in Resources */,
+				15834C501B87B367009AB9B6 /* Gender Neutral User-32.png in Resources */,
+				15834C3A1B87B367009AB9B6 /* Home-32 copy 2.png in Resources */,
 				15E3611D1B7C27EC0094A2C5 /* Main.storyboard in Resources */,
-				15E3A3791B7B217200D8B613 /* Thumbs Down-50.png in Resources */,
-				15E3A3691B79D60200D8B613 /* New Moon Filled-100 + Deaf.png in Resources */,
-				151976EC1B727E4800E03E48 /* Full Moon-64.png in Resources */,
-				15E3A36F1B7B0B4D00D8B613 /* Not Hearing-50.png in Resources */,
-				15E3A37A1B7B217200D8B613 /* Thumb Up-50.png in Resources */,
-				15E3A3501B76B01C00D8B613 /* advancedCircle.png in Resources */,
-				15E361441B7F92200094A2C5 /* Speech Bubble Filled-50.png in Resources */,
+				15834C511B87B367009AB9B6 /* User Male-50.png in Resources */,
+				1514A69C1B8B9B1E0098CAD5 /* Unchecked Checkbox-64.png in Resources */,
+				15834C361B87B367009AB9B6 /* Good Quality-50.png in Resources */,
 				151976F01B727E4800E03E48 /* Unchecked Checkbox-50.png in Resources */,
-				151976ED1B727E4800E03E48 /* Dislike Filled-50.png in Resources */,
-				151976E21B727E4800E03E48 /* Full Moon-100-2.png in Resources */,
-				151976E91B727E4800E03E48 /* Speech Bubble-50 copy.png in Resources */,
-				151976EE1B727E4800E03E48 /* Like Filled-50.png in Resources */,
-				15E3A3701B7B0B4D00D8B613 /* Hearing-50.png in Resources */,
-				151976EA1B727E4800E03E48 /* Dislike-50 copy.png in Resources */,
-				15E3A3471B76838D00D8B613 /* hearingCircle.png in Resources */,
-				15E3A34F1B76B01C00D8B613 /* beginningCircle.png in Resources */,
-				151976E71B727E4800E03E48 /* Home-32 copy.png in Resources */,
-				151976E51B727E4800E03E48 /* Speech Bubble-32 copy.png in Resources */,
-				15E3A3581B76B30B00D8B613 /* anyCircle.png in Resources */,
+				15834C3C1B87B367009AB9B6 /* User Female-50.png in Resources */,
+				15834B7D1B87B135009AB9B6 /* iPhone 6.png in Resources */,
+				15834C461B87B367009AB9B6 /* Home-50-2.png in Resources */,
+				15834C5C1B87B372009AB9B6 /* Checked Checkbox 2-64.png in Resources */,
+				15834C601B88C638009AB9B6 /* Speech Bubble-32.png in Resources */,
+				15834C491B87B367009AB9B6 /* Speech Bubble-50.png in Resources */,
+				15834C5B1B87B372009AB9B6 /* Checked Checkbox-50.png in Resources */,
 				151976B51B727DB600E03E48 /* Images.xcassets in Resources */,
-				151976EB1B727E4800E03E48 /* Like-50 copy.png in Resources */,
-				151976F11B727E4800E03E48 /* Unchecked Checkbox-64.png in Resources */,
-				15BD07D71B72D69000E16CB1 /* Camera-50.png in Resources */,
-				15E3A3451B7682DF00D8B613 /* HofHcircle.png in Resources */,
-				15E3A3421B76823300D8B613 /* New Moon Filled-100+CODA.png in Resources */,
+				15834C3B1B87B367009AB9B6 /* lightgrayUnCheckbox.png in Resources */,
+				15834C561B87B367009AB9B6 /* Not Hearing-50.png in Resources */,
+				15834C661B88D53C009AB9B6 /* Group.png in Resources */,
 				151976E41B727E4800E03E48 /* Settings-32-2.png in Resources */,
-				15E3A3561B76B30B00D8B613 /* maleCircle.png in Resources */,
-				1528D13B1B73246B00336DDA /* iPhone 6.png in Resources */,
-				15E361211B7F107D0094A2C5 /* Camera-32.png in Resources */,
-				151976F21B727E4800E03E48 /* Checked Checkbox 2-64.png in Resources */,
-				151976E11B727E4800E03E48 /* New Moon Filled-100.png in Resources */,
-				15E3A3431B76823300D8B613 /* New Moon Filled-100+HofH.png in Resources */,
-				151976EF1B727E4800E03E48 /* Checked Checkbox-50.png in Resources */,
+				15834C551B87B367009AB9B6 /* Home-32 copy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,15 +490,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				15E361A61B8597DC0094A2C5 /* Intro.m in Sources */,
+				15E361CB1B86B5F90094A2C5 /* MessageTableViewCell.m in Sources */,
 				151976B01B727DB600E03E48 /* ViewController.m in Sources */,
 				15E361921B8426BF0094A2C5 /* UserViewController.m in Sources */,
 				151976AD1B727DB600E03E48 /* AppDelegate.m in Sources */,
 				15E360DA1B7BC54A0094A2C5 /* ContinueViewController.m in Sources */,
 				15E3615A1B7F98320094A2C5 /* SettingsViewController.m in Sources */,
 				151976AA1B727DB600E03E48 /* main.m in Sources */,
+				15E361C81B86ADB60094A2C5 /* MessagesTableViewController.m in Sources */,
 				15E361571B7F95560094A2C5 /* EditProfileViewController.m in Sources */,
 				15BD07DA1B72DC1700E16CB1 /* IntroViewController.m in Sources */,
-				15E361541B7F95440094A2C5 /* MessagesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,6 +562,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -698,10 +637,12 @@
 					/Users/caseywood/Documents/FacebookSDK,
 					"/Users/caseywood/Downloads/parse-library-1-2",
 					"/Users/caseywood/Downloads/parse-library-1",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ASLfishies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chriswood.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ASLfish;
 				PROVISIONING_PROFILE = "";
 			};
@@ -720,12 +661,14 @@
 					/Users/caseywood/Documents/FacebookSDK,
 					"/Users/caseywood/Downloads/parse-library-1-2",
 					"/Users/caseywood/Downloads/parse-library-1",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ASLfishies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				"OTHER_LDFLAGS[arch=*]" = "-force_load";
 				OTHER_LIBTOOLFLAGS = "-force_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chriswood.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ASLfish;
 				PROVISIONING_PROFILE = "";
 			};
@@ -745,6 +688,7 @@
 				);
 				INFOPLIST_FILE = ASLfishiesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ASLfishTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASLfishies.app/ASLfishies";
 			};
@@ -760,6 +704,7 @@
 				);
 				INFOPLIST_FILE = ASLfishiesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ASLfishTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASLfishies.app/ASLfishies";
 			};

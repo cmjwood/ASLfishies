@@ -11,7 +11,7 @@
 	<key>CFBundleIcons~ipad</key>
 	<dict/>
 	<key>CFBundleIdentifier</key>
-	<string>com.chriswood.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -27,43 +27,42 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb{972798069406977}</string>
+                <string>fb{972798069406977}</string>
 			</array>
 		</dict>
-		<dict/>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>FacebookAppID</key>
-	<string>{972798069406977}</string>
+    <string>{972798069406977}</string>
 	<key>FacebookDisplayName</key>
-	<string>{ASLfish}</string>
+    <string>{ASLfish}</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSExceptionDomains</key>
 		<dict>
-			<key>akamaihd.net</key>
-			<dict>
-				<key>NSExceptionRequiresForwardSecrecy</key>
-				<false/>
-				<key>NSIncludesSubdomains</key>
-				<true/>
-			</dict>
 			<key>facebook.com</key>
 			<dict>
-				<key>NSExceptionRequiresForwardSecrecy</key>
-				<false/>
 				<key>NSIncludesSubdomains</key>
 				<true/>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<false/>
 			</dict>
 			<key>fbcdn.net</key>
 			<dict>
-				<key>NSExceptionRequiresForwardSecrecy</key>
-				<false/>
 				<key>NSIncludesSubdomains</key>
 				<true/>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<false/>
+			</dict>
+			<key>akamaihd.net</key>
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<false/>
 			</dict>
 		</dict>
 	</dict>
