@@ -42,6 +42,8 @@
 		15834C601B88C638009AB9B6 /* Speech Bubble-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C5F1B88C638009AB9B6 /* Speech Bubble-32.png */; };
 		15834C621B88C73B009AB9B6 /* Poor Quality-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C611B88C73B009AB9B6 /* Poor Quality-50.png */; };
 		15834C661B88D53C009AB9B6 /* Group.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C651B88D53C009AB9B6 /* Group.png */; };
+		15A8F9A71B8FE69A00E2F2F7 /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8F9A61B8FE69A00E2F2F7 /* iTunesArtwork@3x.png */; };
+		15A8F9A91B8FE74900E2F2F7 /* ASLfishlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8F9A81B8FE74900E2F2F7 /* ASLfishlogo.png */; };
 		15BD07D51B72D47600E16CB1 /* Video Call-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 15BD07D41B72D47600E16CB1 /* Video Call-32.png */; };
 		15BD07DA1B72DC1700E16CB1 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BD07D91B72DC1700E16CB1 /* IntroViewController.m */; };
 		15E360DA1B7BC54A0094A2C5 /* ContinueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E360D91B7BC54A0094A2C5 /* ContinueViewController.m */; };
@@ -127,6 +129,8 @@
 		15834C5F1B88C638009AB9B6 /* Speech Bubble-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Speech Bubble-32.png"; path = "../../../../Desktop/Speech Bubble-32.png"; sourceTree = "<group>"; };
 		15834C611B88C73B009AB9B6 /* Poor Quality-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Poor Quality-50.png"; path = "../../../../Desktop/Poor Quality-50.png"; sourceTree = "<group>"; };
 		15834C651B88D53C009AB9B6 /* Group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Group.png; path = ../../../../Desktop/Group.png; sourceTree = "<group>"; };
+		15A8F9A61B8FE69A00E2F2F7 /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@3x.png"; path = "../../../../Desktop/iTunesArtwork@3x.png"; sourceTree = "<group>"; };
+		15A8F9A81B8FE74900E2F2F7 /* ASLfishlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ASLfishlogo.png; path = ../../../../Desktop/ASLfishlogo.png; sourceTree = "<group>"; };
 		15BD07D41B72D47600E16CB1 /* Video Call-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Video Call-32.png"; path = "../../../../Desktop/Video Call-32.png"; sourceTree = "<group>"; };
 		15BD07D81B72DC1700E16CB1 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
 		15BD07D91B72DC1700E16CB1 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
@@ -288,9 +292,11 @@
 		15CEBADC1B88FEF30074F2CD /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				15A8F9A61B8FE69A00E2F2F7 /* iTunesArtwork@3x.png */,
 				1514A6A71B8BA97C0098CAD5 /* Camera-32.png */,
 				15834C651B88D53C009AB9B6 /* Group.png */,
 				15834B7C1B87B135009AB9B6 /* iPhone 6.png */,
+				15A8F9A81B8FE74900E2F2F7 /* ASLfishlogo.png */,
 				15834C351B87B367009AB9B6 /* Not Hearing-50.png */,
 				15834C5A1B87B372009AB9B6 /* deafguy.jpg */,
 				15E361431B7F92200094A2C5 /* Good Quality Filled-50.png */,
@@ -461,6 +467,7 @@
 				151976F01B727E4800E03E48 /* Unchecked Checkbox-50.png in Resources */,
 				15834C3C1B87B367009AB9B6 /* User Female-50.png in Resources */,
 				15834B7D1B87B135009AB9B6 /* iPhone 6.png in Resources */,
+				15A8F9A71B8FE69A00E2F2F7 /* iTunesArtwork@3x.png in Resources */,
 				15834C461B87B367009AB9B6 /* Home-50-2.png in Resources */,
 				15834C5C1B87B372009AB9B6 /* Checked Checkbox 2-64.png in Resources */,
 				15834C601B88C638009AB9B6 /* Speech Bubble-32.png in Resources */,
@@ -469,6 +476,7 @@
 				151976B51B727DB600E03E48 /* Images.xcassets in Resources */,
 				15834C3B1B87B367009AB9B6 /* lightgrayUnCheckbox.png in Resources */,
 				15834C561B87B367009AB9B6 /* Not Hearing-50.png in Resources */,
+				15A8F9A91B8FE74900E2F2F7 /* ASLfishlogo.png in Resources */,
 				15834C661B88D53C009AB9B6 /* Group.png in Resources */,
 				151976E41B727E4800E03E48 /* Settings-32-2.png in Resources */,
 				15834C551B87B367009AB9B6 /* Home-32 copy.png in Resources */,

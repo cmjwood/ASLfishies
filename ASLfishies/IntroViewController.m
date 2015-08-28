@@ -29,6 +29,8 @@
     [super viewDidLoad];
     self.temp = @"";
     
+    self.view.backgroundColor = [UIColor greenColor];
+    
     PFObject *intro = [PFObject objectWithClassName:@"Information"];
     intro [@"fullName"] = @"Christopher Tucker Wood";
     intro [@"age"] = @(27);

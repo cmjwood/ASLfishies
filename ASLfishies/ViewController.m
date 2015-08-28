@@ -11,7 +11,7 @@
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import <Parse/Parse.h>
-
+#import "IntroViewController.h"
 
 @interface ViewController () <PFSignUpViewControllerDelegate, PFLogInViewControllerDelegate>
 @property (weak, nonatomic) IBOutlet FBSDKLoginButton *loginButton;
@@ -39,6 +39,7 @@
     
     // Add the button to the view
     [self.view addSubview:myLoginButton];
+
 }
 
 // Once the button is clicked, show the login dialog
@@ -55,6 +56,8 @@
          } else {
              NSLog(@"Logged in");
          }
+         IntroViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"intro"];
+         [self.navigationController pushViewController:viewController animated:YES];
      }];
 }
 

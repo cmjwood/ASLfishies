@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5Hk-Ml-L0W">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
@@ -64,14 +64,16 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group,png" translatesAutoresizingMaskIntoConstraints="NO" id="iG9-ng-Dqk">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ASLfishlogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="iG9-ng-Dqk">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                             </imageView>
                         </subviews>
                         <constraints>
                             <constraint firstItem="Lru-nE-iNY" firstAttribute="top" secondItem="iG9-ng-Dqk" secondAttribute="bottom" constant="8" symbolic="YES" id="9gx-Af-wMe"/>
                             <constraint firstItem="Lru-nE-iNY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="298" id="Dho-XS-alt"/>
-                            <constraint firstItem="iG9-ng-Dqk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="59" id="Im9-we-iTX"/>
+                            <constraint firstItem="iG9-ng-Dqk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="59" id="Im9-we-iTX">
+                                <variation key="widthClass=compact" constant="130"/>
+                            </constraint>
                             <constraint firstItem="Spi-B5-xlL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="J6C-6j-7YE"/>
                             <constraint firstItem="Spi-B5-xlL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-24" id="MyT-3t-iZM"/>
                             <constraint firstAttribute="bottom" secondItem="Lru-nE-iNY" secondAttribute="bottom" constant="223" id="Q28-MW-fGl"/>
@@ -82,7 +84,9 @@
                             <constraint firstAttribute="bottomMargin" secondItem="Spi-B5-xlL" secondAttribute="bottom" constant="-5" id="ix5-ez-Uw7"/>
                             <constraint firstItem="Lru-nE-iNY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ljs-y6-JLs"/>
                             <constraint firstItem="iG9-ng-Dqk" firstAttribute="centerX" secondItem="Lru-nE-iNY" secondAttribute="centerX" id="mCi-Dl-dBa"/>
-                            <constraint firstItem="iG9-ng-Dqk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="65" id="r8e-yk-3XQ"/>
+                            <constraint firstItem="iG9-ng-Dqk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="65" id="r8e-yk-3XQ">
+                                <variation key="widthClass=compact" constant="167"/>
+                            </constraint>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -123,16 +127,16 @@
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="SF2-6e-dRS"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <outlet property="ASLfish" destination="Lru-nE-iNY" id="cUc-aD-DRq"/>
                         <outlet property="logoImage" destination="iG9-ng-Dqk" id="8Sr-Fh-gDt"/>
-                        <segue destination="E5Q-ED-7Fw" kind="show" identifier="PushToResultSegue" id="9fi-VV-NnK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3" y="308"/>
+            <point key="canvasLocation" x="921" y="308"/>
         </scene>
         <!--Messages Table View Controller-->
         <scene sceneID="5rm-VI-stL">
@@ -166,7 +170,7 @@
         <!--Intro-->
         <scene sceneID="zUd-aj-0uE">
             <objects>
-                <viewController id="yka-2N-vDC" customClass="IntroViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="intro" id="yka-2N-vDC" customClass="IntroViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9IM-Dz-c4Y"/>
                         <viewControllerLayoutGuide type="bottom" id="kuM-ZE-jbh"/>
@@ -178,6 +182,9 @@
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="deafguy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="swz-ci-kcn">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <gestureRecognizers/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="64" width="400" height="536"/>
+                                </variation>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="3KG-Dd-hx8" appends="YES" id="abe-l2-gbN"/>
                                 </connections>
@@ -241,7 +248,8 @@
                                         <exclude reference="hj2-f7-ylV"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=compact">
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="12" y="399" width="178" height="47"/>
                                     <mask key="constraints">
                                         <include reference="hj2-f7-ylV"/>
                                     </mask>
@@ -266,7 +274,8 @@
                                         <exclude reference="wJW-zP-EQf"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=compact">
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="355" y="64" width="37" height="40"/>
                                     <mask key="constraints">
                                         <include reference="Pdo-lT-syj"/>
                                         <include reference="wJW-zP-EQf"/>
@@ -379,7 +388,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1395" y="308"/>
+            <point key="canvasLocation" x="3231" y="308"/>
         </scene>
         <!--Continue-->
         <scene sceneID="o9y-7S-KLt">
@@ -868,7 +877,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eiq-hu-mTG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2098.5" y="314"/>
+            <point key="canvasLocation" x="3934.5" y="314"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="mi8-NW-Qvb">
@@ -890,7 +899,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1qR-HZ-Os9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2838" y="308"/>
+            <point key="canvasLocation" x="4674" y="308"/>
         </scene>
         <!--ASLfish-->
         <scene sceneID="ZPv-VL-k0C">
@@ -1063,7 +1072,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gZa-Da-qvi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4567.5" y="293"/>
+            <point key="canvasLocation" x="6403.5" y="293"/>
         </scene>
         <!--Message-->
         <scene sceneID="sdj-p7-D87">
@@ -1710,25 +1719,6 @@
             </objects>
             <point key="canvasLocation" x="5017.5" y="1698"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="Bmg-6f-vAM">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="E5Q-ED-7Fw" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KTI-2E-VjN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="yka-2N-vDC" kind="relationship" relationship="rootViewController" id="GME-5h-hua"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zQ7-Zo-ZvK" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="721.5" y="308"/>
-        </scene>
         <!-- Home-->
         <scene sceneID="pAB-QH-LPr">
             <objects>
@@ -1746,14 +1736,32 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bs9-pL-m3i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3604.5" y="308"/>
+            <point key="canvasLocation" x="5440.5" y="308"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2ke-ku-pEZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5Hk-Ml-L0W" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="grK-Jb-pF3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="zEb-Di-Y3k"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WVE-jY-0dz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3" y="308"/>
         </scene>
     </scenes>
     <resources>
+        <image name="ASLfishlogo.png" width="690" height="705"/>
         <image name="Camera-32.png" width="32" height="32"/>
         <image name="Gender Neutral User-32.png" width="32" height="32"/>
         <image name="Good Quality-50.png" width="50" height="50"/>
-        <image name="Group,png" width="750" height="1334"/>
         <image name="Hearing-50.png" width="50" height="50"/>
         <image name="Home-32 copy.png" width="32" height="32"/>
         <image name="Not Hearing-50.png" width="50" height="50"/>

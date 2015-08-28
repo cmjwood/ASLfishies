@@ -27,16 +27,16 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-                <string>fb{972798069406977}</string>
+				<string>fb972798069406977</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>FacebookAppID</key>
-    <string>{972798069406977}</string>
+	<string>972798069406977</string>
 	<key>FacebookDisplayName</key>
-    <string>{ASLfish}</string>
+	<string>ASLfish</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -87,5 +87,18 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>fbapi</string>
+        <string>fbapi20130214</string>
+        <string>fbapi20130410</string>
+        <string>fbapi20140410</string>
+        <string>fbapi20140116</string>
+        <string>fbapi20150313</string>
+        <string>fbapi20150629</string>
+        <string>fbauth</string>
+        <string>fbauth2</string>
+        <string>fb-messenger-api20140430</string>
+    </array>
 </dict>
 </plist>
