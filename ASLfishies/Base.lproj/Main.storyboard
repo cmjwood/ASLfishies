@@ -136,7 +136,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="921" y="308"/>
+            <point key="canvasLocation" x="2088" y="326"/>
         </scene>
         <!--Messages Table View Controller-->
         <scene sceneID="5rm-VI-stL">
@@ -179,7 +179,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="deafguy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="swz-ci-kcn">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="swz-ci-kcn">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <gestureRecognizers/>
                                 <variation key="widthClass=compact" misplaced="YES">
@@ -377,8 +377,8 @@
                         <outlet property="aboutYouBox" destination="Nt9-QZ-80d" id="p2b-Ur-kcN"/>
                         <outlet property="changePhotoButton" destination="f80-Gq-SLm" id="jzZ-Pi-GEM"/>
                         <outlet property="fullInformation" destination="3zI-Zd-PLp" id="BPU-Bb-ICD"/>
-                        <outlet property="imageView" destination="swz-ci-kcn" id="RNB-3C-IhN"/>
                         <outlet property="maxCharacters" destination="BX2-hb-L7I" id="OHv-uY-L2e"/>
+                        <outlet property="profileImageView" destination="swz-ci-kcn" id="GtI-Bf-ekp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rl4-ci-moR" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1754,7 +1754,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WVE-jY-0dz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3" y="308"/>
+            <point key="canvasLocation" x="1170" y="326"/>
         </scene>
     </scenes>
     <resources>

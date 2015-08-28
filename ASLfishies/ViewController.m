@@ -38,28 +38,9 @@
      action:@selector(loginButtonClicked) forControlEvents:UIControlEventTouchUpInside];
     loginButton.readPermissions =@[@"public_profile", @"email", @"user_friends"];
     
-    [[[FBSDKGraphRequest alloc] initWithGraphPath:@"me" parameters:nil]
-     startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection, id result, NSError *error) {
-         
-         [[[FBSDKGraphRequest alloc] initWithGraphPath:@"me"
-                                            parameters:@{@"fields": @"picture, email"}]
-          startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection, id result, NSError *error) {
-              if (!error) {
-                  NSString *pictureURL = [NSString stringWithFormat:@"%@",[result objectForKey:@"picture"]];
-                  
-                  NSLog(@"email is %@", [result objectForKey:@"email"]);
-                  
-//                  NSData  *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:pictureURL]];
-//                  self.imageView.image = [UIImage imageWithData:data];
-                  
-              }
-              else{
-                  NSLog(@"%@", [error localizedDescription]);
+
     // Add the button to the view
     [self.view addSubview:myLoginButton];
-              }
-          }];
-     }];
      }
      
      
@@ -67,21 +48,48 @@
 // Once the button is clicked, show the login dialog
 -(void)loginButtonClicked
 {
-    FBSDKLoginManager *login = [[FBSDKLoginManager alloc] init];
-    [login
-     logInWithReadPermissions: @[@"public_profile"]
-     handler:^(FBSDKLoginManagerLoginResult *result, NSError *error) {
-         if (error) {
-             NSLog(@"Process error");
-         } else if (result.isCancelled) {
-             NSLog(@"Cancelled");
-         } else {
-             NSLog(@"Logged in");
-         }
-         IntroViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"intro"];
-//         viewController.imageView.image = 
-         [self.navigationController pushViewController:viewController animated:YES];
+    
+    [[[FBSDKGraphRequest alloc] initWithGraphPath:@"me" parameters:nil]
+     startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection, id result, NSError *error) {
+         
+         [[[FBSDKGraphRequest alloc] initWithGraphPath:@"me"
+                                            parameters:nil]
+          startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection, id result, NSError *error) {
+              if (!error) {
+                  NSString *pictureURL = [NSString stringWithFormat:@"https://graph.facebook.com/%@/picture?type=normal",result[@"id"]];
+                  NSData *imageData = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:pictureURL]];
+                  
+                  NSLog(@"email is %@", [result objectForKey:@"email"]);
+    
+              
+                  FBSDKLoginManager *login = [[FBSDKLoginManager alloc] init];
+                  [login
+                   logInWithReadPermissions: @[@"public_profile"]
+                   handler:^(FBSDKLoginManagerLoginResult *result, NSError *error) {
+                       if (error) {
+                           NSLog(@"Process error");
+                       } else if (result.isCancelled) {
+                           NSLog(@"Cancelled");
+                       } else {
+                           NSLog(@"Logged in");
+                       }
+                       IntroViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"intro"];
+//                       NSData  *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:pictureURL]];
+                       viewController.profileImageData = imageData;
+                       //         viewController.imageView.image =
+                       [self.navigationController pushViewController:viewController animated:YES];
+                   }];
+                  
+
+                  
+              }
+              else{
+                  NSLog(@"%@", [error localizedDescription]);
+                  
+              }
+          }];
      }];
+
 }
 
 

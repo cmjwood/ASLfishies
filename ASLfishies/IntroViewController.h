@@ -11,13 +11,15 @@
 
 @interface IntroViewController : UIViewController <UITextFieldDelegate, UITextViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
+@property (nonatomic, strong) NSData *profileImageData;
 
 //-(UIImagePickerController *)cameraVC;
 @property (weak, nonatomic) IBOutlet UIButton *changePhotoButton;
 @property (weak, nonatomic) IBOutlet UILabel *fullInformation;
 @property (weak, nonatomic) IBOutlet UITextView *aboutYouBox;
 @property (weak, nonatomic) IBOutlet UILabel *maxCharacters;
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UIImageView *profileImageView;
+
 
 - (IBAction)backgroundTap:(id)sender;
 - (IBAction)changeButtonTapped:(id)sender;

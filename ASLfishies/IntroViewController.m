@@ -32,6 +32,10 @@
     
     self.view.backgroundColor = [UIColor greenColor];
     
+    if (self.profileImageData) {
+        self.profileImageView.image = [UIImage imageWithData:self.profileImageData];
+    }
+    
     PFObject *intro = [PFObject objectWithClassName:@"Information"];
     intro [@"fullName"] = @"Christopher Tucker Wood";
     intro [@"age"] = @(27);
@@ -151,7 +155,7 @@ if (self.temp.length <= 139) {
     [picker dismissViewControllerAnimated:YES completion:nil];
     
     // Set Avatar Image
-    self.imageView.image = image;
+    self.profileImageView.image = image;
     
     // Any other actions you want to take with the image would go here
     
