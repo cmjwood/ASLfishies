@@ -16,7 +16,7 @@
 @property (nonatomic, strong) UIImagePickerController *camera;
 @property (strong) NSArray *intro;
 @property (nonatomic, strong) NSString *temp;
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
 @end
 
 @implementation IntroViewController
@@ -27,6 +27,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     self.temp = @"";
     
     self.view.backgroundColor = [UIColor greenColor];
@@ -60,6 +61,8 @@
     
 
 }
+
+
 
 
 -(void)textViewDidChangeSelection:(UITextView *)textView {
@@ -153,6 +156,7 @@ if (self.temp.length <= 139) {
     // Any other actions you want to take with the image would go here
     
 }
+
 
 
 

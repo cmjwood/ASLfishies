@@ -23,6 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     FBSDKLoginButton *loginButton = [[FBSDKLoginButton alloc] init];
+    
     loginButton.center = self.view.center;
     
     UIButton *myLoginButton=[UIButton buttonWithType:UIButtonTypeCustom];
@@ -37,11 +38,32 @@
      action:@selector(loginButtonClicked) forControlEvents:UIControlEventTouchUpInside];
     loginButton.readPermissions =@[@"public_profile", @"email", @"user_friends"];
     
+    [[[FBSDKGraphRequest alloc] initWithGraphPath:@"me" parameters:nil]
+     startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection, id result, NSError *error) {
+         
+         [[[FBSDKGraphRequest alloc] initWithGraphPath:@"me"
+                                            parameters:@{@"fields": @"picture, email"}]
+          startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection, id result, NSError *error) {
+              if (!error) {
+                  NSString *pictureURL = [NSString stringWithFormat:@"%@",[result objectForKey:@"picture"]];
+                  
+                  NSLog(@"email is %@", [result objectForKey:@"email"]);
+                  
+//                  NSData  *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:pictureURL]];
+//                  self.imageView.image = [UIImage imageWithData:data];
+                  
+              }
+              else{
+                  NSLog(@"%@", [error localizedDescription]);
     // Add the button to the view
     [self.view addSubview:myLoginButton];
-
-}
-
+              }
+          }];
+     }];
+     }
+     
+     
+     
 // Once the button is clicked, show the login dialog
 -(void)loginButtonClicked
 {
@@ -57,6 +79,7 @@
              NSLog(@"Logged in");
          }
          IntroViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"intro"];
+//         viewController.imageView.image = 
          [self.navigationController pushViewController:viewController animated:YES];
      }];
 }

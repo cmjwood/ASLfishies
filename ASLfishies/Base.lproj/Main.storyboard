@@ -377,7 +377,7 @@
                         <outlet property="aboutYouBox" destination="Nt9-QZ-80d" id="p2b-Ur-kcN"/>
                         <outlet property="changePhotoButton" destination="f80-Gq-SLm" id="jzZ-Pi-GEM"/>
                         <outlet property="fullInformation" destination="3zI-Zd-PLp" id="BPU-Bb-ICD"/>
-                        <outlet property="imageView" destination="swz-ci-kcn" id="WPu-wl-BIn"/>
+                        <outlet property="imageView" destination="swz-ci-kcn" id="RNB-3C-IhN"/>
                         <outlet property="maxCharacters" destination="BX2-hb-L7I" id="OHv-uY-L2e"/>
                     </connections>
                 </viewController>

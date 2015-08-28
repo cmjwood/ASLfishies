@@ -17,6 +17,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *fullInformation;
 @property (weak, nonatomic) IBOutlet UITextView *aboutYouBox;
 @property (weak, nonatomic) IBOutlet UILabel *maxCharacters;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 - (IBAction)backgroundTap:(id)sender;
 - (IBAction)changeButtonTapped:(id)sender;
