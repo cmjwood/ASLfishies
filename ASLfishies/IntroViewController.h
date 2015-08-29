@@ -12,6 +12,9 @@
 @interface IntroViewController : UIViewController <UITextFieldDelegate, UITextViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
 @property (nonatomic, strong) NSData *profileImageData;
+@property (nonatomic, strong) NSString *fullNameData;
+@property (nonatomic, strong) NSString *birthdayDateData;
+@property (nonatomic, strong) NSString *addressData;
 
 //-(UIImagePickerController *)cameraVC;
 @property (weak, nonatomic) IBOutlet UIButton *changePhotoButton;

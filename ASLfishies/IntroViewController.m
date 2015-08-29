@@ -30,11 +30,19 @@
     
     self.temp = @"";
     
-    self.view.backgroundColor = [UIColor greenColor];
-    
     if (self.profileImageData) {
         self.profileImageView.image = [UIImage imageWithData:self.profileImageData];
     }
+    if (self.fullNameData) {
+        self.fullInformation.text = [NSString stringWithFormat:@"%@,", self.fullNameData];
+    }
+//    if (self.birthdayDateData) {
+//        self.fullInformation.text = [NSString stringWithFormat: @"%@", self.birthdayDateData];
+//    }
+//
+//    if (self.addressData) {
+//        self.fullInformation.text = [NSString stringWithFormat:@"%@", self.addressData];
+//    }
     
     PFObject *intro = [PFObject objectWithClassName:@"Information"];
     intro [@"fullName"] = @"Christopher Tucker Wood";

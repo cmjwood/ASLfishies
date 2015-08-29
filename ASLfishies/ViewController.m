@@ -51,12 +51,12 @@
     
     [[[FBSDKGraphRequest alloc] initWithGraphPath:@"me" parameters:nil]
      startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection, id result, NSError *error) {
-         
-         [[[FBSDKGraphRequest alloc] initWithGraphPath:@"me"
-                                            parameters:nil]
-          startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection, id result, NSError *error) {
               if (!error) {
                   NSString *pictureURL = [NSString stringWithFormat:@"https://graph.facebook.com/%@/picture?type=normal",result[@"id"]];
+                  NSLog(@"%@", result);
+                  NSString *name = result[@"name"];
+                  NSString *birthday = result[@"birthday_date"];
+                  NSString *currentAddress = result[@"current_address"];
                   NSData *imageData = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:pictureURL]];
                   
                   NSLog(@"email is %@", [result objectForKey:@"email"]);
@@ -76,7 +76,9 @@
                        IntroViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"intro"];
 //                       NSData  *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:pictureURL]];
                        viewController.profileImageData = imageData;
-                       //         viewController.imageView.image =
+                       viewController.fullNameData = name;
+                       viewController.birthdayDateData = birthday;
+                       viewController.addressData = currentAddress;
                        [self.navigationController pushViewController:viewController animated:YES];
                    }];
                   
@@ -88,7 +90,6 @@
                   
               }
           }];
-     }];
 
 }
 
