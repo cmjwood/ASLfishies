@@ -8,12 +8,16 @@
 
 #import "ContinueViewController.h"
 
+
 @interface ContinueViewController () <UITextFieldDelegate>
+
+
 
 @end
 
-@implementation ContinueViewController 
-@synthesize checkbox, levelOfDeafSlider, loslSlider, lookingForSlider;
+@implementation ContinueViewController
+
+@synthesize checkbox, deaf, hofh, hearing, beginning, average, fluent, male, female, any;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -50,10 +54,113 @@
 
 
 
-- (IBAction)lodSlider:(id)sender {
+- (IBAction)deafTapped:(id)sender {
+    if (!deafTapped) {
+        [deaf setImage: [UIImage imageNamed: @"Not Hearing-50.png"] forState: UIControlStateNormal];
+        deafTapped = YES;
+    }
+    
+    else if (deafTapped) {
+        [deaf setImage: [UIImage imageNamed: @"deaf circle.png"] forState: UIControlStateNormal];
+        deafTapped = NO;
+    }
 }
-- (IBAction)levelOfSignLangSlider:(id)sender {
+
+
+- (IBAction)hofhTapped:(id)sender {
+    if (!hofhTapped) {
+        [hofh setImage: [UIImage imageNamed: @" Hearing Aid-50.png"] forState: UIControlStateNormal];
+        hofhTapped = YES;
+    }
+    
+    else if (hofhTapped) {
+        [hofh setImage: [UIImage imageNamed: @"hofh circle.png"] forState: UIControlStateNormal];
+        hofhTapped = NO;
+    }
 }
-- (IBAction)lookingForSlider:(id)sender {
+
+- (IBAction)hearingTapped:(id)sender {
+    if (!hearingTapped) {
+        [hearing setImage: [UIImage imageNamed: @"Hearing-50-2.png"] forState: UIControlStateNormal];
+        hearingTapped = YES;
+    }
+    
+    else if (hearingTapped) {
+        [deaf setImage: [UIImage imageNamed: @"hearing circle.png"] forState: UIControlStateNormal];
+        hearingTapped = NO;
+    }
+}
+- (IBAction)beginningTapped:(id)sender {
+    if (!beginningTapped) {
+        [beginning setTitle:@"Beginning" forState:UIControlStateNormal];
+        beginningTapped = YES;
+        }
+    
+    else if (beginningTapped) {
+        [beginning setImage: [UIImage imageNamed: @"Beginning Circle.png"] forState: UIControlStateNormal];
+        beginningTapped = NO;
+    }
+}
+
+- (IBAction)averageTapped:(id)sender {
+    if (!averageTapped) {
+        [average setTitle:@"Average" forState:UIControlStateNormal];
+        averageTapped = YES;
+    }
+    
+    else if (averageTapped) {
+        [average setImage: [UIImage imageNamed: @"Average Circle.png"] forState: UIControlStateNormal];
+        averageTapped = NO;
+    }
+    
+}
+
+- (IBAction)fluentTapped:(id)sender {
+    if (!fluentTapped) {
+        [fluent setTitle:@"Fluent" forState:UIControlStateNormal];
+        fluentTapped = YES;
+    }
+    
+    else if (fluentTapped) {
+        [fluent setImage: [UIImage imageNamed: @"Fluent Circle.png"] forState: UIControlStateNormal];
+        fluentTapped = NO;
+    }
+}
+- (IBAction)male:(id)sender {
+    if (!maleTapped) {
+        [male setImage: [UIImage imageNamed: @"User Male-50 copy.png"] forState: UIControlStateNormal];
+        maleTapped = YES;
+    }
+    
+    else if (maleTapped) {
+        [male setImage: [UIImage imageNamed: @"Male Circle.png"] forState: UIControlStateNormal];
+        maleTapped = NO;
+    }
+}
+
+- (IBAction)any:(id)sender {
+    if (!anyTapped) {
+        [any setTitle:@"Any" forState:UIControlStateNormal];
+        anyTapped = YES;
+    }
+    
+    else if (anyTapped) {
+        [female setImage: [UIImage imageNamed: @"Any.png"] forState: UIControlStateNormal];
+        femaleTapped = NO;
+    }
+    
+}
+
+- (IBAction)femaleTapped:(id)sender {
+    if (!femaleTapped) {
+        [female setImage: [UIImage imageNamed: @"User Female-50 copy.png"] forState: UIControlStateNormal];
+        femaleTapped = YES;
+    }
+    
+    else if (femaleTapped) {
+        [female setImage: [UIImage imageNamed: @"Female Circle.png"] forState: UIControlStateNormal];
+        femaleTapped = NO;
+    }
+
 }
 @end

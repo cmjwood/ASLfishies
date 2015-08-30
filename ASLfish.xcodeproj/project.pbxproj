@@ -35,7 +35,6 @@
 		15834C501B87B367009AB9B6 /* Gender Neutral User-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C2F1B87B367009AB9B6 /* Gender Neutral User-32.png */; };
 		15834C511B87B367009AB9B6 /* User Male-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C301B87B367009AB9B6 /* User Male-50.png */; };
 		15834C551B87B367009AB9B6 /* Home-32 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C341B87B367009AB9B6 /* Home-32 copy.png */; };
-		15834C561B87B367009AB9B6 /* Not Hearing-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C351B87B367009AB9B6 /* Not Hearing-50.png */; };
 		15834C5B1B87B372009AB9B6 /* Checked Checkbox-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C571B87B372009AB9B6 /* Checked Checkbox-50.png */; };
 		15834C5C1B87B372009AB9B6 /* Checked Checkbox 2-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C581B87B372009AB9B6 /* Checked Checkbox 2-64.png */; };
 		15834C5E1B87B372009AB9B6 /* deafguy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15834C5A1B87B372009AB9B6 /* deafguy.jpg */; };
@@ -44,6 +43,21 @@
 		15834C661B88D53C009AB9B6 /* Group.png in Resources */ = {isa = PBXBuildFile; fileRef = 15834C651B88D53C009AB9B6 /* Group.png */; };
 		15A8F9A71B8FE69A00E2F2F7 /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8F9A61B8FE69A00E2F2F7 /* iTunesArtwork@3x.png */; };
 		15A8F9A91B8FE74900E2F2F7 /* ASLfishlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8F9A81B8FE74900E2F2F7 /* ASLfishlogo.png */; };
+		15A8F9EA1B92D2FB00E2F2F7 /* blank rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8F9E91B92D2FB00E2F2F7 /* blank rectangle.png */; };
+		15A8F9EC1B92D36600E2F2F7 /* Hearing-50-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8F9EB1B92D36600E2F2F7 /* Hearing-50-2.png */; };
+		15A8F9EE1B92D36C00E2F2F7 /* Not Hearing-50 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8F9ED1B92D36C00E2F2F7 /* Not Hearing-50 copy.png */; };
+		15A8F9F01B92D40A00E2F2F7 /* Hearing Aid-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8F9EF1B92D40A00E2F2F7 /* Hearing Aid-50.png */; };
+		15A8F9F21B92D87200E2F2F7 /* User Female-50 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8F9F11B92D87200E2F2F7 /* User Female-50 copy.png */; };
+		15A8F9F41B92D87900E2F2F7 /* User Male-50 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8F9F31B92D87900E2F2F7 /* User Male-50 copy.png */; };
+		15A8F9F81B92DE0200E2F2F7 /* Fluent Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8F9F51B92DE0200E2F2F7 /* Fluent Circle.png */; };
+		15A8F9F91B92DE0200E2F2F7 /* Beginning Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8F9F61B92DE0200E2F2F7 /* Beginning Circle.png */; };
+		15A8F9FA1B92DE0200E2F2F7 /* Average Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8F9F71B92DE0200E2F2F7 /* Average Circle.png */; };
+		15A8FA041B92E4D100E2F2F7 /* hofh circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8FA011B92E4D100E2F2F7 /* hofh circle.png */; };
+		15A8FA051B92E4D100E2F2F7 /* hearing circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8FA021B92E4D100E2F2F7 /* hearing circle.png */; };
+		15A8FA061B92E4D100E2F2F7 /* deaf circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8FA031B92E4D100E2F2F7 /* deaf circle.png */; };
+		15A8FA0A1B92EFC100E2F2F7 /* Male Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8FA071B92EFC100E2F2F7 /* Male Circle.png */; };
+		15A8FA0B1B92EFC100E2F2F7 /* Female Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8FA081B92EFC100E2F2F7 /* Female Circle.png */; };
+		15A8FA0C1B92EFC100E2F2F7 /* Any.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8FA091B92EFC100E2F2F7 /* Any.png */; };
 		15BD07D51B72D47600E16CB1 /* Video Call-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 15BD07D41B72D47600E16CB1 /* Video Call-32.png */; };
 		15BD07DA1B72DC1700E16CB1 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BD07D91B72DC1700E16CB1 /* IntroViewController.m */; };
 		15E360DA1B7BC54A0094A2C5 /* ContinueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E360D91B7BC54A0094A2C5 /* ContinueViewController.m */; };
@@ -122,7 +136,6 @@
 		15834C2F1B87B367009AB9B6 /* Gender Neutral User-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Gender Neutral User-32.png"; path = "../../../../Desktop/Gender Neutral User-32.png"; sourceTree = "<group>"; };
 		15834C301B87B367009AB9B6 /* User Male-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "User Male-50.png"; path = "../../../../Desktop/User Male-50.png"; sourceTree = "<group>"; };
 		15834C341B87B367009AB9B6 /* Home-32 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Home-32 copy.png"; path = "../../../../Desktop/Home-32 copy.png"; sourceTree = "<group>"; };
-		15834C351B87B367009AB9B6 /* Not Hearing-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Not Hearing-50.png"; path = "../../../../Desktop/Not Hearing-50.png"; sourceTree = "<group>"; };
 		15834C571B87B372009AB9B6 /* Checked Checkbox-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Checked Checkbox-50.png"; path = "../../../../Desktop/Checked Checkbox-50.png"; sourceTree = "<group>"; };
 		15834C581B87B372009AB9B6 /* Checked Checkbox 2-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Checked Checkbox 2-64.png"; path = "../../../../Desktop/Checked Checkbox 2-64.png"; sourceTree = "<group>"; };
 		15834C5A1B87B372009AB9B6 /* deafguy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = deafguy.jpg; path = ../../../../Desktop/deafguy.jpg; sourceTree = "<group>"; };
@@ -131,6 +144,21 @@
 		15834C651B88D53C009AB9B6 /* Group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Group.png; path = ../../../../Desktop/Group.png; sourceTree = "<group>"; };
 		15A8F9A61B8FE69A00E2F2F7 /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@3x.png"; path = "../../../../Desktop/iTunesArtwork@3x.png"; sourceTree = "<group>"; };
 		15A8F9A81B8FE74900E2F2F7 /* ASLfishlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ASLfishlogo.png; path = ../../../../Desktop/ASLfishlogo.png; sourceTree = "<group>"; };
+		15A8F9E91B92D2FB00E2F2F7 /* blank rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blank rectangle.png"; path = "../../../../Desktop/blank rectangle.png"; sourceTree = "<group>"; };
+		15A8F9EB1B92D36600E2F2F7 /* Hearing-50-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hearing-50-2.png"; path = "../../../../Desktop/Hearing-50-2.png"; sourceTree = "<group>"; };
+		15A8F9ED1B92D36C00E2F2F7 /* Not Hearing-50 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Not Hearing-50 copy.png"; path = "../../../../Desktop/Not Hearing-50 copy.png"; sourceTree = "<group>"; };
+		15A8F9EF1B92D40A00E2F2F7 /* Hearing Aid-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hearing Aid-50.png"; path = "../../../../Desktop/Hearing Aid-50.png"; sourceTree = "<group>"; };
+		15A8F9F11B92D87200E2F2F7 /* User Female-50 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "User Female-50 copy.png"; path = "../../../../Desktop/User Female-50 copy.png"; sourceTree = "<group>"; };
+		15A8F9F31B92D87900E2F2F7 /* User Male-50 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "User Male-50 copy.png"; path = "../../../../Desktop/User Male-50 copy.png"; sourceTree = "<group>"; };
+		15A8F9F51B92DE0200E2F2F7 /* Fluent Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Fluent Circle.png"; path = "../../../../Desktop/Fluent Circle.png"; sourceTree = "<group>"; };
+		15A8F9F61B92DE0200E2F2F7 /* Beginning Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beginning Circle.png"; path = "../../../../Desktop/Beginning Circle.png"; sourceTree = "<group>"; };
+		15A8F9F71B92DE0200E2F2F7 /* Average Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Average Circle.png"; path = "../../../../Desktop/Average Circle.png"; sourceTree = "<group>"; };
+		15A8FA011B92E4D100E2F2F7 /* hofh circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hofh circle.png"; path = "../../../../Desktop/hofh circle.png"; sourceTree = "<group>"; };
+		15A8FA021B92E4D100E2F2F7 /* hearing circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hearing circle.png"; path = "../../../../Desktop/hearing circle.png"; sourceTree = "<group>"; };
+		15A8FA031B92E4D100E2F2F7 /* deaf circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "deaf circle.png"; path = "../../../../Desktop/deaf circle.png"; sourceTree = "<group>"; };
+		15A8FA071B92EFC100E2F2F7 /* Male Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Male Circle.png"; path = "../../../../Desktop/Male Circle.png"; sourceTree = "<group>"; };
+		15A8FA081B92EFC100E2F2F7 /* Female Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Female Circle.png"; path = "../../../../Desktop/Female Circle.png"; sourceTree = "<group>"; };
+		15A8FA091B92EFC100E2F2F7 /* Any.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Any.png; path = ../../../../Desktop/Any.png; sourceTree = "<group>"; };
 		15BD07D41B72D47600E16CB1 /* Video Call-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Video Call-32.png"; path = "../../../../Desktop/Video Call-32.png"; sourceTree = "<group>"; };
 		15BD07D81B72DC1700E16CB1 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
 		15BD07D91B72DC1700E16CB1 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
@@ -292,12 +320,26 @@
 		15CEBADC1B88FEF30074F2CD /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				15A8FA071B92EFC100E2F2F7 /* Male Circle.png */,
+				15A8FA081B92EFC100E2F2F7 /* Female Circle.png */,
+				15A8FA091B92EFC100E2F2F7 /* Any.png */,
+				15A8FA011B92E4D100E2F2F7 /* hofh circle.png */,
+				15A8FA021B92E4D100E2F2F7 /* hearing circle.png */,
+				15A8FA031B92E4D100E2F2F7 /* deaf circle.png */,
+				15A8F9EF1B92D40A00E2F2F7 /* Hearing Aid-50.png */,
+				15A8F9ED1B92D36C00E2F2F7 /* Not Hearing-50 copy.png */,
+				15A8F9F51B92DE0200E2F2F7 /* Fluent Circle.png */,
+				15A8F9F61B92DE0200E2F2F7 /* Beginning Circle.png */,
+				15A8F9F71B92DE0200E2F2F7 /* Average Circle.png */,
+				15A8F9EB1B92D36600E2F2F7 /* Hearing-50-2.png */,
 				15A8F9A61B8FE69A00E2F2F7 /* iTunesArtwork@3x.png */,
+				15A8F9E91B92D2FB00E2F2F7 /* blank rectangle.png */,
 				1514A6A71B8BA97C0098CAD5 /* Camera-32.png */,
 				15834C651B88D53C009AB9B6 /* Group.png */,
+				15A8F9F11B92D87200E2F2F7 /* User Female-50 copy.png */,
 				15834B7C1B87B135009AB9B6 /* iPhone 6.png */,
+				15A8F9F31B92D87900E2F2F7 /* User Male-50 copy.png */,
 				15A8F9A81B8FE74900E2F2F7 /* ASLfishlogo.png */,
-				15834C351B87B367009AB9B6 /* Not Hearing-50.png */,
 				15834C5A1B87B372009AB9B6 /* deafguy.jpg */,
 				15E361431B7F92200094A2C5 /* Good Quality Filled-50.png */,
 				15834C151B87B366009AB9B6 /* Good Quality-50.png */,
@@ -449,33 +491,47 @@
 			files = (
 				1514A6A61B8BA92C0098CAD5 /* Speech Bubble Filled-50.png in Resources */,
 				1514A6A81B8BA97C0098CAD5 /* Camera-32.png in Resources */,
+				15A8FA051B92E4D100E2F2F7 /* hearing circle.png in Resources */,
 				15834C3F1B87B367009AB9B6 /* Gender Neutral User-50.png in Resources */,
 				15834C621B88C73B009AB9B6 /* Poor Quality-50.png in Resources */,
 				15BD07D51B72D47600E16CB1 /* Video Call-32.png in Resources */,
 				15834C391B87B367009AB9B6 /* lightgrayCheckbox.png in Resources */,
+				15A8F9FA1B92DE0200E2F2F7 /* Average Circle.png in Resources */,
+				15A8FA0B1B92EFC100E2F2F7 /* Female Circle.png in Resources */,
+				15A8FA0C1B92EFC100E2F2F7 /* Any.png in Resources */,
+				15A8F9F41B92D87900E2F2F7 /* User Male-50 copy.png in Resources */,
+				15A8F9EE1B92D36C00E2F2F7 /* Not Hearing-50 copy.png in Resources */,
 				15834C5E1B87B372009AB9B6 /* deafguy.jpg in Resources */,
 				15E361451B7F92200094A2C5 /* Good Quality Filled-50.png in Resources */,
+				15A8FA0A1B92EFC100E2F2F7 /* Male Circle.png in Resources */,
 				15834C471B87B367009AB9B6 /* Home-32.png in Resources */,
+				15A8F9F21B92D87200E2F2F7 /* User Female-50 copy.png in Resources */,
+				15A8F9F01B92D40A00E2F2F7 /* Hearing Aid-50.png in Resources */,
 				151976B81B727DB600E03E48 /* LaunchScreen.xib in Resources */,
+				15A8F9EC1B92D36600E2F2F7 /* Hearing-50-2.png in Resources */,
 				15834C4E1B87B367009AB9B6 /* Hearing-50.png in Resources */,
 				15834C501B87B367009AB9B6 /* Gender Neutral User-32.png in Resources */,
 				15834C3A1B87B367009AB9B6 /* Home-32 copy 2.png in Resources */,
 				15E3611D1B7C27EC0094A2C5 /* Main.storyboard in Resources */,
 				15834C511B87B367009AB9B6 /* User Male-50.png in Resources */,
+				15A8F9F81B92DE0200E2F2F7 /* Fluent Circle.png in Resources */,
 				1514A69C1B8B9B1E0098CAD5 /* Unchecked Checkbox-64.png in Resources */,
+				15A8FA041B92E4D100E2F2F7 /* hofh circle.png in Resources */,
 				15834C361B87B367009AB9B6 /* Good Quality-50.png in Resources */,
 				151976F01B727E4800E03E48 /* Unchecked Checkbox-50.png in Resources */,
 				15834C3C1B87B367009AB9B6 /* User Female-50.png in Resources */,
+				15A8F9EA1B92D2FB00E2F2F7 /* blank rectangle.png in Resources */,
 				15834B7D1B87B135009AB9B6 /* iPhone 6.png in Resources */,
 				15A8F9A71B8FE69A00E2F2F7 /* iTunesArtwork@3x.png in Resources */,
 				15834C461B87B367009AB9B6 /* Home-50-2.png in Resources */,
 				15834C5C1B87B372009AB9B6 /* Checked Checkbox 2-64.png in Resources */,
 				15834C601B88C638009AB9B6 /* Speech Bubble-32.png in Resources */,
+				15A8F9F91B92DE0200E2F2F7 /* Beginning Circle.png in Resources */,
 				15834C491B87B367009AB9B6 /* Speech Bubble-50.png in Resources */,
+				15A8FA061B92E4D100E2F2F7 /* deaf circle.png in Resources */,
 				15834C5B1B87B372009AB9B6 /* Checked Checkbox-50.png in Resources */,
 				151976B51B727DB600E03E48 /* Images.xcassets in Resources */,
 				15834C3B1B87B367009AB9B6 /* lightgrayUnCheckbox.png in Resources */,
-				15834C561B87B367009AB9B6 /* Not Hearing-50.png in Resources */,
 				15A8F9A91B8FE74900E2F2F7 /* ASLfishlogo.png in Resources */,
 				15834C661B88D53C009AB9B6 /* Group.png in Resources */,
 				151976E41B727E4800E03E48 /* Settings-32-2.png in Resources */,

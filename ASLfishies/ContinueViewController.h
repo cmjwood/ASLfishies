@@ -10,25 +10,37 @@
 
 @interface ContinueViewController : UIViewController
 {
-    BOOL checked;
+    BOOL checked, deafTapped, hofhTapped, hearingTapped, beginningTapped, averageTapped, fluentTapped, maleTapped, anyTapped, femaleTapped;
 }
-@property (weak, nonatomic) IBOutlet UIImageView *hearingImage;
-@property (weak, nonatomic) IBOutlet UISlider *levelOfDeafSlider;
-- (IBAction)lodSlider:(id)sender;
+
 @property (weak, nonatomic) IBOutlet UILabel *levelOfSignLang;
-@property (weak, nonatomic) IBOutlet UISlider *loslSlider;
-- (IBAction)levelOfSignLangSlider:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *deaf;
+@property (weak, nonatomic) IBOutlet UIButton *hofh;
+@property (weak, nonatomic) IBOutlet UIButton *hearing;
+- (IBAction)deafTapped:(id)sender;
+- (IBAction)hofhTapped:(id)sender;
+- (IBAction)hearingTapped:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *hearingTapped;
+@property (weak, nonatomic) IBOutlet UIButton *beginning;
+@property (weak, nonatomic) IBOutlet UIButton *average;
+@property (weak, nonatomic) IBOutlet UIButton *fluent;
+- (IBAction)beginningTapped:(id)sender;
+- (IBAction)averageTapped:(id)sender;
+- (IBAction)fluentTapped:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *male;
+@property (weak, nonatomic) IBOutlet UIButton *any;
+@property (weak, nonatomic) IBOutlet UIButton *female;
+- (IBAction)maleTapped:(id)sender;
+- (IBAction)anyTapped:(id)sender;
+- (IBAction)femaleTapped:(id)sender;
+
 
 @property (weak, nonatomic) IBOutlet UILabel *lookingfor;
-- (IBAction)lookingForSlider:(id)sender;
 
-@property (weak, nonatomic) IBOutlet UIImageView *deafImage;
 @property (weak, nonatomic) IBOutlet UILabel *levelofDeafness;
 @property (weak, nonatomic) IBOutlet UIButton *checkbox;
-@property (weak, nonatomic) IBOutlet UIImageView *femaleImage;
+
 - (IBAction)checkboxButton:(id)sender;
-@property (weak, nonatomic) IBOutlet UILabel *any;
-@property (weak, nonatomic) IBOutlet UIImageView *male;
-@property (weak, nonatomic) IBOutlet UISlider *lookingForSlider;
+
 
 @end
