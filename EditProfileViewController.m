@@ -7,9 +7,12 @@
 //
 
 #import "EditProfileViewController.h"
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <AssetsLibrary/AssetsLibrary.h>
+#import <Parse/Parse.h>
 
 
-@interface EditProfileViewController () <UITextFieldDelegate>
+@interface EditProfileViewController () <UITextFieldDelegate, UINavigationBarDelegate, UIImagePickerControllerDelegate, UITextFieldDelegate>
 
 
 
@@ -112,7 +115,7 @@
     [picker dismissViewControllerAnimated:YES completion:nil];
     
     // Set Avatar Image
-    self.imageView.image = image;
+    self.profileImageView.image = image;
     
     // Any other actions you want to take with the image would go here
     

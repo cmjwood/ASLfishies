@@ -14,7 +14,7 @@
 #import "IntroViewController.h"
 
 @interface ViewController () <PFSignUpViewControllerDelegate, PFLogInViewControllerDelegate>
-@property (weak, nonatomic) IBOutlet FBSDKLoginButton *loginButton;
+@property (weak, nonatomic) IBOutlet FBSDKLoginButton *myLoginButton;
 
 @end
 
@@ -23,13 +23,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     FBSDKLoginButton *loginButton = [[FBSDKLoginButton alloc] init];
-    
-    loginButton.center = self.view.center;
+//    
+//    loginButton.center = self.view.center;
+//    [loginButton setImage: [UIImage imageNamed:@"FB Login.png"] forState: UIControlStateNormal];
     
     UIButton *myLoginButton=[UIButton buttonWithType:UIButtonTypeCustom];
+//    UIImage *loginButtonImage = [UIImage imageNamed:@"FB Login.png"];
     myLoginButton.backgroundColor=[UIColor darkGrayColor];
-    myLoginButton.frame=CGRectMake(0,0,180,40);
-    myLoginButton.center = self.view.center;
+    myLoginButton.frame=CGRectMake(10,600,355,50);
+//    myLoginButton.center = self.view.center;
     [myLoginButton setTitle: @"My Login Button" forState: UIControlStateNormal];
     
     // Handle clicks on the button
