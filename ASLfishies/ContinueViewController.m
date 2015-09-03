@@ -55,112 +55,163 @@
 
 
 - (IBAction)deafTapped:(id)sender {
-    if (!deafTapped) {
-        [deaf setImage: [UIImage imageNamed: @"Not Hearing-50.png"] forState: UIControlStateNormal];
-        deafTapped = YES;
+    if (!deaf.selected) {
+        hofh.selected = NO;
+        deaf.selected = YES;
+        hearing.selected = NO;
     }
-    
-    else if (deafTapped) {
-        [deaf setImage: [UIImage imageNamed: @"deaf circle.png"] forState: UIControlStateNormal];
-        deafTapped = NO;
-    }
+//    if (!deafTapped) {
+//        [deaf setImage: [UIImage imageNamed: @"Not Hearing-50.png"] forState: UIControlStateNormal];
+//        deafTapped = YES;
+//    }
+//    
+//    else if (deafTapped) {
+//        [deaf setImage: [UIImage imageNamed: @"deaf circle.png"] forState: UIControlStateNormal];
+//        deafTapped = NO;
+//        }
+//        [deaf setEnabled:NO];
 }
 
 
 - (IBAction)hofhTapped:(id)sender {
-    if (!hofhTapped) {
-        [hofh setImage: [UIImage imageNamed: @" Hearing Aid-50.png"] forState: UIControlStateNormal];
-        hofhTapped = YES;
+    if (!hofh.selected) {
+        hofh.selected = YES;
+        deaf.selected = NO;
+        hearing.selected = NO;
     }
     
-    else if (hofhTapped) {
-        [hofh setImage: [UIImage imageNamed: @"hofh circle.png"] forState: UIControlStateNormal];
-        hofhTapped = NO;
-    }
+//    if (!hofhTapped) {
+//        
+//        [hofh setImage: [UIImage imageNamed: @" Hearing Aid-50.png"] forState: UIControlStateNormal];
+//        hofhTapped = YES;
+//    }
+//    
+//    else if (hofhTapped) {
+//        [hofh setImage: [UIImage imageNamed: @"hofh circle.png"] forState: UIControlStateNormal];
+//        hofhTapped = NO;
+//    }
+//        [hofh setEnabled:YES];
 }
 
 - (IBAction)hearingTapped:(id)sender {
-    if (!hearingTapped) {
-        [hearing setImage: [UIImage imageNamed: @"Hearing-50-2.png"] forState: UIControlStateNormal];
-        hearingTapped = YES;
+    if (!hearing.selected) {
+        hofh.selected = NO;
+        deaf.selected = NO;
+        hearing.selected = YES;
     }
     
-    else if (hearingTapped) {
-        [deaf setImage: [UIImage imageNamed: @"hearing circle.png"] forState: UIControlStateNormal];
-        hearingTapped = NO;
-    }
+    
+//    if (!hearingTapped) {
+//        [hearing setImage: [UIImage imageNamed: @"Hearing-50-2.png"] forState: UIControlStateNormal];
+//        hearingTapped = YES;
+//    }
+//    
+//    else if (hearingTapped) {
+//        [deaf setImage: [UIImage imageNamed: @"hearing circle.png"] forState: UIControlStateNormal];
+//        hearingTapped = NO;
+//    }
 }
 - (IBAction)beginningTapped:(id)sender {
-    if (!beginningTapped) {
-        [beginning setTitle:@"Beginning" forState:UIControlStateNormal];
-        beginningTapped = YES;
-        }
-    
-    else if (beginningTapped) {
-        [beginning setImage: [UIImage imageNamed: @"Beginning Circle.png"] forState: UIControlStateNormal];
-        beginningTapped = NO;
+    if (!beginning.selected) {
+        beginning.selected = YES;
+        average.selected = NO;
+        fluent.selected = NO;
     }
+//    if (!beginningTapped) {
+//        [beginning setTitle:@"Beginning" forState:UIControlStateNormal];
+//        beginningTapped = YES;
+//        }
+//    
+//    else if (beginningTapped) {
+//        [beginning setImage: [UIImage imageNamed: @"Beginning Circle.png"] forState: UIControlStateNormal];
+//        beginningTapped = NO;
+//    }
 }
 
 - (IBAction)averageTapped:(id)sender {
-    if (!averageTapped) {
-        [average setTitle:@"Average" forState:UIControlStateNormal];
-        averageTapped = YES;
+    if (!average.selected) {
+        beginning.selected = NO;
+        average.selected = YES;
+        fluent.selected = NO;
     }
-    
-    else if (averageTapped) {
-        [average setImage: [UIImage imageNamed: @"Average Circle.png"] forState: UIControlStateNormal];
-        averageTapped = NO;
-    }
+//    if (!averageTapped) {
+//        [average setTitle:@"Average" forState:UIControlStateNormal];
+//        averageTapped = YES;
+//    }
+//    
+//    else if (averageTapped) {
+//        [average setImage: [UIImage imageNamed: @"Average Circle.png"] forState: UIControlStateNormal];
+//        averageTapped = NO;
+//    }
     
 }
 
 - (IBAction)fluentTapped:(id)sender {
-    if (!fluentTapped) {
-        [fluent setTitle:@"Fluent" forState:UIControlStateNormal];
-        fluentTapped = YES;
+    if (!fluent.selected) {
+        beginning.selected = NO;
+        average.selected = NO;
+        fluent.selected = YES;
     }
-    
-    else if (fluentTapped) {
-        [fluent setImage: [UIImage imageNamed: @"Fluent Circle.png"] forState: UIControlStateNormal];
-        fluentTapped = NO;
-    }
+//    if (!fluentTapped) {
+//        [fluent setTitle:@"Fluent" forState:UIControlStateNormal];
+//        fluentTapped = YES;
+//    }
+//    
+//    else if (fluentTapped) {
+//        [fluent setImage: [UIImage imageNamed: @"Fluent Circle.png"] forState: UIControlStateNormal];
+//        fluentTapped = NO;
+//    }
 }
-- (IBAction)male:(id)sender {
-    if (!maleTapped) {
-        [male setImage: [UIImage imageNamed: @"User Male-50 copy.png"] forState: UIControlStateNormal];
-        maleTapped = YES;
+- (IBAction)maleTapped:(id)sender {
+    if (!male.selected) {
+        male.selected = YES;
+        any.selected = NO;
+        female.selected = NO;
     }
-    
-    else if (maleTapped) {
-        [male setImage: [UIImage imageNamed: @"Male Circle.png"] forState: UIControlStateNormal];
-        maleTapped = NO;
-    }
+//    if (!maleTapped) {
+//        [male setImage: [UIImage imageNamed: @"User Male-50 copy.png"] forState: UIControlStateNormal];
+//        maleTapped = YES;
+//    }
+//    
+//    else if (maleTapped) {
+//        [male setImage: [UIImage imageNamed: @"Male Circle.png"] forState: UIControlStateNormal];
+//        maleTapped = NO;
+//    }
 }
 
-- (IBAction)any:(id)sender {
-    if (!anyTapped) {
-        [any setTitle:@"Any" forState:UIControlStateNormal];
-        anyTapped = YES;
+- (IBAction)anyTapped:(id)sender {
+    if (!any.selected) {
+        any.selected = YES;
+        male.selected = NO;
+        female.selected = NO;
     }
-    
-    else if (anyTapped) {
-        [female setImage: [UIImage imageNamed: @"Any.png"] forState: UIControlStateNormal];
-        femaleTapped = NO;
-    }
-    
+//    if (!anyTapped) {
+//        [any setTitle:@"Any" forState:UIControlStateNormal];
+//        anyTapped = YES;
+//    }
+//    
+//    else if (anyTapped) {
+//        [female setImage: [UIImage imageNamed: @"Any.png"] forState: UIControlStateNormal];
+//        femaleTapped = NO;
+//    }
+//    
 }
 
 - (IBAction)femaleTapped:(id)sender {
-    if (!femaleTapped) {
-        [female setImage: [UIImage imageNamed: @"User Female-50 copy.png"] forState: UIControlStateNormal];
-        femaleTapped = YES;
+    if (!female.selected) {
+        female.selected = YES;
+        any.selected = NO;
+        male.selected = NO;
     }
-    
-    else if (femaleTapped) {
-        [female setImage: [UIImage imageNamed: @"Female Circle.png"] forState: UIControlStateNormal];
-        femaleTapped = NO;
-    }
+//    if (!femaleTapped) {
+//        [female setImage: [UIImage imageNamed: @"User Female-50 copy.png"] forState: UIControlStateNormal];
+//        femaleTapped = YES;
+//    }
+//    
+//    else if (femaleTapped) {
+//        [female setImage: [UIImage imageNamed: @"Female Circle.png"] forState: UIControlStateNormal];
+//        femaleTapped = NO;
+//    }
 
 }
 @end

@@ -28,9 +28,10 @@
 //    [loginButton setImage: [UIImage imageNamed:@"FB Login.png"] forState: UIControlStateNormal];
     
     UIButton *myLoginButton=[UIButton buttonWithType:UIButtonTypeCustom];
-//    UIImage *loginButtonImage = [UIImage imageNamed:@"FB Login.png"];
-    myLoginButton.backgroundColor=[UIColor darkGrayColor];
-    myLoginButton.frame=CGRectMake(10,600,355,50);
+    UIImage *loginButtonImage = [UIImage imageNamed:@"FB Login.png"];
+    [myLoginButton setImage:loginButtonImage forState:UIControlStateNormal];
+//    myLoginButton.backgroundColor=[UIColor darkGrayColor];
+    myLoginButton.frame=CGRectMake(37,592,303,56);
 //    myLoginButton.center = self.view.center;
     [myLoginButton setTitle: @"My Login Button" forState: UIControlStateNormal];
     
@@ -76,13 +77,15 @@
                        } else {
                            NSLog(@"Logged in");
                        }
-                       IntroViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"intro"];
+                       UINavigationController *navController = [self.storyboard instantiateViewControllerWithIdentifier:@"introNav"];
+                       IntroViewController *viewController = navController.viewControllers.firstObject;
 //                       NSData  *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:pictureURL]];
                        viewController.profileImageData = imageData;
                        viewController.fullNameData = name;
                        viewController.birthdayDateData = birthday;
                        viewController.addressData = currentAddress;
-                       [self.navigationController pushViewController:viewController animated:YES];
+                       [self presentViewController:navController animated:true completion:^{ }];
+//                       [self.navigationController pushViewController: viewController animated:YES];
                    }];
               }
               else{

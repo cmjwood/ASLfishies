@@ -14,7 +14,9 @@
 @end
 
 @implementation SettingsViewController
-@synthesize levelOfDeafSlider, loslSlider, lookingForSlider;
+
+@synthesize checkbox, deaf, hofh, hearing, beginning, average, fluent, male, female, any;
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];

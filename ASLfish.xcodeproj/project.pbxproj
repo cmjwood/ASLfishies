@@ -62,6 +62,9 @@
 		15A8FA101B953DBA00E2F2F7 /* Poor Quality Filled-50 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8FA0F1B953DBA00E2F2F7 /* Poor Quality Filled-50 copy.png */; };
 		15A8FA121B9546E400E2F2F7 /* FB login with.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8FA111B9546E400E2F2F7 /* FB login with.png */; };
 		15A8FA161B9554EC00E2F2F7 /* FB Login.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8FA151B9554EC00E2F2F7 /* FB Login.png */; };
+		15A8FA571B97DD4000E2F2F7 /* Any.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8FA561B97DD4000E2F2F7 /* Any.png */; };
+		15A8FA591B97E33900E2F2F7 /* blue rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8FA581B97E33900E2F2F7 /* blue rectangle.png */; };
+		15A8FA5B1B97E46E00E2F2F7 /* blue circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A8FA5A1B97E46E00E2F2F7 /* blue circle.png */; };
 		15BD07D51B72D47600E16CB1 /* Video Call-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 15BD07D41B72D47600E16CB1 /* Video Call-32.png */; };
 		15BD07DA1B72DC1700E16CB1 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BD07D91B72DC1700E16CB1 /* IntroViewController.m */; };
 		15E360DA1B7BC54A0094A2C5 /* ContinueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E360D91B7BC54A0094A2C5 /* ContinueViewController.m */; };
@@ -167,6 +170,9 @@
 		15A8FA0F1B953DBA00E2F2F7 /* Poor Quality Filled-50 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Poor Quality Filled-50 copy.png"; path = "../../../../Desktop/Poor Quality Filled-50 copy.png"; sourceTree = "<group>"; };
 		15A8FA111B9546E400E2F2F7 /* FB login with.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FB login with.png"; path = "../../../../Desktop/FB login with.png"; sourceTree = "<group>"; };
 		15A8FA151B9554EC00E2F2F7 /* FB Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FB Login.png"; path = "../../../../Desktop/FB Login.png"; sourceTree = "<group>"; };
+		15A8FA561B97DD4000E2F2F7 /* Any.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Any.png; path = ../../../../Desktop/Any.png; sourceTree = "<group>"; };
+		15A8FA581B97E33900E2F2F7 /* blue rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue rectangle.png"; path = "../../../../Desktop/blue rectangle.png"; sourceTree = "<group>"; };
+		15A8FA5A1B97E46E00E2F2F7 /* blue circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue circle.png"; path = "../../../../Desktop/blue circle.png"; sourceTree = "<group>"; };
 		15BD07D41B72D47600E16CB1 /* Video Call-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Video Call-32.png"; path = "../../../../Desktop/Video Call-32.png"; sourceTree = "<group>"; };
 		15BD07D81B72DC1700E16CB1 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
 		15BD07D91B72DC1700E16CB1 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
@@ -328,9 +334,12 @@
 		15CEBADC1B88FEF30074F2CD /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				15A8FA581B97E33900E2F2F7 /* blue rectangle.png */,
+				15A8FA561B97DD4000E2F2F7 /* Any.png */,
 				15A8FA111B9546E400E2F2F7 /* FB login with.png */,
 				15A8FA151B9554EC00E2F2F7 /* FB Login.png */,
 				15A8FA0D1B953CA900E2F2F7 /* clear rectangle.png */,
+				15A8FA5A1B97E46E00E2F2F7 /* blue circle.png */,
 				15A8FA071B92EFC100E2F2F7 /* Male Circle.png */,
 				15A8FA081B92EFC100E2F2F7 /* Female Circle.png */,
 				15A8FA091B92EFC100E2F2F7 /* Any.png */,
@@ -507,6 +516,8 @@
 				1514A6A81B8BA97C0098CAD5 /* Camera-32.png in Resources */,
 				15A8FA051B92E4D100E2F2F7 /* hearing circle.png in Resources */,
 				15834C3F1B87B367009AB9B6 /* Gender Neutral User-50.png in Resources */,
+				15A8FA5B1B97E46E00E2F2F7 /* blue circle.png in Resources */,
+				15A8FA571B97DD4000E2F2F7 /* Any.png in Resources */,
 				15834C621B88C73B009AB9B6 /* Poor Quality-50.png in Resources */,
 				15BD07D51B72D47600E16CB1 /* Video Call-32.png in Resources */,
 				15834C391B87B367009AB9B6 /* lightgrayCheckbox.png in Resources */,
@@ -552,6 +563,7 @@
 				15834C661B88D53C009AB9B6 /* Group.png in Resources */,
 				151976E41B727E4800E03E48 /* Settings-32-2.png in Resources */,
 				15834C551B87B367009AB9B6 /* Home-32 copy.png in Resources */,
+				15A8FA591B97E33900E2F2F7 /* blue rectangle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
