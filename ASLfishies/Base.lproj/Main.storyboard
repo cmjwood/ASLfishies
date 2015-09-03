@@ -242,7 +242,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <outlet property="delegate" destination="yka-2N-vDC" id="IKX-Xj-5RI"/>
+                                    <outlet property="delegate" destination="yka-2N-vDC" id="Esg-8G-oOl"/>
                                 </connections>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="140" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BX2-hb-L7I">
@@ -440,7 +440,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rl4-ci-moR" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="3KG-Dd-hx8">
                     <connections>
-                        <action selector="backgroundTap:" destination="yka-2N-vDC" id="OmK-Td-YRQ"/>
+                        <action selector="backgroundTap:" destination="yka-2N-vDC" id="xA4-ID-Ewa"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -1270,15 +1270,15 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="deafguy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="msZ-jW-OSA">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="uJs-kD-85w" appends="YES" id="JbF-jV-azF"/>
-                                </connections>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="About you:" translatesAutoresizingMaskIntoConstraints="NO" id="7VM-jS-crG">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="84" id="AOt-t3-b6h"/>
+                                    <constraint firstAttribute="height" constant="84" id="AOt-t3-b6h">
+                                        <variation key="widthClass=compact" constant="162"/>
+                                    </constraint>
                                 </constraints>
                                 <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
@@ -1293,6 +1293,9 @@
                                         <include reference="AOt-t3-b6h"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <outlet property="delegate" destination="ftS-6S-gdS" id="CmA-i4-Abr"/>
+                                </connections>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="140" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xtq-5j-CuP">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -1310,25 +1313,6 @@
                                 <variation key="widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="uyF-uK-bcw"/>
-                                    </mask>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Full Name, Age       City, State" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hvv-M0-srI">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="178" id="g0Q-E5-mDs"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="g0Q-E5-mDs"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="g0Q-E5-mDs"/>
                                     </mask>
                                 </variation>
                             </label>
@@ -1361,14 +1345,36 @@
                                     <action selector="changeButtonTapped:" destination="ftS-6S-gdS" eventType="touchUpInside" id="38Q-Jp-30v"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Full Name, Age       City, State" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hvv-M0-srI">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="178" id="g0Q-E5-mDs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="g0Q-E5-mDs"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="g0Q-E5-mDs"/>
+                                    </mask>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="7VM-jS-crG" firstAttribute="trailing" secondItem="Xtq-5j-CuP" secondAttribute="trailing" id="39E-7N-7R7"/>
                             <constraint firstAttribute="trailing" secondItem="msZ-jW-OSA" secondAttribute="trailing" id="8Hf-z4-5Ky"/>
                             <constraint firstItem="msZ-jW-OSA" firstAttribute="top" secondItem="O1f-xI-9Kl" secondAttribute="topMargin" constant="63" id="BG1-tB-xH9"/>
                             <constraint firstItem="Nh9-d6-KAy" firstAttribute="top" secondItem="7VM-jS-crG" secondAttribute="bottom" constant="10" id="IWg-XM-Nj6"/>
-                            <constraint firstItem="Nh9-d6-KAy" firstAttribute="top" secondItem="Hvv-M0-srI" secondAttribute="bottom" constant="92" id="LQo-aW-Mgs"/>
+                            <constraint firstItem="Nh9-d6-KAy" firstAttribute="top" secondItem="Hvv-M0-srI" secondAttribute="bottom" constant="92" id="LQo-aW-Mgs">
+                                <variation key="widthClass=compact" constant="173"/>
+                            </constraint>
                             <constraint firstItem="Hvv-M0-srI" firstAttribute="leading" secondItem="O1f-xI-9Kl" secondAttribute="leadingMargin" constant="-8" id="TAS-Dd-Jqe"/>
                             <constraint firstAttribute="trailingMargin" secondItem="DH0-Pw-tZl" secondAttribute="trailing" constant="-12" id="cak-lq-c6k">
                                 <variation key="widthClass=compact" constant="-8"/>
@@ -1380,7 +1386,9 @@
                                 <variation key="widthClass=compact" constant="8"/>
                             </constraint>
                             <constraint firstItem="7VM-jS-crG" firstAttribute="bottom" secondItem="Xtq-5j-CuP" secondAttribute="bottom" id="w9n-Lt-RUO"/>
-                            <constraint firstItem="Hvv-M0-srI" firstAttribute="top" secondItem="FeM-Gq-Q8E" secondAttribute="bottom" constant="332" id="xwj-Um-f8s"/>
+                            <constraint firstItem="Hvv-M0-srI" firstAttribute="top" secondItem="FeM-Gq-Q8E" secondAttribute="bottom" constant="332" id="xwj-Um-f8s">
+                                <variation key="widthClass=compact" constant="251"/>
+                            </constraint>
                             <constraint firstItem="msZ-jW-OSA" firstAttribute="leading" secondItem="O1f-xI-9Kl" secondAttribute="leading" id="ygu-3b-HLk"/>
                         </constraints>
                         <variation key="default">
@@ -1388,8 +1396,8 @@
                                 <exclude reference="msZ-jW-OSA"/>
                                 <exclude reference="7VM-jS-crG"/>
                                 <exclude reference="Xtq-5j-CuP"/>
-                                <exclude reference="Hvv-M0-srI"/>
                                 <exclude reference="DH0-Pw-tZl"/>
+                                <exclude reference="Hvv-M0-srI"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="TAS-Dd-Jqe"/>
@@ -1413,8 +1421,8 @@
                                 <include reference="msZ-jW-OSA"/>
                                 <include reference="7VM-jS-crG"/>
                                 <include reference="Xtq-5j-CuP"/>
-                                <include reference="Hvv-M0-srI"/>
                                 <include reference="DH0-Pw-tZl"/>
+                                <include reference="Hvv-M0-srI"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="TAS-Dd-Jqe"/>
@@ -1433,6 +1441,9 @@
                                 <include reference="ygu-3b-HLk"/>
                             </mask>
                         </variation>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="SFO-0L-2fM" appends="YES" id="1UU-X6-SZM"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Edit Profile" id="SUd-7i-k6e">
                         <barButtonItem key="rightBarButtonItem" image="Settings-32-2.png" id="y9B-S8-mPC">
@@ -1443,7 +1454,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="aboutYouBox" destination="7VM-jS-crG" id="rdQ-F3-ou2"/>
+                        <outlet property="aboutYouBox" destination="7VM-jS-crG" id="kJY-aW-E4z"/>
                         <outlet property="changePhotoButton" destination="DH0-Pw-tZl" id="lLj-hZ-ChW"/>
                         <outlet property="fullInformation" destination="Hvv-M0-srI" id="iiz-go-j1w"/>
                         <outlet property="maxCharacters" destination="Xtq-5j-CuP" id="9Fh-sb-PFB"/>
@@ -1451,14 +1462,18 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fw3-2y-GHM" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="uJs-kD-85w"/>
+                <tapGestureRecognizer id="SFO-0L-2fM">
+                    <connections>
+                        <action selector="backgroundTap:" destination="ftS-6S-gdS" id="F9w-75-Qw8"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="6123" y="1712"/>
         </scene>
         <!--Settings-->
         <scene sceneID="hTH-W9-jab">
             <objects>
-                <viewController id="eKM-j2-Viv" sceneMemberID="viewController">
+                <viewController id="eKM-j2-Viv" customClass="SettingsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="J34-zh-DBZ"/>
                         <viewControllerLayoutGuide type="bottom" id="abn-2l-mlk"/>
@@ -1530,6 +1545,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
+                                    <action selector="deafTapped:" destination="eKM-j2-Viv" eventType="touchUpInside" id="5nn-uU-EbF"/>
                                     <action selector="deafTapped:" destination="qoj-j7-hSs" eventType="touchUpInside" id="ogu-yJ-T62"/>
                                 </connections>
                             </button>
@@ -1554,6 +1570,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
+                                    <action selector="maleTapped:" destination="eKM-j2-Viv" eventType="touchUpInside" id="C3h-jX-AHI"/>
                                     <action selector="maleTapped:" destination="qoj-j7-hSs" eventType="touchUpInside" id="We0-TU-fcs"/>
                                 </connections>
                             </button>
@@ -1580,6 +1597,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
+                                    <action selector="beginningTapped:" destination="eKM-j2-Viv" eventType="touchUpInside" id="3nc-Wx-jBg"/>
                                     <action selector="beginningTapped:" destination="qoj-j7-hSs" eventType="touchUpInside" id="YZw-Ca-XPb"/>
                                 </connections>
                             </button>
@@ -1594,6 +1612,7 @@
                                 </state>
                                 <connections>
                                     <action selector="averageTapped:" destination="qoj-j7-hSs" eventType="touchUpInside" id="2Kb-VW-fBo"/>
+                                    <action selector="averageTapped:" destination="eKM-j2-Viv" eventType="touchUpInside" id="gIO-0q-gKS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zR-TB-lKW">
@@ -1621,6 +1640,7 @@
                                 </variation>
                                 <connections>
                                     <action selector="fluentTapped:" destination="qoj-j7-hSs" eventType="touchUpInside" id="4yb-WC-8oj"/>
+                                    <action selector="fluentTapped:" destination="eKM-j2-Viv" eventType="touchUpInside" id="maN-Ck-q1c"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ivn-pa-qK0">
@@ -1647,6 +1667,7 @@
                                 </variation>
                                 <connections>
                                     <action selector="anyTapped:" destination="qoj-j7-hSs" eventType="touchUpInside" id="4nL-8a-3VO"/>
+                                    <action selector="anyTapped:" destination="eKM-j2-Viv" eventType="touchUpInside" id="Ixy-ch-Yh7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gwy-2K-26w">
@@ -1655,6 +1676,7 @@
                                 <state key="selected" image="Female Circle.png"/>
                                 <connections>
                                     <action selector="femaleTapped:" destination="qoj-j7-hSs" eventType="touchUpInside" id="j0m-SO-PLk"/>
+                                    <action selector="femaleTapped:" destination="eKM-j2-Viv" eventType="touchUpInside" id="q2U-dJ-Gea"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0F1-rN-Bor">
@@ -1675,6 +1697,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
+                                    <action selector="hearingTapped:" destination="eKM-j2-Viv" eventType="touchUpInside" id="O28-Tx-gJv"/>
                                     <action selector="hearingTapped:" destination="qoj-j7-hSs" eventType="touchUpInside" id="q7M-sx-XVH"/>
                                 </connections>
                             </button>
@@ -1696,6 +1719,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
+                                    <action selector="hofhTapped:" destination="eKM-j2-Viv" eventType="touchUpInside" id="SG1-ko-iy4"/>
                                     <action selector="hofhTapped:" destination="qoj-j7-hSs" eventType="touchUpInside" id="nTa-AZ-kId"/>
                                 </connections>
                             </button>
@@ -1915,6 +1939,20 @@
                             <color key="tintColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="any" destination="ivn-pa-qK0" id="DgD-ef-Aix"/>
+                        <outlet property="average" destination="2uL-QG-BE9" id="fSm-Px-tpb"/>
+                        <outlet property="beginning" destination="9J5-6q-O7B" id="wTI-HI-GCN"/>
+                        <outlet property="deaf" destination="Uco-T8-FKr" id="Zws-Va-vw6"/>
+                        <outlet property="female" destination="Gwy-2K-26w" id="gd8-ev-bJm"/>
+                        <outlet property="fluent" destination="8zR-TB-lKW" id="hJB-H6-zW1"/>
+                        <outlet property="hearing" destination="0F1-rN-Bor" id="lUm-sK-Uql"/>
+                        <outlet property="hofh" destination="WlO-NA-1OY" id="2Z7-Je-bzz"/>
+                        <outlet property="levelOfSignLang" destination="Ksv-Id-0Tn" id="GYZ-yo-d0m"/>
+                        <outlet property="levelofDeafness" destination="TC3-Ke-jOk" id="l7F-Ui-8eM"/>
+                        <outlet property="lookingfor" destination="Ruj-EB-sOX" id="eSw-84-Bfc"/>
+                        <outlet property="male" destination="avd-iW-76p" id="nxL-U8-5pG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s3u-uj-gYX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

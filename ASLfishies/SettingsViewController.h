@@ -21,7 +21,6 @@
 - (IBAction)deafTapped:(id)sender;
 - (IBAction)hofhTapped:(id)sender;
 - (IBAction)hearingTapped:(id)sender;
-@property (weak, nonatomic) IBOutlet UIButton *hearingTapped;
 @property (weak, nonatomic) IBOutlet UIButton *beginning;
 @property (weak, nonatomic) IBOutlet UIButton *average;
 @property (weak, nonatomic) IBOutlet UIButton *fluent;
@@ -39,9 +38,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *lookingfor;
 
 @property (weak, nonatomic) IBOutlet UILabel *levelofDeafness;
-@property (weak, nonatomic) IBOutlet UIButton *checkbox;
 
-- (IBAction)checkboxButton:(id)sender;
 
 
 

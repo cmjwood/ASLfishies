@@ -15,7 +15,7 @@
 
 @implementation SettingsViewController
 
-@synthesize checkbox, deaf, hofh, hearing, beginning, average, fluent, male, female, any;
+@synthesize deaf, hofh, hearing, beginning, average, fluent, male, female, any;
 
 
 - (void)viewDidLoad {
@@ -29,22 +29,82 @@
 }
 
 
-/*
- #pragma mark - Navigation
+- (IBAction)deafTapped:(id)sender {
+    if (!deaf.selected) {
+        hofh.selected = NO;
+        deaf.selected = YES;
+        hearing.selected = NO;
+    }
+}
+
+
+- (IBAction)hofhTapped:(id)sender {
+    if (!hofh.selected) {
+        hofh.selected = YES;
+        deaf.selected = NO;
+        hearing.selected = NO;
+    }
+    
+}
+
+- (IBAction)hearingTapped:(id)sender {
+    if (!hearing.selected) {
+        hofh.selected = NO;
+        deaf.selected = NO;
+        hearing.selected = YES;
+    }
+    
+}
+- (IBAction)beginningTapped:(id)sender {
+    if (!beginning.selected) {
+        beginning.selected = YES;
+        average.selected = NO;
+        fluent.selected = NO;
+    }
+   
+}
+
+- (IBAction)averageTapped:(id)sender {
+    if (!average.selected) {
+        beginning.selected = NO;
+        average.selected = YES;
+        fluent.selected = NO;
+    }
+    
+}
+
+- (IBAction)fluentTapped:(id)sender {
+    if (!fluent.selected) {
+        beginning.selected = NO;
+        average.selected = NO;
+        fluent.selected = YES;
+    }
  
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
-
-
-
-- (IBAction)lodSlider:(id)sender {
 }
-- (IBAction)levelOfSignLangSlider:(id)sender {
+- (IBAction)maleTapped:(id)sender {
+    if (!male.selected) {
+        male.selected = YES;
+        any.selected = NO;
+        female.selected = NO;
+    }
 }
-- (IBAction)lookingForSlider:(id)sender {
+
+- (IBAction)anyTapped:(id)sender {
+    if (!any.selected) {
+        any.selected = YES;
+        male.selected = NO;
+        female.selected = NO;
+    }
+}
+
+- (IBAction)femaleTapped:(id)sender {
+    if (!female.selected) {
+        female.selected = YES;
+        any.selected = NO;
+        male.selected = NO;
+    }
+    
 }
 @end
+
+

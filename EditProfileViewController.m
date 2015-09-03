@@ -12,14 +12,15 @@
 #import <Parse/Parse.h>
 
 
-@interface EditProfileViewController () <UITextFieldDelegate, UINavigationBarDelegate, UIImagePickerControllerDelegate, UITextFieldDelegate>
+@interface EditProfileViewController () <UITextFieldDelegate, UINavigationBarDelegate, UIImagePickerControllerDelegate>
 
 
 
 //@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) UIImagePickerController *camera;
 @property (strong) NSArray *intro;
 @property (nonatomic, strong) NSString *temp;
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
 @end
 
 @implementation EditProfileViewController
