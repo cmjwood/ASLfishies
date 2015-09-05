@@ -23,6 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     FBSDKLoginButton *loginButton = [[FBSDKLoginButton alloc] init];
+    loginButton.readPermissions = @[@"name",@"pictureURL",@"birthday_date", @"current_address"];
 //    
 //    loginButton.center = self.view.center;
 //    [loginButton setImage: [UIImage imageNamed:@"FB Login.png"] forState: UIControlStateNormal];
@@ -46,8 +47,7 @@
     [self.view addSubview:myLoginButton];
      }
      
-     
-     
+
 // Once the button is clicked, show the login dialog
 -(void)loginButtonClicked
 {
@@ -56,13 +56,15 @@
     [[[FBSDKGraphRequest alloc] initWithGraphPath:@"me" parameters:nil]
      startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection, id result, NSError *error) {
               if (!error) {
+                  
+                  NSString *
                   NSString *pictureURL = [NSString stringWithFormat:@"https://graph.facebook.com/%@/picture?type=normal",result[@"id"]];
-                  NSLog(@"%@", result);
+
                   NSString *name = result[@"name"];
                   NSString *birthday = result[@"birthday_date"];
                   NSString *currentAddress = result[@"current_address"];
                   NSData *imageData = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:pictureURL]];
-                  
+                  NSLog(@"%@", result);
                   NSLog(@"email is %@", [result objectForKey:@"email"]);
     
               
