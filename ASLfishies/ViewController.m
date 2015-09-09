@@ -26,13 +26,15 @@
 
 - (void)viewDidLoad {
     FBSDKLoginButton *loginButton = [[FBSDKLoginButton alloc] init];
-    loginButton.center = self.view.center;
+//    loginButton.center = self.view.center;
     
     UIButton *myLoginButton=[UIButton buttonWithType:UIButtonTypeCustom];
-    myLoginButton.backgroundColor=[UIColor darkGrayColor];
-    myLoginButton.frame=CGRectMake(0,0,180,40);
-    myLoginButton.center = self.view.center;
-    [myLoginButton setTitle: @"My Login Button" forState: UIControlStateNormal];
+    UIImage *loginButtonImage = [UIImage imageNamed:@"FB Login.png"];
+    [myLoginButton setImage:loginButtonImage forState:UIControlStateNormal];
+//    myLoginButton.backgroundColor=[UIColor darkGrayColor];
+    myLoginButton.frame=CGRectMake(37,592,303,56);
+//    myLoginButton.center = self.view.center;
+//    [myLoginButton setTitle: @"My Login Button" forState: UIControlStateNormal];
     
     // Handle clicks on the button
     [myLoginButton
@@ -69,8 +71,8 @@
                           NSString *pictureURL = [NSString stringWithFormat:@"https://graph.facebook.com/%@/picture?type=normal",result[@"id"]];
         
                           NSString *name = result[@"name"];
-                          NSString *birthday = result[@"birthday_date"];
-                          NSString *currentAddress = result[@"current_address"];
+//                          NSString *birthday = result[@"birthday_date"];
+//                          NSString *currentAddress = result[@"current_address"];
                           NSData *imageData = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:pictureURL]];
                           NSLog(@"%@", result);
                           NSLog(@"email is %@", [result objectForKey:@"email"]);
@@ -92,8 +94,8 @@
         //                       NSData  *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:pictureURL]];
                                viewController.profileImageData = imageData;
                                viewController.fullNameData = name;
-                               viewController.birthdayDateData = birthday;
-                               viewController.addressData = currentAddress;
+//                               viewController.birthdayDateData = birthday;
+//                               viewController.addressData = currentAddress;
                                [self presentViewController:navController animated:true completion:^{ }];
         //                       [self.navigationController pushViewController: viewController animated:YES];
                            }];

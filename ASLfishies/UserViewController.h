@@ -21,5 +21,7 @@
 - (IBAction)thumbUpTapped:(id)sender;
 
 - (IBAction)sendMessageTapped:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *fullInformation;
+@property (weak, nonatomic) IBOutlet UITextView *aboutYouBox;
 
 @end
