@@ -24,8 +24,13 @@
 @implementation IntroViewController
 
 
-@synthesize aboutYouBox, maxCharacters, changePhotoButton;
+@synthesize aboutYouBox, maxCharacters, changePhotoButton, next;
 
+-(BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -153,6 +158,13 @@ if (self.temp.length <= 139) {
     [photoActionSheet addAction:cancelAction];
     
     [self presentViewController:photoActionSheet animated:YES completion:nil];
+}
+
+- (IBAction)nextTapped:(id)sender {
+    PFObject *aboutYou = [PFObject objectWithClassName:@"About You:"];
+    aboutYou[@"aboutYouBox"] = aboutYouBox.text;
+    [aboutYou save];
+    
 }
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info{

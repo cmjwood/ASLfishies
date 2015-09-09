@@ -30,6 +30,8 @@
             <string>HelveticaNeue</string>
             <string>HelveticaNeue</string>
             <string>HelveticaNeue</string>
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue</string>
         </mutableArray>
         <mutableArray key="HelveticaNeueLights.ttc">
             <string>HelveticaNeue-Thin</string>
@@ -196,6 +198,7 @@
                         <barButtonItem key="rightBarButtonItem" title="Next" id="I6C-iZ-502">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
+                                <action selector="nextTapped:" destination="yka-2N-vDC" id="Mfw-ku-gpA"/>
                                 <segue destination="vBD-g2-JQV" kind="show" id="qxa-wB-vR4"/>
                             </connections>
                         </barButtonItem>
@@ -206,6 +209,7 @@
                         <outlet property="changePhotoButton" destination="Ubc-jA-f9H" id="Lgs-LQ-i2R"/>
                         <outlet property="fullInformation" destination="ra4-Ca-eQ1" id="xVC-pm-dqp"/>
                         <outlet property="maxCharacters" destination="Qdy-jk-Swp" id="5ux-3T-v6n"/>
+                        <outlet property="next" destination="I6C-iZ-502" id="go5-Rc-ejR"/>
                         <outlet property="profileImageView" destination="4Il-Mv-VRB" id="xsc-sI-F8D"/>
                     </connections>
                 </viewController>

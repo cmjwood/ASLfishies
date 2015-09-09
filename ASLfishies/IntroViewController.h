@@ -13,8 +13,9 @@
 
 @property (nonatomic, strong) NSData *profileImageData;
 @property (nonatomic, strong) NSString *fullNameData;
-@property (nonatomic, strong) NSString *birthdayDateData;
-@property (nonatomic, strong) NSString *addressData;
+//@property (nonatomic, strong) NSString *birthdayDateData;
+//@property (nonatomic, strong) NSString *addressData;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *next;
 
 
 //-(UIImagePickerController *)cameraVC;
@@ -27,6 +28,7 @@
 
 - (IBAction)backgroundTap:(id)sender;
 - (IBAction)changeButtonTapped:(id)sender;
+- (IBAction)nextTapped:(id)sender;
 
 
 // You have to subclass each cell and put the outlets in the subclass of that cell that the property belongs to.
