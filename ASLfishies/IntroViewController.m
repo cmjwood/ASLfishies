@@ -7,6 +7,8 @@
 //
 
 #import "IntroViewController.h"
+#import "Intro.h"
+#import "ViewController.h"
 #import <MobileCoreServices/MobileCoreServices.h>
 #import <AssetsLibrary/AssetsLibrary.h>
 #import <Parse/Parse.h>
@@ -44,34 +46,33 @@
 //        self.fullInformation.text = [NSString stringWithFormat:@"%@", self.addressData];
 //    }
     
-    PFObject *intro = [PFObject objectWithClassName:@"Information"];
-    intro [@"fullName"] = @"Christopher Tucker Wood";
-    intro [@"age"] = @(27);
-    intro [@"cityState"] = @"Mission Viejo, CA";
-    intro [@"aboutYou"] = @"I like to work out..";
-    [intro saveInBackground];
-    
-    [intro saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
-        if (!error && succeeded) {
-            PFQuery *query = [PFQuery queryWithClassName:@"Intro"];
-            [query whereKey:@"fullName" equalTo:@"Christopher Tucker Wood"];
-            [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-                if (!error) {
-                    NSLog(@"Intro objects: %@", objects);
-                    for (PFObject *intro in objects) {
-                        NSLog(@"Make: %@", intro [@"fullName"]);
-                    }
-                } else {
-                    NSLog(@"Error finding information objects: %@", error);
-                }
-            }];
-            NSLog(@"Saved information");
-        } else {
-            NSLog(@"There was an error saving: %@", error);
-        }
-    }];
-    
-
+//    PFObject *user = [PFObject user];
+//    user.username = @"my name";
+//    user.password = @"my pass";
+//    user.email = @"email@example.com";
+//    user.profilepicture = @"";
+//    
+//    [intro saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+//        if (!error && succeeded) {
+//            PFQuery *query = [PFQuery queryWithClassName:@"Intro"];
+//            [query whereKey:@"fullName" equalTo:@"Christopher Tucker Wood"];
+//            [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+//                if (!error) {
+//                    NSLog(@"Intro objects: %@", objects);
+//                    for (PFObject *intro in objects) {
+//                        NSLog(@"Make: %@", intro [@"fullName"]);
+//                    }
+//                } else {
+//                    NSLog(@"Error finding information objects: %@", error);
+//                }
+//            }];
+//            NSLog(@"Saved information");
+//        } else {
+//            NSLog(@"There was an error saving: %@", error);
+//        }
+//    }];
+//    
+//
 }
 
 

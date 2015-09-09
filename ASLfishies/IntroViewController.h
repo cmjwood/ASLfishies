@@ -16,6 +16,7 @@
 @property (nonatomic, strong) NSString *birthdayDateData;
 @property (nonatomic, strong) NSString *addressData;
 
+
 //-(UIImagePickerController *)cameraVC;
 @property (weak, nonatomic) IBOutlet UIButton *changePhotoButton;
 @property (weak, nonatomic) IBOutlet UILabel *fullInformation;

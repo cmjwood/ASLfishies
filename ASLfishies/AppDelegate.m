@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+
+//@import FB
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import <Parse/Parse.h>
@@ -29,10 +31,11 @@
     [Parse setApplicationId:@"ZvtmlffIARgOWhZtbTsA651MChfnpoC2hLbETO8i" clientKey:@"P1Gjd9b4dVUG108utWlxxddNioFykgMmrZd6s51o"];
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
+    
     return [[FBSDKApplicationDelegate sharedInstance] application:application
                                     didFinishLaunchingWithOptions:launchOptions];
 //    [Intro registerSubclass];
-
+		
 }
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
