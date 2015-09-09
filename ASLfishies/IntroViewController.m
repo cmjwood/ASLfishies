@@ -36,7 +36,7 @@
         self.profileImageView.image = [UIImage imageWithData:self.profileImageData];
     }
     if (self.fullNameData) {
-        self.fullInformation.text = [NSString stringWithFormat:@"%@,", self.fullNameData];
+        self.fullInformation.text = [NSString stringWithFormat:@"%@", self.fullNameData];
     }
 //    if (self.birthdayDateData) {
 //        self.fullInformation.text = [NSString stringWithFormat: @"%@", self.birthdayDateData];

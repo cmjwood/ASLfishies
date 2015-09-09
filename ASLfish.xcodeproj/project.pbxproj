@@ -307,44 +307,6 @@
 				15E361581B7F98320094A2C5 /* SettingsViewController.h */,
 				15E361591B7F98320094A2C5 /* SettingsViewController.m */,
 				151976B41B727DB600E03E48 /* Images.xcassets */,
-				15CEBADC1B88FEF30074F2CD /* Images */,
-				151976B61B727DB600E03E48 /* LaunchScreen.xib */,
-				15E361A71B859E100094A2C5 /* Parse */,
-				15E361971B855A5A0094A2C5 /* Frameworks */,
-				151976A71B727DB600E03E48 /* Supporting Files */,
-			);
-			path = ASLfishies;
-			sourceTree = "<group>";
-		};
-		151976A71B727DB600E03E48 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				151976A81B727DB600E03E48 /* Info.plist */,
-				151976A91B727DB600E03E48 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		151976C01B727DB600E03E48 /* ASLfishiesTests */ = {
-			isa = PBXGroup;
-			children = (
-				151976C31B727DB600E03E48 /* ASLfishiesTests.m */,
-				151976C11B727DB600E03E48 /* Supporting Files */,
-			);
-			path = ASLfishiesTests;
-			sourceTree = "<group>";
-		};
-		151976C11B727DB600E03E48 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				151976C21B727DB600E03E48 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		15CEBADC1B88FEF30074F2CD /* Images */ = {
-			isa = PBXGroup;
-			children = (
 				1514A6A91B8BAA2C0098CAD5 /* Speech Bubble Filled-50.png */,
 				1514A6AA1B8BAA2C0098CAD5 /* Camera-32.png */,
 				15A8FA581B97E33900E2F2F7 /* blue rectangle.png */,
@@ -398,6 +360,44 @@
 				15834C5F1B88C638009AB9B6 /* Speech Bubble-32.png */,
 				15834C281B87B367009AB9B6 /* Speech Bubble-50.png */,
 				1514A6A51B8BA92C0098CAD5 /* Speech Bubble Filled-50.png */,
+				15CEBADC1B88FEF30074F2CD /* Images */,
+				151976B61B727DB600E03E48 /* LaunchScreen.xib */,
+				15E361A71B859E100094A2C5 /* Parse */,
+				15E361971B855A5A0094A2C5 /* Frameworks */,
+				151976A71B727DB600E03E48 /* Supporting Files */,
+			);
+			path = ASLfishies;
+			sourceTree = "<group>";
+		};
+		151976A71B727DB600E03E48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				151976A81B727DB600E03E48 /* Info.plist */,
+				151976A91B727DB600E03E48 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		151976C01B727DB600E03E48 /* ASLfishiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				151976C31B727DB600E03E48 /* ASLfishiesTests.m */,
+				151976C11B727DB600E03E48 /* Supporting Files */,
+			);
+			path = ASLfishiesTests;
+			sourceTree = "<group>";
+		};
+		151976C11B727DB600E03E48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				151976C21B727DB600E03E48 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15CEBADC1B88FEF30074F2CD /* Images */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Images;
 			sourceTree = "<group>";
