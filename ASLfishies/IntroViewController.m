@@ -50,7 +50,7 @@
 //    if (self.addressData) {
 //        self.fullInformation.text = [NSString stringWithFormat:@"%@", self.addressData];
 //    }
-    
+//    
 //    PFObject *user = [PFObject user];
 //    user.username = @"my name";
 //    user.password = @"my pass";
@@ -78,9 +78,9 @@
 //    }];
 //    
 //
+//}
+
 }
-
-
 
 
 -(void)textViewDidChangeSelection:(UITextView *)textView {
@@ -161,9 +161,12 @@ if (self.temp.length <= 139) {
 }
 
 - (IBAction)nextTapped:(id)sender {
-    PFObject *aboutYou = [PFObject objectWithClassName:@"About You:"];
-    aboutYou[@"aboutYouBox"] = aboutYouBox.text;
-    [aboutYou save];
+//    PFObject *aboutYou = [PFObject objectWithClassName:@"About You:"];
+    PFUser *user = [PFUser currentUser];
+    user[@"aboutYou"] = aboutYouBox.text;
+    [user saveInBackground];
+//    aboutYou[@"aboutYouBox"] = aboutYouBox.text;
+//    [aboutYou save];
     
 }
 

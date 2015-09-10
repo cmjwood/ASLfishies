@@ -89,6 +89,15 @@
                                } else {
                                    NSLog(@"Logged in");
                                }
+                               
+                               [PFFacebookUtils logInInBackgroundWithAccessToken:[FBSDKAccessToken currentAccessToken]
+                                                                           block:^(PFUser *user, NSError *error) {
+                                                                               if (!user) {
+                                                                                   NSLog(@"Uh oh. There was an error logging in.");
+                                                                               } else {
+                                                                                   NSLog(@"User logged in through Facebook!");
+                                                                               }
+                                                                           }];
                                UINavigationController *navController = [self.storyboard instantiateViewControllerWithIdentifier:@"introNav"];
                                IntroViewController *viewController = navController.viewControllers.firstObject;
         //                       NSData  *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:pictureURL]];

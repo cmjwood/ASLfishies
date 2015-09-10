@@ -11,6 +11,7 @@
 //@import FB
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <ParseFacebookUtilsV4/PFFacebookUtils.h>
 #import <Parse/Parse.h>
 #import "Intro.h"
 
@@ -24,12 +25,11 @@
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
-
-    [Parse enableLocalDatastore];
-    
+  [Parse enableLocalDatastore];
     [Parse setApplicationId:@"ZvtmlffIARgOWhZtbTsA651MChfnpoC2hLbETO8i" clientKey:@"P1Gjd9b4dVUG108utWlxxddNioFykgMmrZd6s51o"];
+    [PFFacebookUtils initializeFacebookWithApplicationLaunchOptions:launchOptions];
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+  
     
     
     return [[FBSDKApplicationDelegate sharedInstance] application:application
