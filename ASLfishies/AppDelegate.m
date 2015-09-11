@@ -25,11 +25,11 @@
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  [Parse enableLocalDatastore];
+//  [Parse enableLocalDatastore];
     [Parse setApplicationId:@"ZvtmlffIARgOWhZtbTsA651MChfnpoC2hLbETO8i" clientKey:@"P1Gjd9b4dVUG108utWlxxddNioFykgMmrZd6s51o"];
-    [PFFacebookUtils initializeFacebookWithApplicationLaunchOptions:launchOptions];
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
-  
+    [PFFacebookUtils initializeFacebookWithApplicationLaunchOptions:launchOptions];
+
     
     
     return [[FBSDKApplicationDelegate sharedInstance] application:application
@@ -46,6 +46,7 @@
                                                        annotation:annotation
             ];
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

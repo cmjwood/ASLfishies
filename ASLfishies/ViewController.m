@@ -95,6 +95,13 @@
                                                                                if (!user) {
                                                                                    NSLog(@"Uh oh. There was an error logging in.");
                                                                                } else {
+                                                                                   if (![PFFacebookUtils isLinkedWithUser:user]) {
+                                                                                       [PFFacebookUtils linkUserInBackground:user withReadPermissions:nil block:^(BOOL succeeded, NSError *error) {
+                                                                                           if (succeeded) {
+                                                                                               NSLog(@"Woohoo, user is linked with Facebook!");
+                                                                                           }
+                                                                                       }];
+                                                                                   }
                                                                                    NSLog(@"User logged in through Facebook!");
                                                                                }
                                                                            }];
